@@ -187,3 +187,43 @@ input{
     display: flex;
     justify-content: center;
 }
+/*Article*/
+.imgheber{
+    width: 250px;
+    height: 120px;
+    border-radius: 25px 25px 0px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.imgpop{
+    width: 100px;
+    height: 120px;
+    border-radius: 25px 0px 0px 25px;
+}
+.textheber{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.infoheber{
+    margin-left: 10px;
+   
+}
+
+.heber{
+    background-color: rgb(214, 214, 214);
+    margin-top: 40px;
+}
+.carte{
+    border-radius: 25px;
+    margin-left: 40px;
+    background-color: white;
+    width: 260px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
