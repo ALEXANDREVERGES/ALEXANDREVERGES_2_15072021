@@ -198,11 +198,7 @@ input{
     margin-left: 5px;
 }
 
-.imgpop{
-    width: 100px;
-    height: 120px;
-    border-radius: 25px 0px 0px 25px;
-}
+
 .textheber{
     font-weight: bold;
     margin-left: 10px;
@@ -228,6 +224,7 @@ input{
     border-radius: 25px;
     height: 590px;
     justify-content: space-around;
+    margin-right: 60px;
    
 }
 .herbermars{
@@ -249,9 +246,38 @@ input{
 .lespluspop{
     display: flex;
     align-items: center;
+    margin-left: 40px;
+    padding-top: 10px;
 }
 .charte{
     display: flex;
     justify-content: flex-end;
 }
 
+.titrepop{
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    width: 540px;
+    border-radius: 25px;
+    height: 590px;
+    justify-content: space-around;
+}
+.imgpop{
+    width: 100px;
+    height: 120px;
+    border-radius: 25px 0px 0px 25px;
+}
+ .cartepop{
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 400px;
+    height: 130px;
+    display: flex;
+ }
+ /*section*/
+section{
+    display: flex;
+    margin-right: 250px;
+}
