@@ -206,24 +206,52 @@ input{
 .textheber{
     font-weight: bold;
     margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .infoheber{
     margin-left: 10px;
+    margin-bottom: 5px;
    
 }
 
 .heber{
-    background-color: rgb(214, 214, 214);
-    margin-top: 40px;
+    margin-top: 20px;
+    width: 940px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.titreheber{
+    background-color: rgb(216, 216, 216);
+    margin-top: 10px;
+    width: 940px;
+    border-radius: 25px;
+    height: 590px;
+    justify-content: space-around;
+   
+}
+.herbermars{
+    margin-left: 40px;
+    padding-top: 10px;
 }
 .carte{
     border-radius: 25px;
     margin-left: 40px;
+    margin-bottom: 20px;
     background-color: white;
     width: 260px;
-    height: 190px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+/*les plus populaires*/
+.lespluspop{
+    display: flex;
+    align-items: center;
+}
+.charte{
+    display: flex;
+    justify-content: flex-end;
 }
 
