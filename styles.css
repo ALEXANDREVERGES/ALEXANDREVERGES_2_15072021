@@ -251,6 +251,12 @@ input{
     flex-direction: column;
     justify-content: center;
 }
+.carte:hover{
+    color: rgb(255, 85, 85);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    cursor: pointer;
+}
+
 /*les plus populaires*/
 .lespluspop{
     display: flex;
@@ -290,6 +296,12 @@ input{
     width: 400px;
     height: 140px;
     display: flex;
+ }
+ .cartepop:hover{
+    color: rgb(255, 85, 85);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    cursor: pointer;
+
  }
  /*section*/
 section{
