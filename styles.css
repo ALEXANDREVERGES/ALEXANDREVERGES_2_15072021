@@ -212,7 +212,7 @@ input{
 }
 
 .heber{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 940px;
     display: flex;
     flex-wrap: wrap;
@@ -248,32 +248,38 @@ input{
     align-items: center;
     margin-left: 40px;
     padding-top: 10px;
+    justify-content: space-between;
 }
 .charte{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+    
 }
 
 .titrepop{
     background-color: rgb(216, 216, 216);
     margin-top: 10px;
-    width: 540px;
+    width: 500px;
     border-radius: 25px;
     height: 590px;
     justify-content: space-around;
 }
 .imgpop{
-    width: 100px;
-    height: 120px;
+    width: 120px;
+    height: 140px;
     border-radius: 25px 0px 0px 25px;
 }
  .cartepop{
     border-radius: 25px;
+    padding: 3px;
     margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
     margin-bottom: 20px;
     background-color: white;
     width: 400px;
-    height: 130px;
+    height: 140px;
     display: flex;
  }
  /*section*/
