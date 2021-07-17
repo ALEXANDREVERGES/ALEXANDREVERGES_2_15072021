@@ -6,6 +6,7 @@ header{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    width: 1600px;
 }
 
 img{
@@ -22,6 +23,7 @@ nav ul
 nav li
 {
     margin-right: 100px;
+    
 }
 
 nav a
@@ -304,7 +306,7 @@ input{
 
  }
  /*section*/
-section{
+.heberpop{
     display: flex;
     margin-right: 250px;
 }
