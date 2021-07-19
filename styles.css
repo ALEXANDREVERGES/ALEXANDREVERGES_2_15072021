@@ -235,7 +235,6 @@ input{
 }
 .afficher:hover{
     color: red;
-    border-bottom: 3px solid red;
     cursor: pointer;
 }
 
@@ -244,6 +243,7 @@ input{
     padding-top: 10px;
 }
 .carte{
+    transition: transform .1s;
     box-shadow: 5px 5px 4px rgb(202, 201, 201);
     border-radius: 25px;
     margin-left: 40px;
@@ -256,6 +256,9 @@ input{
     justify-content: center;
 }
 .carte:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
     color: rgb(255, 85, 85);
     border-bottom: 3px solid rgb(255, 0, 0);
     cursor: pointer;
@@ -290,6 +293,7 @@ input{
     border-radius: 25px 0px 0px 25px;
 }
  .cartepop{
+    transition: transform .1s;
     box-shadow: 5px 5px 4px rgb(202, 201, 201);
     border-radius: 25px;
     padding: 3px;
@@ -303,6 +307,9 @@ input{
     display: flex;
  }
  .cartepop:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
     color: rgb(255, 85, 85);
     border-bottom: 3px solid rgb(255, 0, 0);
     cursor: pointer;
