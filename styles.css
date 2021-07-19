@@ -314,6 +314,13 @@ input{
     margin-right: 250px;
 }
 /*activité marseille*/
+.textactivités{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .activités{
     display: flex;
     align-items: center;
@@ -337,6 +344,44 @@ input{
     display: flex;
     justify-content: space-between;
     
+}
+/*cartes*/
+.carteactivités{
+    box-shadow: 5px 5px 4px rgb(202, 201, 201);
+    width: 290px;
+    height: 510px;
+    border-radius: 25px;
+}
+.cartefort{
+    box-shadow: 5px 5px 4px rgb(202, 201, 201);
+    width: 290px;
+    height: 310px;
+    border-radius: 25px;
+}
+.carteilsf{
+    box-shadow: 5px 5px 4px rgb(202, 201, 201);
+    width: 290px;
+    height: 210px;
+    border-radius: 25px;
+}
+.carteparcca{
+    box-shadow: 5px 5px 4px rgb(202, 201, 201);
+    width: 290px;
+    height: 510px;
+    border-radius: 25px;
+}
+.cartenotred{
+    box-shadow: 5px 5px 4px rgb(202, 201, 201);
+    width: 290px;
+    height: 260px;
+    border-radius: 25px;
+}
+.carteparcl{
+    box-shadow: 5px 5px 4px rgb(202, 201, 201);
+    width: 290px;
+    height: 310px;
+    border-radius: 25px;
+
 }
 
 /*img activités*/
