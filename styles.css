@@ -192,7 +192,7 @@ input{
 /*Hebergement*/
 .imgheber{
     width: 250px;
-    height: 120px;
+    height: 140px;
     border-radius: 25px 25px 0px 0px;
     justify-content: center;
     display: flex;
@@ -203,12 +203,12 @@ input{
 
 .textheber{
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 .infoheber{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 5px;
    
 }
@@ -224,7 +224,7 @@ input{
     margin-top: 10px;
     width: 940px;
     border-radius: 25px;
-    height: 590px;
+    height: 650px;
     justify-content: space-around;
     margin-right: 60px;
 }
@@ -250,7 +250,7 @@ input{
     margin-bottom: 20px;
     background-color: white;
     width: 260px;
-    height: 200px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,7 +266,19 @@ input{
 .etoiles{
     display: flex;
     align-items: center;
-    margin-left: 5px;
+    margin-left: 20px;
+}
+.etoilespop{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.etoilespop2{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 45px;
 }
 .colorb{
     color: blue;
@@ -294,7 +306,7 @@ input{
     margin-top: 10px;
     width: 500px;
     border-radius: 25px;
-    height: 590px;
+    height: 650px;
     justify-content: space-around;
 }
 .imgpop{
@@ -375,15 +387,16 @@ input{
 .cartefort{
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
-    height: 310px;
+    height: 260px;
     border-radius: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 .carteilsf{
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 210px;
     border-radius: 25px;
+    margin-bottom: 40px;
 }
 .carteparcca{
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
@@ -392,19 +405,22 @@ input{
     border-radius: 25px;
     margin-left: 45px;
     margin-right: 45px;
+    margin-top: 5px;
 }
 .cartenotred{
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
-    height: 260px;
+    height: 235px;
     border-radius: 25px;
-    margin-bottom: 45px;
+    
+    margin-top: 5px;
 }
 .carteparcl{
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
-    height: 310px;
+    height: 235px;
     border-radius: 25px;
+    margin-top: 40px;
 
 }
 
@@ -418,7 +434,7 @@ input{
 }
 .fort{
     
-    height: 250px;
+    height: 200px;
     width: 340px;
     border-radius: 25px 25px 0px 0px;
 }
@@ -439,14 +455,38 @@ input{
 
 .notred{
     
-    height: 200px;
+    height: 175px;
     width: 340px;
     border-radius: 25px 25px 0px 0px;
 }
 
 .parcl{
     
-    height: 250px;
+    height: 175px;
     width: 340px;
     border-radius: 25px 25px 0px 0px;
+}
+/*footer*/
+.foot{
+    margin-top: 70px;
+    width: 1600px;
+    height: 250px;
+    background-color: rgb(216, 216, 216);
+    display: flex;  
+}
+.apropos{
+    margin-right: 350px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.noshebergements{
+    margin-right: 350px;
+    margin-top: 30px;
+}
+.assistance{
+    margin-top: 30px;
+}
+.textfoot{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
