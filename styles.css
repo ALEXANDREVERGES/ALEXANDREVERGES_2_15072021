@@ -378,27 +378,51 @@ input{
 }
 /*cartes*/
 .carteactivités{
+    transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 510px;
     border-radius: 25px;
     margin-right: 45px;
 }
+.carteactivités:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
 .cartefort{
+    transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 260px;
     border-radius: 25px;
     margin-bottom: 40px;
 }
-.carteilsf{
+.cartefort:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.carteilesf{
+    transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 210px;
     border-radius: 25px;
     margin-bottom: 40px;
 }
+.carteilesf:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
 .carteparcca{
+    transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 510px;
@@ -407,7 +431,14 @@ input{
     margin-right: 45px;
     margin-top: 5px;
 }
+.carteparcca:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
 .cartenotred{
+    transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 235px;
@@ -415,13 +446,26 @@ input{
     
     margin-top: 5px;
 }
+.cartenotred:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
 .carteparcl{
+    transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 235px;
     border-radius: 25px;
     margin-top: 40px;
 
+}
+.carteparcl:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 /*img activités*/
