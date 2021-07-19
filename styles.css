@@ -189,7 +189,7 @@ input{
     display: flex;
     justify-content: center;
 }
-/*Article*/
+/*Hebergement*/
 .imgheber{
     width: 250px;
     height: 120px;
@@ -230,7 +230,8 @@ input{
 }
 .afficher{
     margin-left: 40px;
-    padding-top: 10px;
+    
+    padding-bottom: 30px;
 }
 .afficher:hover{
     color: red;
@@ -309,4 +310,66 @@ input{
 .heberpop{
     display: flex;
     margin-right: 250px;
+}
+/*activité marseille*/
+.activités{
+    display: flex;
+    align-items: center;
+      
+}
+
+.columnactivité{
+    flex-direction: column;
+}
+
+.bloc1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fortiles{
+    display: flex;
+    flex-direction: column;
+}
+.bloc2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/*img activités*/
+
+.vieux{
+    height: 450px;
+    width: 290px;
+    border-radius: 25px 25px 0px 0px;
+}
+.fort{
+    height: 250px;
+    width: 290px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.ilesf{
+    height: 150px;
+    width: 290px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.parcca{
+    height: 450px;
+    width: 290px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.notred{
+    height: 200px;
+    width: 290px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.parcl{
+    height: 250px;
+    width: 290px;
+    border-radius: 25px 25px 0px 0px;
 }
