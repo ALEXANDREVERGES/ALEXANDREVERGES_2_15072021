@@ -36,8 +36,8 @@ nav a
 
 nav a:hover
 {
-    color: red;
-    border-bottom: 3px solid red;
+    color: rgb(70, 72, 197);
+    border-bottom: 3px solid rgb(70, 72, 197);
 }
 
 #zone{
@@ -136,8 +136,8 @@ input{
 }
 
 .filtreicon:hover{
-    color: red;
-    border-bottom: 3px solid red;
+    color: rgb(70, 72, 197);
+    border-bottom: 3px solid rgb(70, 72, 197);
     cursor: pointer;
 }
 
@@ -234,7 +234,7 @@ input{
     padding-bottom: 30px;
 }
 .afficher:hover{
-    color: red;
+    color: rgb(70, 72, 197);
     cursor: pointer;
 }
 
@@ -259,11 +259,21 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
-    color: rgb(255, 85, 85);
-    border-bottom: 3px solid rgb(255, 0, 0);
+    color: rgb(70, 72, 197)
     cursor: pointer;
 }
-
+/*etoiles*/
+.etoiles{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.colorb{
+    color: blue;
+}
+.colorg{
+    color: rgb(204, 204, 204);
+}
 /*les plus populaires*/
 .lespluspop{
     display: flex;
@@ -310,7 +320,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
-    color: rgb(255, 85, 85);
+    color: rgb(70, 72, 197)
     border-bottom: 3px solid rgb(255, 0, 0);
     cursor: pointer;
 
