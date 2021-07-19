@@ -63,8 +63,7 @@ input{
     height: 50px;
     width: 200px;
     font-weight: bold;
-    display: flex;
-    
+    display: flex;   
 }
 
 .icon{
@@ -87,6 +86,9 @@ input{
     height: 50px;
     width: 120px;
     border-radius: 0% 25% 25% 0%;
+}
+.seek:hover{
+    cursor: pointer;
 }
 /*info*/
 .i{
@@ -122,6 +124,7 @@ input{
 .textfiltre{
     padding-left: 20px;
     padding-right: 20px;
+    font-weight: bold;
 }
 .filtreicon{
     font-size: large;
@@ -256,11 +259,12 @@ input{
     justify-content: center;
 }
 .carte:hover{
+    cursor: pointer;
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
     color: rgb(70, 72, 197)
-    cursor: pointer;
+    
 }
 /*etoiles*/
 .etoiles{
