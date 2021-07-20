@@ -381,15 +381,16 @@ input{
     
 }
 /*cartes*/
-.carteactivités{
+.cartevieux{
     transform: transform .1s;
     box-shadow: 2px 5px 5px rgb(202, 201, 201);
     width: 340px;
     height: 510px;
     border-radius: 25px;
     margin-right: 45px;
+    margin-top: 30px;
 }
-.carteactivités:hover{
+.cartevieux:hover{
     cursor: pointer;
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
@@ -403,6 +404,7 @@ input{
     height: 260px;
     border-radius: 25px;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 .cartefort:hover{
     cursor: pointer;
@@ -447,8 +449,8 @@ input{
     width: 340px;
     height: 235px;
     border-radius: 25px;
-    
     margin-top: 5px;
+
 }
 .cartenotred:hover{
     cursor: pointer;
@@ -462,8 +464,7 @@ input{
     width: 340px;
     height: 235px;
     border-radius: 25px;
-    margin-top: 40px;
-
+    margin-top: 35px;
 }
 .carteparcl:hover{
     cursor: pointer;
