@@ -85,7 +85,7 @@ input{
     justify-content: center;
     height: 50px;
     width: 120px;
-    border-radius: 0% 25% 25% 0%;
+    border-radius: 0px 15px 15px 0px;
 }
 .seek:hover{
     cursor: pointer;
