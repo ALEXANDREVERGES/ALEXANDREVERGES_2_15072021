@@ -337,13 +337,11 @@ input{
     display: flex;
  }
  .cartepop:hover{
+    cursor: pointer;
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
-    color: rgb(70, 72, 197)
-    border-bottom: 3px solid rgb(255, 0, 0);
-    cursor: pointer;
-
+    color: rgb(70, 72, 197);
  }
  /*section*/
 .heberpop{
@@ -399,6 +397,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
+    color:rgb(70, 72, 197);
 }
 
 .cartefort{
@@ -415,6 +414,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
+    color:rgb(70, 72, 197);
 }
 
 .carteilesf{
@@ -430,6 +430,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
+    color:rgb(70, 72, 197);
 }
 .carteparcca{
     transform: transform .1s;
@@ -446,6 +447,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
+    color:rgb(70, 72, 197);
 }
 .cartenotred{
     transform: transform .1s;
@@ -461,6 +463,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
+    color:rgb(70, 72, 197);
 }
 .carteparcl{
     transform: transform .1s;
@@ -475,6 +478,7 @@ input{
     -ms-transform: scale(1.2); /* IE 9 */
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2);
+    color:rgb(70, 72, 197);
 }
 
 /*img activités*/
