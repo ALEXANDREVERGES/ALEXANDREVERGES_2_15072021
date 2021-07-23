@@ -39,7 +39,8 @@ nav a
 nav a:hover
 {
     color: rgb(70, 72, 197);
-    border-bottom: 3px solid rgb(70, 72, 197);
+    border-top: 3px solid rgb(70, 72, 197);
+    padding-top: 30px;
 }
 
 .zone{
