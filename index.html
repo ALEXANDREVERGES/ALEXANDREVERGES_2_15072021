@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet"  href="styles.css"/>
+    <link rel="stylesheet" media="media all (min-width: 1024px) and (max-width: 1200px)" href="pc_portable.css"/>
+    <link rel="stylesheet" media="media all (min-width: 900px) and (max-width: 1024px)" href="tablette.css"/>
+    <link rel="stylesheet" media="media all (min-width: 768px) and (max-width: 900px)" href="tablette.css"/>
+    <link rel="stylesheet" media="media all and (max-device-width: 480px)" href="mobile.css"/>
+    <meta name="viewport" content="width=device-width" />
     <script src="https://kit.fontawesome.com/029a99ed83.js" crossorigin="anonymous"></script>
     <title>Réservia projet 2 openclassrooms</title>
 </head>
@@ -20,8 +25,8 @@
         </ul>
     </nav>
    
-    </header>
     
+    </header>
     <div>
         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
         <p>En plein centre ville ou en pleine nature</p>
@@ -30,7 +35,8 @@
           <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
           <div class="recherche"><input type="search" placeholder="Marseille, France"/></div>
           <div class="seek">Rechercher</div>
-      </div>
+     
+    </div>
       <div class="filter">
                 <div class="fil"><h3>Filtres</h3></div>
             <div class="filtreicon">
@@ -123,7 +129,7 @@
        </div>
         </div>
         <div class="carte">
-             <div><img class="imgheber" src="img/hotelamina.jpg" alt="hôtel chez amina"/></div>
+             <div><img class="imgheber imgobjectif" src="img/hotelamina.jpg" alt="hôtel chez amina"/></div>
              <div class="textheber">Hôtel chez Amina</div>
              <div class="infoheber">Nuit à partir de 96€</div>
              <div class="etoiles">
@@ -145,7 +151,7 @@
         <div class="charte"><i class="fas fa-chart-line fa-2x"></i></div>        
     </div>
     <div class="cartepop">
-        <div><img class="imgpop" src="img/hotelmatin.jpg" alt="hôtel le soleil du matin"/></div>
+        <div><img class="imgpop imgobjectif" src="img/hotelmatin.jpg" alt="hôtel le soleil du matin"/></div>
         <div class="textpop">
         <div class="textheber">Hôtel Le Soleil du matin</div>
         <div class="infoheber">Nuit à partir de 128€</div>
@@ -159,7 +165,7 @@
        </div>
     </div>
     <div class="cartepop">
-        <div><img class="imgpop" src="img/coeurchambres.jpg" alt="au coeur de l'eau chambres d'hôtes"/></div>
+        <div><img class="imgpop imgobjectif" src="img/coeurchambres.jpg" alt="au coeur de l'eau chambres d'hôtes"/></div>
         <div class="textpop">
         <div class="textheber">Au coeur de l'eau Chambres d'hôtes</div>
         <div class="infoheber">Nuit à partir de 71€</div>
@@ -173,7 +179,7 @@
         </div>
     </div>
     <div class="cartepop">
-        <div><img class="imgpop" src="img/hotelblanc.jpg" alt="hôtel tout bleu et blanc"/></div>
+        <div><img class="imgpop imgobjectif" src="img/hotelblanc.jpg" alt="hôtel tout bleu et blanc"/></div>
         <div class="textpop">
         <div class="textheber">Hôtel Tout bleu et blanc</div>
         <div class="infoheber">Nuit à partir de 68€</div>
@@ -189,27 +195,27 @@
 </div>
 </aside> 
 </section>
-<section id="activités">
+<article id="activités">
 <h1>Activités à Marseille</h1>
 <div class="activités">   
     
     <div class="bloc1">
         <div class="columnactivité">
             <div class="cartevieux">
-                 <div><img class="vieux" src="img/vieuxport.jpg" alt="vieux port"/></div>
+                 <div><img class="vieux imgobjectif" src="img/vieuxport.jpg" alt="vieux port"/></div>
                  <div class="textactivités">Vieux Port</div>
             </div>
         </div>
         <div class="fortiles">
             <div class="columnactivité">
                 <div class="cartefort">   
-                     <div><img class="fort" src="img/fortpomegues.jpg" alt="fort de pomègues"/></div>
+                     <div><img class="fort imgobjectif" src="img/fortpomegues.jpg" alt="fort de pomègues"/></div>
                      <div class="textactivités">Fort de Pomègues</div>
                 </div>
             </div>
             <div class="columnactivité">
                 <div class="carteilesf">
-                     <div><img class="ilesf" src="img/ilesfrioul.jpg" alt="îles du frioul"/></div>
+                     <div><img class="ilesf imgobjectif" src="img/ilesfrioul.jpg" alt="îles du frioul"/></div>
                      <div class="textactivités">îles du Frioul</div>
                 </div>
             </div>
@@ -218,27 +224,27 @@
     <div class="bloc2">
         <div class="columnactivité">
             <div class="carteparcca">
-                 <div><img class="parcca" src="img/parccalanques.jpg" alt="parc nationnal des calanques"/></div>
+                 <div><img class="parcca imgobjectif" src="img/parccalanques.jpg" alt="parc nationnal des calanques"/></div>
                  <div class="textactivités">Parc Nationnal des Calanques</div>
             </div>
         </div>
         <div class="notreparc">
             <div class="columnactivité">
                 <div class="cartenotred">
-                     <div><img class="notred" src="img/notredame.jpg" alt="notre dame de la garde"/></div>
+                     <div><img class="notred imgobjectif" src="img/notredame.jpg" alt="notre dame de la garde"/></div>
                      <div class="textactivités">Notre-Dame-de-la-Garde</div>
                 </div>
             </div>
             <div class="columnactivité">  
                 <div class="carteparcl">
-                     <div><img class="parcl" src="img/parclongchamp.jpg" alt="parc longchamp"/></div>
+                     <div><img class="parcl imgobjectif" src="img/parclongchamp.jpg" alt="parc longchamp"/></div>
                      <div class="textactivités">Parc Longchamp</div>
                 </div> 
             </div>
         </div>
     </div>
 </div>
-</section>
+</article>
 <footer class="foot">
 
     <div class="apropos">
