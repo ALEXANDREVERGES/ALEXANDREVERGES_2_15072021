@@ -1,8 +1,7 @@
 body{
     font-family: raleway, sans-serif;
     width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 header{
@@ -536,7 +535,7 @@ input::placeholder{
 /*footer*/
 .foot{
     margin-top: 70px;
-    width: 1600px;
+    width: 100%;
     height: 250px;
     background-color: #F2F2F2;
     display: flex;  
