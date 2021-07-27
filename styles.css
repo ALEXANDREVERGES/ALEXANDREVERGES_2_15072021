@@ -643,3 +643,24 @@ input::placeholder{
         left: -470px;
     }
 }
+@media screen and (max-width: 670px){
+    .heber{
+        width: 600px;
+    }
+    .bloc1{
+        display: block;
+    }
+    .bloc2{
+        display: block;
+    }
+    .cartenotred{
+        display: block;
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+    .carteparcl{
+        display: block;
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+}
