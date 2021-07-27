@@ -1002,8 +1002,79 @@ input::placeholder{
     nav ul{
         width: 100%;
     }
-   
+    
+}
+@media screen and (max-width: 375px){
+    .titrepop{
+        width: 375px;
+    }
+    .cartepop{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 355px;
+    }
+    .titreheber{
+        width: 375px;
+    }
+    .carte{
+        width: 355px;
+        margin-left: 35px;
+        margin-right: 10px;
+    }
+    .imgheber{
+        width: 345px;
+    }
+    .vieux{
+        display: block;
+        width: 345px;
+    }
+    .cartevieux{
+        width: 345px;
+        margin-left: -30;
+    }
+    .fort{
+        display: block;
+        width: 345px;
+    }
+    .cartefort{
+        width: 345px;
+        margin-left: -30;
+
+    }
+    .ilesf{
+        display: block;
+        width: 345px;
+    }
+    .carteilesf{
+        width: 345px;
+        margin-left: -30;
+
+    }
+    .parcca{
+        display: block;
+        width: 345px;
+    }
+    .carteparcca{
+        width: 345px;
+        margin-left: -30;
+
+    }
+    .notred{
+        display: block;
+        width: 345px;
+    }
+    .cartenotred{
+        display: block;
+        width: 345px;
+    }
+    .parcl{
+        display: block;
+        width: 345px;
+    }
+    .carteparcl{
+        width: 345px;
+        margin-left: -30;
+
+    }
 }
 
-
-}
