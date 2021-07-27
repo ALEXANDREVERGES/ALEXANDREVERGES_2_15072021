@@ -570,6 +570,9 @@ input::placeholder{
     top: -40px;
     right: -440px
 }
+@media screen and (min-width: 900px){
+    width: ;
+}
 
 @media screen and (max-width: 1500px){
     header{
@@ -624,5 +627,19 @@ input::placeholder{
 @media screen and (max-width: 900px){
     .divfiltre{
         display: block;
+    }
+    .heber{
+        display: block;
+        column-count: 2;
+    }
+   .titreheber{
+       display: block;
+       height: 900px;
+       width: 900px;
+   }
+    .afficher{
+        display: block;
+        position: relative;
+        left: -470px;
     }
 }
