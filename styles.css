@@ -121,6 +121,10 @@ input::placeholder{
     margin-left: 10px;
 }
 /*filtres*/
+.divfiltre{
+    display: flex;
+    align-items: center;
+}
 .filter{
     
     margin-top: 30px;
@@ -560,4 +564,65 @@ input::placeholder{
     cursor: pointer;
     color: rgb(70, 72, 197);
     
+}
+.sins{
+    position: relative;
+    top: -40px;
+    right: -440px
+}
+
+@media screen and (max-width: 1500px){
+    header{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1400px){
+    body{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .heberpop{
+        display: block;
+    }
+    .activités{
+        display: block;
+    }
+    .bloc1{
+        margin-left: 50px;
+    }
+    .foot{
+        display: block;
+        width: 800px;
+        height: 280px;
+        font-size: 15px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .apropos{
+        justify-content: center;
+    }
+    .noshebergements{
+        
+        margin-left: 50px;
+    }
+    .assistance{
+        margin-left: 400px;
+        position: relative;
+        top: -200px;
+        
+    }
+    .textfoot{
+        font-size: 15px;
+    }
+
+} 
+@media screen and (max-width: 950px){
+    header{
+        display: block;
+    }
+}
+@media screen and (max-width: 900px){
+    .divfiltre{
+        display: block;
+    }
 }
