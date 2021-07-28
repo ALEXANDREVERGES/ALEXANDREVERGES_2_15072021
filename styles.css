@@ -1084,6 +1084,103 @@ input::placeholder{
     }
     
 }
+@media screen and (max-width: 414px){
+    .fil{
+        position: relative;
+        top: -100px;
+    }
+    .filter{
+        position: relative;
+        top: -20px; 
+        margin-left: 20px;
+    }
+    header{
+        display: block;
+        margin-left: -10px;
+    }
+    .reservi{
+        position: relative;
+        left: 20px;
+    }
+    .titrehp{
+        margin-left: 10px;
+    }
+    .titrehp p{
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+    .icon{
+        width: 80px;
+    }
+    input{
+        padding-left: 20px;
+    }
+    .titrepop{
+        border-radius: 0px;
+        
+    }
+    .blocpop{
+        margin-left: -18px;
+        margin-top: -50px;
+    }
+    .lespluspop h2{
+        margin-left: -25px;
+    }
+    .charte{
+        display: block;
+        position: relative;
+        top: -20px;
+        left: 50px;
+    }
+  
+    .divfiltre{
+        flex-wrap: wrap;
+        height: 200px;
+        width: 375px;
+        margin-top: 50px;
+        margin-left: -105px;
+    }
+    .famicon{
+        position: relative;
+        right: -210px;
+        top: -55px;
+    }
+    .romicon{
+        position: relative;
+        top: -40px;
+    }
+    .anicon{
+        position: relative;
+        top: -25px;
+    }
+    .info{
+        margin-left: 0px;
+    }
+    .textinfo{
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .cartepop{
+        margin-top: 40px;
+    }
+    .titreheber{
+        border-radius: 0px;
+    }
+    .herbermars h1{
+        margin-left: -20px;
+    }
+    .heber{
+        margin-left: -40px;
+    }
+    #activités h1{
+        margin-left: -30px;
+    }
+    .bloc1{
+        margin-left: -50px;
+    }
+    .bloc2{
+        margin-left: -50px;
+    }
 @media screen and (max-width: 375px){
     header{
         display: block;
@@ -1146,6 +1243,7 @@ input::placeholder{
 
     .blocpop{
         margin-top: -80px;
+        margin-left: -5px;
     }
     .lespluspop h2{
         margin-left: -20px;
@@ -1154,7 +1252,8 @@ input::placeholder{
         display: block;
         position: relative;
         top: -85px;
-        right: -290px;
+        left: 300px;
+    
     }
     .lespluspop{
         display: block;
