@@ -727,7 +727,8 @@ input::placeholder{
         color: #0065FC;
     }
     .divfiltre{
-        display: block;
+        flex-wrap: wrap;
+        width: 800px;
     }
     .heber{
         display: block;
@@ -758,6 +759,23 @@ input::placeholder{
         width: 900px;
     }
 }
+@media screen and (max-width: 768px){
+    .titreheber{
+        width: 700px;
+    }
+    .heber{
+        display: block;
+        width: 700px;
+        flex-direction: column;
+    }
+    .afficher{
+        margin-left: 150px;
+    }
+    .activités{
+        margin-left: -30px;
+    }
+
+}
 @media screen and (max-width: 700px){
     .sins{
         display: block;
@@ -766,6 +784,9 @@ input::placeholder{
         top:-90px;
         font-size: 1.3em;
         color: #0065FC;
+    }
+    .divfiltre{
+        width: 600px;
     }
 
     .heber{
@@ -800,6 +821,8 @@ input::placeholder{
     }
     .titrepop{
         width: 600px;
+        position: relative;
+        left: 0px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -1062,6 +1085,64 @@ input::placeholder{
     
 }
 @media screen and (max-width: 375px){
+    header{
+        display: block;
+        margin-left: -10px;
+    }
+    .reservi{
+        position: relative;
+        left: 20px;
+    }
+    .titrehp{
+        margin-left: 10px;
+    }
+    .titrehp p{
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+    .icon{
+        width: 80px;
+    }
+    input{
+        padding-left: 20px;
+    }
+    .filter{
+        
+        margin-left: 20px;
+    }
+    .divfiltre{
+        flex-wrap: wrap;
+        height: 200px;
+        width: 375px;
+        margin-top: 50px;
+        margin-left: -105px;
+    }
+    .famicon{
+        position: relative;
+        right: -210px;
+        top: -55px;
+    }
+    .romicon{
+        position: relative;
+        top: -40px;
+    }
+    .anicon{
+        position: relative;
+        top: -25px;
+    }
+    .info{
+        margin-left: 0px;
+    }
+    .textinfo{
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    
+
+    .fil{
+        position: relative;
+        top: -100px;
+    }
 
     .blocpop{
         margin-top: -80px;
