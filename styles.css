@@ -603,6 +603,11 @@ input::placeholder{
     }
 }
 @media screen and (max-width: 1400px){
+    body{
+        width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     header{
         width: 1000px;
     }
@@ -655,22 +660,151 @@ input::placeholder{
         display: block;
         position: relative;
         top: -700px;
+        width: 1300px;
+    }
+    .cartepop{
+        width: 1200px;
     }
     .titreheber{
         display: block;
         position: relative;
         top: 650px;
+        width: 1300px;
     }
+    .heber{
+        width: 1300px;
+        flex-wrap: wrap;
+    }
+    .carte{
+        display: block;
+        width: 350px;
+    }
+    .imgheber{
+        width: 340px;
+    }
+    #activités h1{
+        margin-left: 40px;
+    }
+    .foot{
+        width: 1300px;
+        height: 250px;
+    }
+    .apropos{
+        position: relative;
+        top:50px
+    }
+    .noshebergements{
+        position: relative;
+        top: -115px;
+        left: 400px;
+    }
+    .assistance{
+        position: relative;
+        top: -240px;
+        left: 450px;
+    }
+        
+    
+   
 
+}
+@media screen and (max-width: 1024px){
+    header{
+        width: 900px;
+    }
+    .filtreicon{
+        margin-right: 10px;
+    }
+    body{
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .titreheber{
+        width: 924px;
+    
+    }
+    .titrepop{
+        width: 924px;
+    }
+    .cartepop{
+        margin-left: 0px;
+        width: 910px;
+    }
+    .imgheber{
+        width: 250px;
+    }
+    .carte{
+        width: 260px;
+    }
+    .heber{
+        width: 924px;
+    }
+    .foot{
+        width: 924px;
+    }
+    .noshebergements{
+        margin-left: -20px;
+    }
+    .assistance{
+        margin-left: 250px;
+    }
 } 
 @media screen and (max-width: 950px){
     .sins{
         display: block;
         position: relative;
-        left:270px;
+        left:770px;
         top:-90px;
         font-size: 1.3em;
         color: #0065FC;
+    }
+    .filter{
+        width: 850px;
+        height: 100px;
+    }
+    .filtreicon{
+        margin-right: 5px;
+    }
+    .fil{
+        position: relative;
+        top: -50px;
+    }
+    .divfiltre{
+        margin-left: -90px;
+    }
+    .titrepop{
+        width: 850px;
+        height: 600px;
+        margin-top: -900px;
+        margin-bottom: 100px;
+        
+       
+    }
+    .cartepop{
+        width: 840px;
+    }
+    .titreheber{
+        display: block;
+        width: 850px;
+        height: 1600px;
+        
+        
+       
+    }
+    .heber{
+        width: 850px;
+        display: block;
+    }
+    .imgheber{
+        object-fit: cover;
+        width: 750px;
+    }
+    .carte{
+        width: 760px;
+    }
+    #activités{
+        margin-top: 950px;
     }
     header{
         display: block;
@@ -685,20 +819,8 @@ input::placeholder{
     
 }
 @media screen and (max-width: 900px){
-    header{
-        margin-left: 50px;
-    }
-    .titrehp{
-        margin-left: 50px;
-    }
-    .zone{
-        margin-left: 50px;
-    }
-    .filter{
-        margin-left: 50px;
-    }
-    .info{
-        margin-left: 50px;
+    body{
+        margin-left: 30px;
     }
     #activités h1{
         margin-left: 90px;
@@ -706,18 +828,30 @@ input::placeholder{
     .titrepop{
         display: block;
         position: relative;
-        top: -900px;
-        left: -150px;
+        
+        width: 840px;
+        top: -700px;
+        left: -10px;
+    }
+    .cartepop{
+        width: 830px;
     }
     .titreheber{
-        display: block;
+        
+        width: 840px;
         position: relative;
-        top: 700px;
+        top: 640px;
+        left: -10px;
+    }
+    .heber{
+        height: 1600px;
     }
     #activités{
-        margin-top: 80px;
+        margin-top: 980px;
     }
-   
+    #activités h1{
+        margin-left: 40px;
+    }   
     .sins{
         display: block;
         position: relative;
@@ -727,41 +861,52 @@ input::placeholder{
         color: #0065FC;
     }
     .divfiltre{
-        flex-wrap: wrap;
+        
+        margin-top: 50px;
+        margin-bottom: 50px;
         width: 800px;
+        height: 200px;
+    }
+    .anicon{
+        position: relative;
+        top: 70px;
+        left: -585px;
     }
     .heber{
         display: block;
-        column-count: 2;
+        
     }
-   .titreheber{
-       display: block;
-       height: 900px;
-       width: 800px;
-       margin-right: 50px;
-       margin-left: 50px;
+ 
+   .info{
+       margin-top: 60px;
    }
    aside{
        width: 900px;
    }
-   .titrepop{
-       
-       margin-left: auto;
-       margin-right: auto;
-   }
+   
     .afficher{
         display: block;
-        position: relative;
-        left: -470px;
-        top: 35px;
+        margin-top: 30px;
     }
     .foot{
-        width: 900px;
+        width: 820px;
     }
 }
 @media screen and (max-width: 768px){
     .titreheber{
         width: 700px;
+    }
+    .titrepop{
+        width: 700px;
+    }
+    .cartepop{
+        width: 690px;
+    }
+    .imgheber{
+        width: 618px;
+    }
+    .carte{
+        width: 628px;
     }
     .heber{
         display: block;
@@ -769,10 +914,22 @@ input::placeholder{
         flex-direction: column;
     }
     .afficher{
-        margin-left: 150px;
+        margin-left: 40px;
     }
     .activités{
-        margin-left: -30px;
+        margin-left: -65px;
+    }
+    .foot{
+        width: 700px;
+    }
+    .noshebergements{
+        margin-left: -80px;
+    }
+    .assistance{
+        margin-left: 80px;
+    }
+    .sins{
+        margin-left: 250px;
     }
 
 }
