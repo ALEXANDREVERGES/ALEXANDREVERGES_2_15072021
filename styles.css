@@ -974,12 +974,80 @@ input::placeholder{
         top: 35px;
     }
     .titreheber{
+        width: 640px;
+    }
+    .cartepop{
+        width: 630px;
+    }
+    .imgheber{
         width: 600px;
     }
-    .titrepop{
+    .carte{
+        width: 610px;
+    }
+    .imgheber{
         width: 600px;
+    }
+    .afficher{
         position: relative;
+        top: 10px;
         left: 0px;
+        
+    }
+    .vieux{
+        width: 610px;
+        height: 220px;
+    }
+     
+    .cartevieux{
+        width: 610px;
+        height: 280px;
+        margin-bottom: 40px;
+    }
+    .fort{
+        width: 610px;
+        height: 220px;
+    }
+    .cartefort{
+        width: 610px;
+        height: 280px;
+    }
+    .ilesf{
+        width: 610px;
+        height: 220px;
+    }
+    .carteilesf{
+        width: 610px;
+        height: 280px;
+    }
+    .parcca{
+        width: 610px;
+        height: 220px;
+    }
+    .carteparcca{
+        width: 610px;
+        height: 280px;
+    }
+    .notred{
+        width: 610px;
+        height: 220px;
+    }
+    .cartenotred{
+        width: 610px;
+        height: 280px;
+    }
+    .parcl{
+        width: 610px;
+        height: 220px;
+    }
+    .carteparcl{
+        width: 610px;
+        height: 280px;
+    }
+    .titrepop{
+        width: 640px;
+        position: relative;
+        left: -60px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -988,17 +1056,41 @@ input::placeholder{
         margin-left: 70px;
     }
     #activités{
-        margin-left: 50px;
+        margin-left: -50px;
+    }
+    .foot{
+        width: 610px;
+    }
+    .apropos{
+        margin-left: 10px;
+    }
+    .noshebergements{
+        margin-left: -150px;
+    }
+    .assistance{
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 600px){
+    .sins{
+        position: relative;
+        left: 180px;
+    }
     .titrepop{
-        width: 500px;
+        width: 540px;
         display: block;
         position: relative;
-        top: -1600px;
+        
         margin-left: 0px;
         margin-right: 50px;
+    }
+    .charte{
+        position: relative;
+        top: -20px;
+        left: 80px;
+    }
+    .cartepop{
+        width: 530px;
     }
    
   
@@ -1008,9 +1100,9 @@ input::placeholder{
         width: 350px;
     }
     .titreheber{
-        width: 500px;
+        width: 540px;
         height: 1600px;
-        margin-left: 50px;
+        margin-left: 0px;
         margin-right: 50px;
     }
    
@@ -1026,14 +1118,56 @@ input::placeholder{
     }
     .carte{
         display: block;
-        width: 460px;
+        width: 500px;
     }
     .imgheber{
         object-fit: cover;
         display: block;
-        width: 450px;
+        width: 490px;
         height: 130px;
         
+    }
+    .bloc1{
+        margin-left: 10px;
+    }
+    .vieux{
+        width: 560px;
+    }
+    .cartevieux{
+        width: 560px;
+    }
+    .fort{
+        width: 560px;
+    }
+    .cartefort{
+        width: 560px;
+    }
+    .ilesf{
+        width: 560px;
+    }
+    .carteilesf{
+        width: 560px;
+    }
+    .parcca{
+        width: 560px;
+    }
+    .carteparcca{
+        width: 560px;
+    }
+    .notred{
+        width: 560px;
+    }
+    .cartenotred{
+        width: 560px;
+    }
+    .parcl{
+        width: 560px;
+    }
+    .carteparcl{
+        width: 560px;
+    }
+    .bloc2{
+        margin-left: -35px;
     }
     .afficher{
         justify-content: flex-end;
@@ -1045,6 +1179,10 @@ input::placeholder{
     .activités{
         display: block;
         margin-left: -50px;
+    }
+    .foot{
+        width: 560px;
+        margin-left: -20px;
     }
    
 }
