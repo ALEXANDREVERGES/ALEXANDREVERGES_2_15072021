@@ -570,7 +570,7 @@ input::placeholder{
 }
 .sins{
     position: relative;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #0065FC;
     position: relative;
     top: -40px;
@@ -584,7 +584,7 @@ input::placeholder{
 
 @media screen and (max-width: 1660px){
     .sins{
-        font-size: 1.3em;
+        font-size: 1em;
         color: #0065FC;
     }
     header{
@@ -593,7 +593,7 @@ input::placeholder{
 }
 @media screen and (max-width: 1500px){
     .sins{
-        font-size: 1.3em;
+        font-size: 1em;
         color: #0065FC;
     }
     header{
@@ -614,7 +614,7 @@ input::placeholder{
     .sins{
        
         position: relative;
-        font-size: 1.3em;
+        font-size: 1em;
         color: #0065FC;
     }
     body{
@@ -756,7 +756,7 @@ input::placeholder{
         position: relative;
         left:770px;
         top:-90px;
-        font-size: 1.3em;
+        font-size: 1em;
         color: #0065FC;
     }
     .filter{
@@ -855,9 +855,9 @@ input::placeholder{
     .sins{
         display: block;
         position: relative;
-        left:270px;
+        left: 300px;
         top:-90px;
-        font-size: 1.3em;
+        font-size: 1em;
         color: #0065FC;
     }
     .divfiltre{
@@ -939,7 +939,7 @@ input::placeholder{
         position: relative;
         left:270px;
         top:-90px;
-        font-size: 1.3em;
+        font-size: 1em;
         color: #0065FC;
     }
     .divfiltre{
@@ -1389,7 +1389,7 @@ input::placeholder{
         display: block;
         width: 400px;
         height: 500px;
-        flex-direction: column;
+        margin-left: -23px;
     }
     .apropos{
         width: 400px;
@@ -1495,70 +1495,47 @@ input::placeholder{
     .bloc2{
         margin-left: 20px;
     }
+    
 }    
 @media screen and (max-width: 375px){
+ 
+    .sins{
+        
+        margin-left: 220px;
+    }
     header{
         display: block;
-        margin-left: -10px;
+        margin-left: -20px;
     }
-    .reservi{
-        position: relative;
-        left: 20px;
-    }
-    .titrehp{
-        margin-left: 10px;
-    }
-    .titrehp p{
-        margin-top: -10px;
-        margin-bottom: 30px;
-    }
+   
     .icon{
-        width: 80px;
+        width: 90px;
     }
-    input{
-        padding-left: 20px;
-    }
+  
     .filter{
         
-        margin-left: 20px;
+        margin-left: -20px;
     }
-    .divfiltre{
-        flex-wrap: wrap;
-        height: 200px;
-        width: 375px;
-        margin-top: 50px;
-        margin-left: -105px;
+    .ecoicon{
+        position: relative;
+        left: -5px;
     }
     .famicon{
         position: relative;
-        right: -210px;
-        top: -55px;
-    }
-    .romicon{
-        position: relative;
-        top: -40px;
-    }
-    .anicon{
-        position: relative;
-        top: -25px;
+        left: -5px;
+       
     }
     .info{
-        margin-left: 0px;
+        margin-left: -10px;
     }
     .textinfo{
         flex-wrap: wrap;
         width: 300px;
     }
-    
-
     .fil{
         position: relative;
-        top: -100px;
-    }
-
-    .blocpop{
-        margin-top: -80px;
-        margin-left: -5px;
+        top: -50px;
+        left: 10px;
     }
     .lespluspop h2{
         margin-left: -20px;
@@ -1567,51 +1544,51 @@ input::placeholder{
         display: block;
         position: relative;
         top: -85px;
-        left: 300px;
-    
-    }
-    .lespluspop{
-        display: block;
+        left: 250px;
     }
     .search{
         width: 90px;
     }
+    .search:hover{
+        cursor: pointer;
+    }
     .zone{
-        margin-left: 20px;
+        margin-left: -20px;
     }
     .recherche{
-        width: 100px;
+        width: 80px;
     }
 
-    h2{
-        margin-left: 10px;
-    }
-    .titrehp p{
-        margin-left: 10px;
+   
+    .titrehp {
+        margin-left: -20px;
     }
     .titrepop{
-        
+        position: relative;
+        top: -750px;
         height: 660px;
-        width: 375px;
+        width: 355px;
         border-radius: 0px;
+        margin-left: -20px;
     }
     .cartepop{
         margin-top: 40px;
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 355px;
+        margin-left: 20px;
+        width: 335px;
     }
     .titreheber{
-        width: 375px;
+        width: 355px;
+        margin-top: 70px;
+        margin-left: -20px;
         border-radius: 0px;
     }
     .carte{
-        width: 355px;
-        margin-left: 35px;
+        width: 345px;
+        margin-left: 45px;
         margin-right: 10px;
     }
     .imgheber{
-        width: 345px;
+        width: 335px;
     }
     .vieux{
         display: block;
@@ -1667,10 +1644,10 @@ input::placeholder{
     }
     #activités h1{
         position: relative;
-        left: -120px;
+        left: 0px;
     }
     #activités{
-        margin-top: 130px;
+        margin-top: 1000px;
     }
 }
 
