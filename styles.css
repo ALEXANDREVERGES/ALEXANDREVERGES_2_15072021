@@ -931,6 +931,9 @@ input::placeholder{
     .sins{
         margin-left: 250px;
     }
+    .seek{
+        cursor: pointer;
+    }
 
 }
 @media screen and (max-width: 700px){
@@ -1076,11 +1079,7 @@ input::placeholder{
         position: relative;
         left: 180px;
     }
-    .divfiltre{
-        
-        height: 300px;
-        
-    }
+    
     .info{
         margin-top: 150px;
     }
@@ -1384,6 +1383,7 @@ input::placeholder{
     .recherche{
         width: 100px;
     }
+   
     
     .foot{
         display: block;
@@ -1415,9 +1415,6 @@ input::placeholder{
         border-radius: 15px 15px 15px 15px;
     }
     
-    .search:hover{
-        cursor: pointer;
-    }
   
     .sins:hover{
         border-bottom: 3px solid rgb(70, 72, 197);
@@ -1548,6 +1545,7 @@ input::placeholder{
     }
     .search{
         width: 90px;
+        cursor: pointer;
     }
     .search:hover{
         cursor: pointer;
@@ -1648,6 +1646,53 @@ input::placeholder{
     }
     #activités{
         margin-top: 1000px;
+    }
+    
+}
+@media screen and (max-width: 360px){
+    .sins{
+        margin-left: 210px;
+    }
+    .zone{
+        margin-left: -25px;
+    }
+    .famicon{
+        margin-left: -5px;
+        width: 150px;
+    }
+    .romicon{
+        margin-left: 10px;
+    }
+    .anicon{
+        margin-left: 10px;
+        width: 500px;
+    }
+    #activités{
+        margin-top: 900px;
+    }
+    .cartevieux{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .titrepop{
+        width: 335px;
+        margin-left: -20px;
+    }
+    .cartepop{
+        width: 325px;
+    }
+    .titreheber{
+        width: 335px;
+    }
+    .carte{
+        width: 325px;
+    }
+    .imgheber{
+        width: 315px;
+    }
+    .foot{
+        width: 340px;
+        margin-left: -20px;
     }
 }
 
