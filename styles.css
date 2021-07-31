@@ -812,9 +812,11 @@ input::placeholder{
     nav a:hover{
     color: rgb(70, 72, 197);
     border-top: none;
-    
     border-bottom: 3px solid rgb(70, 72, 197);
     padding-bottom: 10px;
+    }
+    .foot{
+        width: 850px;
     }
     
 }
@@ -855,7 +857,7 @@ input::placeholder{
     .sins{
         display: block;
         position: relative;
-        left: 300px;
+        left: 600px;
         top:-90px;
         font-size: 1em;
         color: #0065FC;
@@ -929,7 +931,7 @@ input::placeholder{
         margin-left: 80px;
     }
     .sins{
-        margin-left: 250px;
+        margin-left: -100px;
     }
     .seek{
         cursor: pointer;
@@ -940,8 +942,8 @@ input::placeholder{
     .sins{
         display: block;
         position: relative;
-        left:270px;
-        top:-90px;
+        left: 600px;
+        top: -90px;
         font-size: 1em;
         color: #0065FC;
     }
@@ -1077,7 +1079,7 @@ input::placeholder{
 @media screen and (max-width: 600px){
     .sins{
         position: relative;
-        left: 180px;
+        left: 480px;
     }
     
     .info{
@@ -1205,9 +1207,10 @@ input::placeholder{
 }
 @media screen and (max-width: 450px){
    
+   
     .sins{
         position: relative;
-        left: 50px;
+        left: 400px;
     }
     .seek{
         visibility: hidden;
@@ -1231,6 +1234,14 @@ input::placeholder{
     }
     .icon{
         width: 90px;
+    }
+    .romicon{
+        position: relative;
+        left: -375px;
+    }
+    .anicon{
+        position: relative;
+        left: -580px;
     }
     .titrepop{
         display: block;
@@ -1387,7 +1398,7 @@ input::placeholder{
     
     .foot{
         display: block;
-        width: 400px;
+        width: 380px;
         height: 500px;
         margin-left: -23px;
     }
@@ -1413,6 +1424,9 @@ input::placeholder{
         height: 50px;
         width: 90px;
         border-radius: 15px 15px 15px 15px;
+    }
+    .sins{
+        margin-left: -120px;
     }
     
   
@@ -1486,19 +1500,57 @@ input::placeholder{
     #activités h1{
         margin-left: 50px;
     }
+    .vieux{
+        width: 350px;
+    }
+    .cartevieux{
+        width: 350px;
+    }
+    .fort{
+        width: 350px;
+    }
+    .cartefort{
+        width: 350px;
+    }
+    .ilesf{
+        width: 350px;
+    }
+    .carteilesf{
+        width: 350px;
+    }
+    .parcca{
+        width: 350px;
+    }
+    .carteparcca{
+        width: 350px;
+    }
+    .notred{
+        width: 350px;
+    }
+    .cartenotred{
+        width: 350px;
+    }
+    .parcl{
+        width: 350px;
+    }
+    .carteparcl{
+        width: 350px;
+    }
     .bloc1{
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .bloc2{
-        margin-left: 20px;
+        margin-left: 40px;
     }
+    
+    
     
 }    
 @media screen and (max-width: 375px){
  
     .sins{
         
-        margin-left: 220px;
+        margin-left: -140px;
     }
     header{
         display: block;
@@ -1551,7 +1603,7 @@ input::placeholder{
         cursor: pointer;
     }
     .zone{
-        margin-left: -20px;
+        margin-left: -25px;
     }
     .recherche{
         width: 80px;
@@ -1581,64 +1633,70 @@ input::placeholder{
         border-radius: 0px;
     }
     .carte{
-        width: 345px;
+        width: 335px;
         margin-left: 45px;
         margin-right: 10px;
     }
     .imgheber{
-        width: 335px;
+        width: 325px;
     }
     .vieux{
         display: block;
-        width: 345px;
+        width: 335px;
     }
     .cartevieux{
-        width: 345px;
+        width: 335px;
         margin-left: -10px;
     }
     .fort{
         display: block;
-        width: 345px;
+        width: 335px;
     }
     .cartefort{
-        width: 345px;
+        width: 335px;
         margin-left: -10px;
 
     }
     .ilesf{
         display: block;
-        width: 345px;
+        width: 335px;
     }
     .carteilesf{
-        width: 345px;
+        width: 335px;
         margin-left: -10px;
 
     }
     .parcca{
         display: block;
-        width: 345px;
+        width: 335px;
     }
     .carteparcca{
-        width: 345px;
+        width: 335px;
         margin-left: -10px;
 
     }
     .notred{
         display: block;
-        width: 345px;
+        width: 335px;
     }
     .cartenotred{
-        width: 345px;
+        width: 335px;
         margin-left: -10px;
     }
     .parcl{
         display: block;
-        width: 345px;
+        width: 335px;
     }
     .carteparcl{
-        width: 345px;
+        width: 335px;
         margin-left: -10px;
 
+    }
+    .bloc1{
+        margin-left: 20px;
+    }
+    .bloc2{
+        margin-left: 20px;
     }
     #activités h1{
         position: relative;
@@ -1647,15 +1705,20 @@ input::placeholder{
     #activités{
         margin-top: 1000px;
     }
+    .foot{
+        width: 350px;
+    }
     
 }
 @media screen and (max-width: 360px){
     .sins{
-        margin-left: 210px;
+        margin-left: -150px;
     }
     .zone{
         margin-left: -25px;
+        width: 330px;
     }
+   
     .famicon{
         margin-left: -5px;
         width: 150px;
@@ -1670,16 +1733,50 @@ input::placeholder{
     #activités{
         margin-top: 900px;
     }
+    .vieux{
+        width: 325px;
+    }
     .cartevieux{
+        width: 325px;
         margin-top: 40px;
         margin-bottom: 10px;
+    }
+    .fort{
+        width: 325px
+    }
+    .cartefort{
+        width: 325px
+    }
+    .ilesf{
+        width: 325px
+    }
+    .carteilesf{
+        width: 325px
+    }
+    .parcca{
+        width: 325px
+    }
+    .carteparcca{
+        width: 325px
+    }
+    .notred{
+        width: 325px
+    }
+    .cartenotred{
+        width: 325px
+    }
+    .parcl{
+        width: 325px
+    }
+    .carteparcl{
+        width: 325px
     }
     .titrepop{
         width: 335px;
         margin-left: -20px;
     }
     .cartepop{
-        width: 325px;
+        width: 320px;
     }
     .titreheber{
         width: 335px;
@@ -1691,7 +1788,7 @@ input::placeholder{
         width: 315px;
     }
     .foot{
-        width: 340px;
+        width: 320px;
         margin-left: -20px;
     }
 }
