@@ -637,8 +637,8 @@ input::placeholder{
    
     .foot{
         display: block;
-        width: 800px;
-        height: 280px;
+        width: 1100px;
+        height: 250px;
         font-size: 15px;
         flex-direction: column;
         justify-content: center;
@@ -664,16 +664,16 @@ input::placeholder{
         display: block;
         position: relative;
         top: -700px;
-        width: 1300px;
+        width: 1200px;
     }
     .cartepop{
-        width: 1200px;
+        width: 1100px;
     }
     .titreheber{
         display: block;
         position: relative;
         top: 650px;
-        width: 1300px;
+        width: 1200px;
     }
     .heber{
         width: 1300px;
@@ -689,10 +689,7 @@ input::placeholder{
     #activités h1{
         margin-left: 40px;
     }
-    .foot{
-        width: 1300px;
-        height: 250px;
-    }
+    
     .apropos{
         position: relative;
         top:50px
@@ -732,8 +729,8 @@ input::placeholder{
         width: 924px;
     }
     .cartepop{
-        margin-left: 0px;
-        width: 910px;
+        margin-left: 20px;
+        width: 870px;
     }
     .imgheber{
         width: 250px;
@@ -743,6 +740,7 @@ input::placeholder{
     }
     .heber{
         width: 924px;
+        margin-left: -10px;
     }
     .foot{
         width: 924px;
@@ -786,7 +784,8 @@ input::placeholder{
        
     }
     .cartepop{
-        width: 840px;
+        width: 800px;
+        margin-left: 20px;
     }
     .titreheber{
         display: block;
@@ -802,10 +801,11 @@ input::placeholder{
     }
     .imgheber{
         object-fit: cover;
-        width: 750px;
+        width: 800px;
     }
     .carte{
-        width: 760px;
+        width: 810px;
+        margin-left: 20px;
     }
     #activités{
         margin-top: 950px;
@@ -840,7 +840,8 @@ input::placeholder{
         left: -10px;
     }
     .cartepop{
-        width: 830px;
+        width: 790px;
+        margin-left: 20px;
     }
     .titreheber{
         
@@ -848,6 +849,14 @@ input::placeholder{
         position: relative;
         top: 640px;
         left: -10px;
+    }
+    .imgheber{
+        width: 790px;
+        padding-top: 5px;
+    }
+    .carte{
+        width: 800px;
+        margin-left: 20px;
     }
     .heber{
         height: 1600px;
@@ -912,18 +921,21 @@ input::placeholder{
         width: 700px;
     }
     .cartepop{
-        width: 690px;
+        width: 660px;
+        margin-left: 10px;
     }
     .imgheber{
-        width: 618px;
+        width: 648px;
+        padding-top: 5px;
     }
     .carte{
-        width: 628px;
+        width: 658px;
+        
     }
     .heber{
         display: block;
         width: 700px;
-        flex-direction: column;
+        margin-left: -10px;
     }
     .afficher{
         margin-left: 40px;
@@ -932,7 +944,7 @@ input::placeholder{
         margin-left: -65px;
     }
     .foot{
-        width: 700px;
+        width: 720px;
     }
     .noshebergements{
         margin-left: -80px;
@@ -992,7 +1004,8 @@ input::placeholder{
         width: 640px;
     }
     .cartepop{
-        width: 630px;
+        width: 610px;
+        margin-left: 10px;
     }
     .imgheber{
         width: 600px;
@@ -1123,13 +1136,17 @@ input::placeholder{
         margin-left: 0px;
         margin-right: 50px;
     }
+    .blocpop{
+        margin-top: -40px;
+    }
     .charte{
         position: relative;
         top: -20px;
         left: 80px;
     }
     .cartepop{
-        width: 530px;
+        width: 500px;
+        margin-left: 10px;
     }
    
   
@@ -1223,9 +1240,7 @@ input::placeholder{
         width: 560px;
         margin-left: -20px;
     }
-    .header{
-        border-bottom: 3px solid black;
-    } 
+    
 }
 @media screen and (max-width: 450px){
    
@@ -1375,8 +1390,8 @@ input::placeholder{
     }
     .foot{
         display: block;
-        height: 550px;
-        width: 100%;
+        height: 520px;
+        width: 430px;
         flex-direction: column;
         
     }
@@ -1672,53 +1687,53 @@ input::placeholder{
     }
     .vieux{
         display: block;
-        width: 335px;
+        width: 350px;
     }
     .cartevieux{
-        width: 335px;
+        width: 350px;
         margin-left: -10px;
     }
     .fort{
         display: block;
-        width: 335px;
+        width: 350px;
     }
     .cartefort{
-        width: 335px;
+        width: 350px;
         margin-left: -10px;
 
     }
     .ilesf{
         display: block;
-        width: 335px;
+        width: 350px;
     }
     .carteilesf{
-        width: 335px;
+        width: 350px;
         margin-left: -10px;
 
     }
     .parcca{
         display: block;
-        width: 335px;
+        width: 350px;
     }
     .carteparcca{
-        width: 335px;
+        width: 350px;
         margin-left: -10px;
 
     }
     .notred{
         display: block;
-        width: 335px;
+        width: 350px;
     }
     .cartenotred{
-        width: 335px;
+        width: 350px;
         margin-left: -10px;
     }
     .parcl{
         display: block;
-        width: 335px;
+        width: 350px;
     }
     .carteparcl{
-        width: 335px;
+        width: 350px;
         margin-left: -10px;
 
     }
@@ -1775,42 +1790,42 @@ input::placeholder{
         margin-top: 900px;
     }
     .vieux{
-        width: 325px;
+        width: 335px;
     }
     .cartevieux{
-        width: 325px;
+        width: 335px;
         margin-top: 40px;
         margin-bottom: 10px;
     }
     .fort{
-        width: 325px
+        width: 335px
     }
     .cartefort{
-        width: 325px
+        width: 335px
     }
     .ilesf{
-        width: 325px
+        width: 335px
     }
     .carteilesf{
-        width: 325px
+        width: 335px
     }
     .parcca{
-        width: 325px
+        width: 335px
     }
     .carteparcca{
-        width: 325px
+        width: 335px
     }
     .notred{
-        width: 325px
+        width: 335px
     }
     .cartenotred{
-        width: 325px
+        width: 335px
     }
     .parcl{
-        width: 325px
+        width: 335px
     }
     .carteparcl{
-        width: 325px
+        width: 335px
     }
     .titrepop{
         width: 335px;
@@ -1829,7 +1844,7 @@ input::placeholder{
         width: 315px;
     }
     .foot{
-        width: 320px;
+        width: 335px;
         margin-left: -20px;
     }
 }
