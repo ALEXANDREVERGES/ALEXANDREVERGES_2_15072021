@@ -66,7 +66,8 @@ input{
 .recherche{
     height: 50px;
     width: 180px;
-    display: flex;     
+    display: flex;
+    padding-left: 10px;     
 }
 input::placeholder{
     font-weight: bolder;
@@ -958,6 +959,9 @@ input::placeholder{
     }
     .seek{
         cursor: pointer;
+    }
+    .recherche{
+        padding-left: 10px;
     }
 
 }
