@@ -1,3 +1,4 @@
+
 body{
     font-family: raleway, sans-serif;
     width: 1500px;
@@ -8,7 +9,7 @@ header{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 1600px;
+    width: 100%;
 }
 
 img{
@@ -1244,7 +1245,6 @@ input::placeholder{
 }
 @media screen and (max-width: 450px){
    
-   
     .sins{
         position: relative;
         left: 400px;
@@ -1584,14 +1584,18 @@ input::placeholder{
     
 }    
 @media screen and (max-width: 375px){
- 
+    nav ul{
+        margin-left: -40px;
+
+    }
+   
     .sins{
         
-        margin-left: -140px;
+        margin-left: -150px;
     }
     header{
         display: block;
-        margin-left: -20px;
+        width: 100%;
     }
    
     .icon{
@@ -1648,7 +1652,8 @@ input::placeholder{
         cursor: pointer;
     }
     .zone{
-        margin-left: -25px;
+        width: 90%;
+        margin-left: -10px;
     }
     .recherche{
         width: 80px;
@@ -1656,7 +1661,7 @@ input::placeholder{
 
    
     .titrehp {
-        margin-left: -20px;
+        width: 100%;
     }
     .titrepop{
         position: relative;
@@ -1758,7 +1763,7 @@ input::placeholder{
 @media screen and (max-width: 360px){
    
     .sins{
-        margin-left: -150px;
+        margin-left: -160px;
     }
     .zone{
         margin-left: -25px;
