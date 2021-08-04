@@ -870,6 +870,9 @@ input::placeholder{
     }
 }
 @media screen and (max-width: 768px){
+    a{
+        margin-left: 30px;
+    }
     .titreheber{
         width: 700px;
     }
@@ -918,6 +921,9 @@ input::placeholder{
 
 }
 @media screen and (max-width: 700px){
+    a{
+        margin-left: 30px;
+    }
  
     .divfiltre{
         width: 600px;
@@ -1056,6 +1062,10 @@ input::placeholder{
 @media screen and (max-width: 600px){
     header{
         display: block;
+        width: 100%;
+    }
+    a{
+        margin-right: 0;
     }
     .menu{
         display: flex;
@@ -1222,6 +1232,9 @@ input::placeholder{
     
         display: block
         
+    }
+    a{
+        margin-right: 0;
     }
     header{
         width: 100%;
@@ -1446,6 +1459,9 @@ input::placeholder{
         width: 100%;
         height: 150px;
     }
+    a{
+        margin-right: 0;
+    }
     body{
         width: 100%;
         margin: 0;
@@ -1632,6 +1648,9 @@ input::placeholder{
 @media screen and (max-width: 375px){
     body{
         width: 100%;
+    }
+    a{
+        margin-right: 0;
     }
     .menu{
         display: flex;
@@ -1835,6 +1854,9 @@ input::placeholder{
         margin-left: 0px;
         margin-right: 0px;
     }
+    a{
+        margin-right: 0;
+    }
     .sins{
         position: relative;
         top: -100px;
@@ -1966,4 +1988,97 @@ input::placeholder{
         margin-left: 0;
     }
 }
+@media screen and (max-width: 300px){
+    header{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+        margin-left: 0;
+    }
+    a{
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .sins{
+        position: relative;
+        left: 200px;
+    }
+    .titrehp{
 
+        margin-left: -10px;
+    }
+    .titrehp h2{
+        display: flex;
+        width: 90%;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .lespluspop h2{
+        margin-left: -30px;
+    }
+    .charte{
+        position: relative;
+        left: 220px;
+    }
+    .cartepop{
+        width: 280px;
+    }
+    .etoilespop{
+        margin-top: 30px;
+    }
+    .herbermars h1{
+        margin-left: -30px;
+    }
+    .heber{
+        margin-left: -40px;
+    }
+    .imgheber{
+        width: 280px;
+    }
+    .carte{
+        width: 290px;
+    }
+    .bloc1{
+        margin-left: 45px;
+    }
+    .bloc2{
+        margin-left: 45px;
+    }
+    .vieux{
+        width: 290px;
+    }
+    .cartevieux{
+        width: 290px;
+    }
+    .fort{
+        width: 290px;
+    }
+    .cartefort{
+        width: 290px;
+    }
+    .ilesf{
+        width: 290px;
+    }
+    .carteilesf{
+        width: 290px;
+    }
+    .parcca{
+        width: 290px;
+    }
+    .carteparcca{
+        width: 290px;
+    }
+    .notred{
+        width: 290px;
+    }
+    .cartenotred{
+        width: 290px;
+    }
+    .parcl{
+        width: 290px;
+    }
+    .carteparcl{
+        width: 290px;
+    }
+}
