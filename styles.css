@@ -26,7 +26,7 @@ img{
 }
 
 .navigation{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #0065FC;
     margin-right: 50px;
     text-decoration: none;
@@ -36,14 +36,14 @@ img{
     padding-top: 5px;
 }
 a{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #0065FC;
     margin-right: 50px;
     text-decoration: none;
    
 }
 .sins{
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #0065FC;
 }
 
@@ -1077,7 +1077,7 @@ input::placeholder{
     .navigation{
         width: 100%;
         margin-right: 0;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1249,7 +1249,7 @@ input::placeholder{
     .navigation{
         width: 100%;
         margin-right: 0;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1496,7 +1496,7 @@ input::placeholder{
    
     .navigation{
         width: 100%;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1662,7 +1662,7 @@ input::placeholder{
     .navigation{
         width: 100%;
         margin-right: 0;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1872,7 +1872,7 @@ input::placeholder{
     .navigation{
         width: 100%;
         margin-right: 0;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
