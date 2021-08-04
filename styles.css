@@ -2,8 +2,8 @@
 body{
     font-family: raleway, sans-serif;
     width: 90%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
+    
 }
 
 header{
@@ -12,9 +12,7 @@ header{
     justify-content: space-between;
     width: 100%;
 }
-.container{
-    display: flex;
-}
+
 .menu{
     display: flex;
     width: 100%;
@@ -28,9 +26,21 @@ img{
 }
 
 .navigation{
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #0065FC;
     margin-right: 50px;
+    text-decoration: none;
+}
+.navigation1:hover{
+    border-top: 4px solid #0065FC;
+    padding-top: 5px;
+}
+a{
+    font-size: 1.2em;
+    color: #0065FC;
+    margin-right: 50px;
+    text-decoration: none;
+   
 }
 .sins{
     font-size: 1.3em;
@@ -680,15 +690,14 @@ input::placeholder{
 }
 @media screen and (max-width: 1024px){
     header{
-        width: 100%;
+        width: 90%;
     }
     .filtreicon{
         margin-right: 10px;
     }
     body{
-        width: 100%;
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 90%;
+        margin: 0 auto;
     }
     .titreheber{
         width: 924px;
@@ -1043,14 +1052,41 @@ input::placeholder{
         width: 80px;
     }
 }
+
 @media screen and (max-width: 600px){
-   .navheber{
-       width: 300px;
-   }
-   .nav{
-       display: flex;
-       align-items: center;
-   }
+    header{
+        display: block;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigation{
+        width: 100%;
+        margin-right: 0;
+        font-size: 1.2em;
+        color: #0065FC;
+        border-bottom: 4px solid #F2F2F2;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    .navigation:hover{
+        cursor: pointer;
+        color: black;
+        border-bottom: 3px solid blue;
+    }
+    .navigation1:hover{
+        border-top: none;
+    }
+    .sins{
+        position: relative;
+        top: -100px;
+        left: 400px;
+    }
+   
   
     .info{
         margin-top: 150px;
@@ -1180,6 +1216,56 @@ input::placeholder{
     
 }
 @media screen and (max-width: 450px){
+    body{
+        width: 100%;
+        margin-left: 0;
+    
+        display: block
+        
+    }
+    header{
+        width: 100%;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigation{
+        width: 100%;
+        margin-right: 0;
+        font-size: 1.2em;
+        color: #0065FC;
+        border-bottom: 4px solid #F2F2F2;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    .navigation:hover{
+        cursor: pointer;
+        color: black;
+        border-bottom: 3px solid blue;
+    }
+    .sins{
+        position: relative;
+        left: 300px;
+    }
+    .titrehp{
+        margin-left: 10px;
+    }
+    .zone{
+        margin-left: 10px;
+    }
+    .fil{
+        margin-left: 10px;
+    }
+    .famicon{
+        margin-left: 10px;
+    }
+    .info{
+        margin-left: 10px;
+    }
    
  
     .seek{
@@ -1207,18 +1293,22 @@ input::placeholder{
     }
     .romicon{
         position: relative;
-        left: -365px;
+        left: -375px;
     }
     .anicon{
         position: relative;
-        left: -565px;
+        left: -575px;
     }
     .titrepop{
         display: block;
-        width: 400px;
+        width: 100%;
         position: relative;
         left: -50px;
         border-radius: 0px;
+    }
+    .charte{
+        position: relative;
+        left: 0px;
     }
     
     .blocpop{
@@ -1228,33 +1318,33 @@ input::placeholder{
         
     }
     .cartepop{
-        width: 380px;
+        width: 430px;
         margin-left: 20px;
         margin-right: 20px;
     }
     .titreheber{
         display: block;
         border-radius: 0px;
-        width: 400px;
+        width: 450px;
         position: relative;
         left: 0px;
     }
     .carte{
-        width: 390px;
+        width: 430px;
         margin-left: 40px;
     }
     .imgheber{
         display: block;
-        width: 380px;
+        width: 420px;
     }
     .heber{
         margin-left: -35px;
     }
     .bloc1{
-        margin-left: 40px;
+        margin-left: 50px;
     }
     .bloc2{
-        margin-left: 40px;
+        margin-left: 50px;
     }
     #activités h1{
         margin-left: 60px;
@@ -1262,70 +1352,71 @@ input::placeholder{
     .vieux{
         display: block;
         height: 175px;
-        width: 400px;
+        width: 440px;
     }
     .cartevieux{
         margin-left: -15px;
-        width: 400px;
+        width: 440px;
         height: 225px
         
     }
     .fort{
         display: block;
         height: 175px;
-        width: 400px;
+        width: 440px;
     }
     .cartefort{
         margin-left: -15px;
-        width: 400px;
+        width: 440px;
         height: 225px
     }
     .ilesf{
         display: block;
         height: 175px;
-        width: 400px;
+        width: 440px;
     }
 
     .carteilesf{
         margin-left: -15px;
-        width: 400px;
+        width: 440px;
         height: 225px
     }
     .parcca{
         
-        width: 400px;
+        width: 440px;
         height: 175px
     }
     .carteparcca{
         margin-left: -15px;
-        width: 400px;
+        width: 440px;
         height: 225px
     }
     .notred{
         
-        width: 400px;
+        width: 440px;
         height: 175px
     }
     .cartenotred{
         margin-left: -15px;
-        width: 400px;
+        width: 440px;
         height: 225px        
     }
     .parcl{
        
-        width: 400px;
+        width: 440px;
         height: 175px
     }
     .carteparcl{
         margin-left: -15px;
-        width: 400px;
+        width: 440px;
         height: 225px
     }
     .foot{
         display: block;
         height: 520px;
-        width: 430px;
+        width: 450px;
         flex-direction: column;
+        margin-left: 0px;
         
     }
     .apropos{
@@ -1351,11 +1442,24 @@ input::placeholder{
 @media screen and (max-width: 414px){
    
     header{
+        display: block;
         width: 100%;
+        height: 150px;
     }
     body{
+        width: 100%;
         margin: 0;
         
+    }
+    .sins{
+        position: relative;
+        top: -100px;
+        left: 300px;
+    }
+
+    .reservi{
+        position: relative;
+        top: 0px;
     }
     h2{
         margin-left: 10px;
@@ -1367,24 +1471,16 @@ input::placeholder{
         width: 90px;
     }
     .zone{
-        margin-left: 0px;
+        margin-left: 10px;
     }
+    
     .recherche{
         width: 100px;
     }
-    .container{
-        
-        width: 100%;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        
-    }
+   
     .navigation{
         width: 100%;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1395,25 +1491,12 @@ input::placeholder{
         color: black;
         border-bottom: 4px solid rgb(70, 72, 197);
     }
-    nav{
-        width: 100%;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    
-  
-  
     
     .foot{
         display: block;
-        width: 380px;
+        width: 100%;
         height: 500px;
-        margin-left: -23px;
+        margin-left: 0px;
     }
     .apropos{
         width: 400px;
@@ -1438,44 +1521,38 @@ input::placeholder{
         width: 90px;
         border-radius: 15px 15px 15px 15px;
     }
-  
-  
-  
-  
-  
-    .titrehp{
-        margin-left: 0px;
+    .fil{
+        margin-left: 10px;
     }
-    .titrehp p{
-        margin-top: -10px;
-        margin-bottom: 30px;
+    .famicon{
+        position: relative;
+        left: 10px;
     }
-
+   .titrehp{
+       margin-top: -30px;
+   }
     .titrepop{
         border-radius: 0px;
-        width: 360px;
+        width: 100%;
         
     }
-    .blocpop{
-        margin-left: -18px;
-        margin-top: -50px;
-    }
+
     .lespluspop{
         display: block;
     }
     .lespluspop h2{ 
-        margin-left: -35px;
-        width: 350px;
+        margin-left: -20px;
+        
         
     }
     .charte{
         display: block;
         position: relative;
         top: -90px;
-        left: 270px;
+        left: 320px;
     }
    .info{
-        margin-left: 0px;
+        margin-left: 10px;
         margin-bottom: 30px;
     }
     .textinfo{
@@ -1486,75 +1563,76 @@ input::placeholder{
         margin-top: -70px;
     }
     .cartepop{
-        width: 340px;
+        width: 394px;
     }
    
     .titreheber{
         border-radius: 0px;
-        width: 360px;
+        width: 414px;
     }
     .imgheber{
-        width: 340px;
+        width: 390px;
     }
     .carte{
-        width: 350px;
+        width: 400px;
     }
     .herbermars h1{
         margin-left: -20px;
     }
-    .heber{
-        margin-left: -40px;
-    }
+   
     #activités h1{
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .vieux{
-        width: 350px;
+        width: 400px;
     }
     .cartevieux{
-        width: 350px;
+        width: 400px;
     }
     .fort{
-        width: 350px;
+        width: 400px;
     }
     .cartefort{
-        width: 350px;
+        width: 400px;
     }
     .ilesf{
-        width: 350px;
+        width: 400px;
     }
     .carteilesf{
-        width: 350px;
+        width: 400px;
     }
     .parcca{
-        width: 350px;
+        width: 400px;
     }
     .carteparcca{
-        width: 350px;
+        width: 400px;
     }
     .notred{
-        width: 350px;
+        width: 400px;
     }
     .cartenotred{
-        width: 350px;
+        width: 400px;
     }
     .parcl{
-        width: 350px;
+        width: 400px;
     }
     .carteparcl{
-        width: 350px;
+        width: 400px;
     }
     .bloc1{
-        margin-left: 40px;
+        margin-left: 50px;
     }
     .bloc2{
-        margin-left: 40px;
+        margin-left: 50px;
     }
     
     
     
 }    
 @media screen and (max-width: 375px){
+    body{
+        width: 100%;
+    }
     .menu{
         display: flex;
         width: 100%;
@@ -1565,7 +1643,7 @@ input::placeholder{
     .navigation{
         width: 100%;
         margin-right: 0;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1599,20 +1677,20 @@ input::placeholder{
     }
     .ecoicon{
         position: relative;
-        left: 27px;
+        left: 15px;
     }
     .famicon{
         position: relative;
-        left: 30px;
+        left: 20px;
        
     }
     .romicon{
         position: relative;
-        left: -342px;
+        left: -352px;
     }
     .anicon{
         position: relative;
-        left: -542px;
+        left: -552px;
     }
     .info{
         margin-left: 10px;
@@ -1772,7 +1850,7 @@ input::placeholder{
     .navigation{
         width: 100%;
         margin-right: 0;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
         padding-bottom: 20px;
@@ -1793,7 +1871,7 @@ input::placeholder{
         position: relative;
         left: 30px;
     }
-    
+   
     .info{
         margin-top: 250px;
         margin-left: 10px;
@@ -1801,16 +1879,16 @@ input::placeholder{
    
     .ecoicon{
         position: relative;
-        left: 60px;
+        left: 20px;
     }
     .famicon{
         position: relative;
         top: 220px;
-        left: -145px;
+        left: -185px;
        
     }
     .romicon{
-        margin-left: 65px;
+        margin-left: 0px;
     }
     .anicon{
         margin-left: 0px;
