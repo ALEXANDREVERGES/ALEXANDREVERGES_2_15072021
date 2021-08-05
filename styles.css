@@ -10,7 +10,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 
 .menu{
@@ -547,7 +547,7 @@ input::placeholder{
 /*footer*/
 .foot{
     margin-top: 70px;
-    width: 100%;
+    width: 90%;
     height: 250px;
     background-color: #F2F2F2;
     display: flex;  
