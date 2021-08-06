@@ -1595,9 +1595,8 @@ input::placeholder{
         
     }
     .sins{
-        position: relative;
-        top: -100px;
-        left: 300px;
+        position: absolute;
+       
     }
 
     .reservi{
@@ -1683,12 +1682,13 @@ input::placeholder{
    }
     .titrepop{
         border-radius: 0px;
-        width: 100%;
+        width: 414px;
         
     }
 
     .lespluspop{
         display: block;
+        width: 350px;
     }
     .lespluspop h2{ 
         margin-left: -20px;
@@ -1697,11 +1697,12 @@ input::placeholder{
     }
     .titrepop{
         position: relative;
+        width: 414px;
         left: -60px;
     }
     .charte{
         display: block;
-        position: relative;
+        position: absolute;
         top: -50px;
         left: 320px;
     }
@@ -1714,11 +1715,11 @@ input::placeholder{
         width: 300px;
     }
     .blocpop{
-        margin-top: -50px;
+        margin-top: 10px;
         margin-left: 0;
     }
     .cartepop{
-        width: 384px;
+        width: 374px;
     }
    
     .titreheber{
@@ -1784,6 +1785,21 @@ input::placeholder{
     .bloc2{
         margin-left: 25px;
     }
+    .blocpop{
+        width: 400px;
+    }
+    .noshebergements{
+        width: 300px;
+    }
+    .apropos{
+        width: 300px;
+    }
+    .assistance{
+        width: 300px;
+    }
+    .columnactivité{
+        width: 350px;
+    }
     
     
     
@@ -1820,8 +1836,7 @@ input::placeholder{
         border-bottom: 3px solid blue;
     }
     .sins{
-        position: relative;
-        top: -100px;
+        position: absolute;
         left: 280px;
     }
     header{
@@ -1877,9 +1892,10 @@ input::placeholder{
     }
     .charte{
         display: block;
-        position: relative;
-        top: -55px;
-        left: 350px;
+        position: absolute;
+        top: 30px;
+        left: 360px;
+       
     }
     .search{
         width: 50px;
@@ -1904,9 +1920,10 @@ input::placeholder{
         position: relative;
         top: -750px;
         height: 660px;
-        width: 100%;
+        width: 435px;
         border-radius: 0px;
         margin-left: 0px;
+        background-color: #F2F2F2;
     }
     .cartepop{
         margin-top: 40px;
@@ -2004,6 +2021,12 @@ input::placeholder{
         margin-right: 0;
         margin-left: 0;
     }
+    .noshebergements{
+        width: 250px;
+    }
+    .assistance{
+        width: 250px;
+    }
     
 }
 @media screen and (max-width: 360px){
@@ -2016,9 +2039,8 @@ input::placeholder{
     }
     
     .sins{
-        position: relative;
-        top: -100px;
-        left: 250px;
+        position: absolute;
+       
     }
     .menu{
         display: flex;
@@ -2057,7 +2079,7 @@ input::placeholder{
         margin-left: 10px;
     }
     .charte{
-        position: relative;
+        position: absolute;
         left: 320px;
     }
 
@@ -2139,10 +2161,10 @@ input::placeholder{
         width: 335px;
     }
     .bloc1{
-        margin-left: 35px;
+        margin-left: 30px;
     }
     .bloc2{
-        margin-left: 35px;
+        margin-left: 30px;
     }
     #activités h1{
         margin-left: 60px;
@@ -2150,6 +2172,12 @@ input::placeholder{
     .foot{
         width: 100%;
         margin-left: 0;
+    }
+    .blocpop{
+        width: 350px;
+    }
+    .columnactivité{
+        width: 300px;
     }
 }
 @media screen and (max-width: 300px){
@@ -2168,7 +2196,7 @@ input::placeholder{
         background-color: white;
     }
     .sins{
-        position: relative;
+        position: absolute;
         left: 200px;
     }
     .titrehp{
@@ -2181,12 +2209,15 @@ input::placeholder{
         flex-wrap: wrap;
         font-size: 20px;
     }
+    .lespluspop{
+        width: 280px;
+    }
     .lespluspop h2{
         margin-left: -30px;
     }
     .charte{
-        position: relative;
-        left: 220px;
+        position: absolute;
+        left: 320px;
     }
     .cartepop{
         width: 280px;
@@ -2207,10 +2238,10 @@ input::placeholder{
         width: 290px;
     }
     .bloc1{
-        margin-left: 45px;
+        margin-left: 25px;
     }
     .bloc2{
-        margin-left: 45px;
+        margin-left: 25px;
     }
     .vieux{
         width: 290px;
@@ -2247,5 +2278,15 @@ input::placeholder{
     }
     .carteparcl{
         width: 290px;
+    }
+    .blocpop{
+        width: 280px;
+    }
+    .apropos{
+        width: 250px;
+    }
+    .afficher{
+        position: relative;
+        left: -120px;
     }
 }
