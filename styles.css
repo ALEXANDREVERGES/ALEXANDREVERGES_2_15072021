@@ -162,6 +162,7 @@ input::placeholder{
     border: 2px solid rgb(207, 205, 205);
     height: 50px;
     border-radius: 30px;
+    margin-bottom: 10px;
     margin-right: 30px;
     align-items: center;
     display: flex;
@@ -678,7 +679,7 @@ input::placeholder{
         width: 1200px;
     }
     .heber{
-        width: 1300px;
+        width: 100%;
         flex-wrap: wrap;
     }
     .carte{
@@ -711,7 +712,8 @@ input::placeholder{
    
 
 }
-@media screen and (max-width: 1024px){
+
+@media screen and (min-width: 1025px) and (max-width: 1399px){
     header{
         width: 90%;
     }
@@ -719,7 +721,7 @@ input::placeholder{
         margin-right: 10px;
     }
     body{
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
     .titreheber{
@@ -744,7 +746,7 @@ input::placeholder{
         margin-left: -10px;
     }
     .ani{
-        width: 70px;
+        width: 50px;
     }
     .foot{
         width: 924px;
@@ -756,7 +758,11 @@ input::placeholder{
         margin-left: 250px;
     }
 } 
-@media screen and (max-width: 950px){
+
+@media screen and (min-width: 950px) and (max-width: 1024px){
+    body{
+        width: 80%;
+    }
   
     .filter{
         width: 850px;
@@ -809,9 +815,11 @@ input::placeholder{
     }
     .assistance{
         width: 150px;
+        margin-left: 180px;
     }
     .noshebergements{
         width: 200px;
+        margin-left: -50px;
     }
 
     .foot{
@@ -819,9 +827,10 @@ input::placeholder{
     }
     
 }
-@media screen and (max-width: 900px){
+@media screen and (min-width: 900px) and (max-width: 949px){
     body{
-        margin-left: 30px;
+        width: 90%;
+        
     }
     #activités h1{
         margin-left: 90px;
@@ -831,7 +840,7 @@ input::placeholder{
         position: relative;
         
         width: 840px;
-        top: -700px;
+        top: -1650px;
         left: -10px;
     }
     .cartepop{
@@ -841,6 +850,7 @@ input::placeholder{
     .titreheber{
         
         width: 840px;
+        height: 1600px;
         position: relative;
         top: 640px;
         left: -10px;
@@ -848,6 +858,7 @@ input::placeholder{
     .imgheber{
         width: 790px;
         padding-top: 5px;
+        object-fit: cover;
     }
     .carte{
         width: 800px;
@@ -857,7 +868,7 @@ input::placeholder{
         height: 1600px;
     }
     #activités{
-        margin-top: 980px;
+        margin-top: 30px;
     }
     #activités h1{
         margin-left: 40px;
@@ -865,10 +876,20 @@ input::placeholder{
     
     .divfiltre{
         
-        margin-top: 50px;
         margin-bottom: 50px;
-        width: 800px;
-        height: 200px;
+        width: 500px;
+    }
+    .filter{
+        margin-top: 0;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .info{
+        margin-bottom: 50px;
+    }
+    .ani{
+        
+        width: 60px;
     }
     .anicon{
         position: relative;
@@ -900,8 +921,17 @@ input::placeholder{
     .ani{
         width: 60px;
     }
+    .noshebergements{
+        margin-left: -60px;
+    }
+    .assistance{
+        margin-left: 150px;
+    }
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 899px){
+    body{
+        width: 90%;
+    }
     a{
         margin-left: 30px;
     }
@@ -911,12 +941,22 @@ input::placeholder{
     .aside{
         display: block;
     }
+    .info{
+        margin-bottom: 50px;
+    }
     .divfiltre{
-        width: 700px;
+        
+        margin-bottom: 50px;
+        width: 500px;
+        flex-wrap: wrap;
     }
     .filter{
-        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 500px;
+        flex-wrap: wrap;
     }
+   
     aside{
         width: 500px;
     }
@@ -924,13 +964,19 @@ input::placeholder{
     .titreheber{
         background-color: white;
         width: 100%;
+        height: 1600px;
+        
+
     }
     .heberpop{
         margin: 0;
+        
     }
     
     .titrepop{
         width: 691px;
+        position: relative;
+        top: -1630px;
     }
     .cartepop{
         width: 95%;
@@ -939,6 +985,7 @@ input::placeholder{
     .imgheber{
         width: 648px;
         padding-top: 5px;
+        object-fit: cover;
     }
     .carte{
         width: 658px;
@@ -947,10 +994,11 @@ input::placeholder{
     .heber{
         display: block;
         width: 700px;
-        margin-left: -10px;
+        margin-left: -30px;
     }
     .afficher{
-        margin-left: 40px;
+        margin-left: 60px;
+        margin-top: 50px;
     }
     .activités{
         margin-left: -65px;
@@ -967,7 +1015,7 @@ input::placeholder{
         width: 100px;
     }
     .ani{
-        width: 80px;
+        width: 60px;
     }
     
     .seek{
@@ -976,19 +1024,42 @@ input::placeholder{
     .recherche{
         padding-left: 10px;
     }
+    .bloc1{
+        
+        margin-left: 40px;
+    }
+    .bloc2{
+        margin-left: -5px;
+    }
 
 }
-@media screen and (max-width: 700px){
+@media screen and (min-width: 700px) and (max-width: 767px){
+    body{
+        width: 90%;
+    }
     a{
         margin-left: 30px;
     }
  
     .divfiltre{
-        width: 600px;
+        
+        margin-bottom: 50px;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .filter{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .info{
+        margin-bottom: 50px;
     }
 
     .heber{
         width: 100%;
+        margin-left: -30px;
         
     }
 
@@ -1011,11 +1082,16 @@ input::placeholder{
     .afficher{
         display: block;
         position: relative;
-        left: -300px;
-        top: 35px;
+        top: 0px;
+        left: 20px;
     }
     .titreheber{
         width: 640px;
+        height: 1600px;
+    }
+    .titrepop{
+        position: relative;
+        top: -1650px;
     }
     .cartepop{
         width: 610px;
@@ -1029,13 +1105,9 @@ input::placeholder{
     }
     .imgheber{
         width: 600px;
+        object-fit: cover;
     }
-    .afficher{
-        position: relative;
-        top: 10px;
-        left: 0px;
-        
-    }
+   
     .vieux{
         width: 610px;
         height: 220px;
@@ -1077,10 +1149,12 @@ input::placeholder{
     .cartenotred{
         width: 610px;
         height: 280px;
+        object-fit: cover;
     }
     .parcl{
         width: 610px;
         height: 220px;
+        object-fit: cover;
     }
     .carteparcl{
         width: 610px;
@@ -1099,32 +1173,39 @@ input::placeholder{
     }
     #activités{
         margin-left: -50px;
+        margin-top: 50px;
+    }
+    #activités h1{
+        margin-left: 90px;
+    }
+    .bloc1{
+        margin-left: 0;
+    }
+    .bloc2{
+        margin-left: -45px;
     }
     .foot{
-        width: 610px;
+        width: 100%;
     }
     .apropos{
         margin-left: 10px;
     }
     .noshebergements{
+        width: 150px;
         margin-left: -150px;
     }
     .assistance{
         margin-left: 0px;
     }
     .ani{
-        width: 80px;
+        width: 50px;
     }
 }
-@media screen and (max-width: 640px){
+
+@media screen and (min-width: 600px) and (max-width: 699px){
     body{
-        margin-left: 10px;
-    }
-}
-@media screen and (max-width: 600px){
-    body{
-        margin-left: 0;
-        width: 100%;
+        
+        width: 90%;
     }
     header{
         display: block;
@@ -1174,39 +1255,34 @@ input::placeholder{
         margin-left: 10px;
     }
     .divfiltre{
-        width: 400px;
-        margin-left: -50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        width: 500px;
+        flex-wrap: wrap;
     }
-    .famicon{
-        position: relative;
-        left: 10px;
+    .filter{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 500px;
+        flex-wrap: wrap;
     }
     .fil{
         margin-left: 10px;
     }
-    
-   
-  
     .info{
-        margin-top: 150px;
+        margin-top: -10px;
         margin-left: 10px;
     }
-    .anicon{
-        position: relative;
-        top: 150px;
-    }
-    .romicon{
-        position: relative;
-        top: 75px;
-        left: -370px;
-    }
+   
+    
         
     .titrepop{
-        width: 600px;
+        width: 500px;
         display: block;
         border-radius: 0;
         position: relative;    
-        margin-left: 60px;
+        margin-left: 0px;
+        top: -1600px;
         
     }
     .blocpop{
@@ -1219,8 +1295,11 @@ input::placeholder{
         left: 50px;
     }
     .cartepop{
-        width: 510px;
+        width: 440px;
         margin-left: 20px;
+    }
+    .herbermars h1{
+        width: 300px;
     }
    
   
@@ -1239,61 +1318,81 @@ input::placeholder{
     .heber{
         column-count: 1;
         width: 90%;
-        margin-left: 20px;
+        margin-left: -10px;
         
     }
     .carte{
         display: block;
-        width: 520px;
+        width: 440px;
+        
     }
     .imgheber{
         object-fit: cover;
         display: block;
-        width: 510px;
+        width: 430px;
         height: 130px;
         
     }
     .bloc1{
-        margin-left: 35px;
+        display: block;
+        margin-left: 30px;
+        width: 300px;
     }
     .vieux{
-        width: 520px;
+        height: 200px;
+        width: 440px;
     }
     .cartevieux{
-        width: 520px;
+        height: 250px;
+        width: 440px;
     }
     .fort{
-        width: 520px;
+        height: 200px;
+        width: 440px;
     }
     .cartefort{
-        width: 520px;
+        height: 250px;
+        width: 440px;
     }
     .ilesf{
-        width: 520px;
+        height: 200px;
+        width: 440px;
     }
     .carteilesf{
-        width: 520px;
+        height: 250px;
+        width: 440px;
     }
     .parcca{
-        width: 520px;
+        height: 200px;
+        width: 440px;
     }
     .carteparcca{
-        width: 520px;
+        margin-left: 0px;
+        height: 250px;
+        width: 440px;
     }
     .notred{
-        width: 520px;
+        height: 200px;
+        width: 440px;
     }
     .cartenotred{
-        width: 520px;
+        margin-top: 30px;
+        height: 250px;
+        width: 440px;
     }
     .parcl{
-        width: 520px;
+        height: 200px;
+        width: 440px;
     }
     .carteparcl{
-        width: 520px;
+        
+        height: 250px;
+        width: 440px;
     }
     .bloc2{
-        margin-left: -10px;
+        display: block;
+        width: 200px;
+        margin-left: 30px;
     }
     .afficher{
         justify-content: flex-end;
@@ -1302,9 +1401,9 @@ input::placeholder{
         left: -400px;
         top: -10px;
     }
+  
     .activités{
-        display: block;
-        margin-left: -30px;
+        width: 300px;
     }
     .foot{
         display: flex;
@@ -1325,42 +1424,67 @@ input::placeholder{
     .noshebergements{
         position: relative;
         top: -40px;
-        left: 210px;
+        left: 50px;
         width: 300px;
     }
     .assistance{
         position: relative;
         top: 0px;
-        left: 60px;
+        left: -300px;
         width: 300px;
     }
     .textfoot{
         font-size: 1.1rem;
     }
     #activités{
-        width: 583px;
+        width: 300px;
     }
     #activités h1{
         margin-left: 70px;
     }
     .columnactivité{
-        width: 500px;
+        width: 400px;
+        
     }
     
 }
-@media screen and (max-width: 450px){
+@media screen and (min-width: 414px) and (max-width: 599px){
     body{
-        width: 100%;
-        margin-left: 0;
-    
-        display: block
+        width: 90%;
+        margin: auto;
         
+    }
+    .navigation1:hover{
+        border-top: white;
     }
     a{
         margin-right: 0;
     }
     header{
+        display: block;
         width: 100%;
+    }
+    .divfiltre{
+        margin-left: 10px;
+        margin-bottom: 50px;
+        width: 500px;
+        flex-wrap: wrap;
+    }
+    .filter{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    .herbermars h1{
+        width: 300px;
+    }
+    .fil{
+        margin-left: 10px;
+    }
+    .info{
+        margin-top: -10px;
+        margin-left: 10px;
     }
     .menu{
         display: flex;
@@ -1387,26 +1511,27 @@ input::placeholder{
         width: 300px;
     }
     .sins{
-        position: absolute;
+        position: relative;
+        top: -100px;
         left: 300px;
+        width: 50px;
     }
     .titrehp{
         margin-left: 10px;
     }
     .zone{
+        width: 400px;
         margin-left: 10px;
     }
     .fil{
         margin-left: 10px;
     }
-    .famicon{
-        margin-left: 10px;
-    }
+    
     .info{
         margin-left: 10px;
     }
     .lespluspop{
-        width: 400px;
+        width: 360px;
     }
    
  
@@ -1435,38 +1560,32 @@ input::placeholder{
         width: 50px;
     }
     
-    .romicon{
-        position: relative;
-        left: -375px;
-    }
-    .anicon{
-        position: relative;
-        left: -575px;
-    }
+  
     aside{
         width: 50px;
     }
     .titrepop{
         display: block;
-        width: 450px;
+        width: 400px;
         position: relative;
-        left: -60px;
+        left: 0px;
+        top: -1600px;
         border-radius: 0px;
     }
     .charte{
         position: relative;
-        left: 0px;
+        left: 70px;
     }
     
     .blocpop{
         width: 430px;
         margin-top: -10px;
-        margin-left: 5px;
+        margin-left: -20px;
         
         
     }
     .heber{
-        margin: 0;
+        margin-left: -25px;
         
     }
     .afficher{
@@ -1474,29 +1593,32 @@ input::placeholder{
         left: -290px;
     }
     .cartepop{
-        width: 390px;
+        width: 360px;
     }
     .titreheber{
         display: block;   
         width: 100%;    
+        height: 1600px;
         background-color: white;
     }
     .carte{
-        width: 410px;
+        width: 360px;
         
     }
     .imgheber{
         display: block;
-        width: 400px;
+        width: 350px;
     }
   
     .bloc1{
-        margin-left: 35px;
-        width: 433px;
+        display: block;
+        margin-left: 25px;
+        width: 300px;
     }
     .bloc2{
-        margin-left: 35px;
-        width: 433px;
+        display: block;
+        margin-left: 25px;
+        width: 300px;
     }
     #activités{
         width: 100%;
@@ -1507,64 +1629,68 @@ input::placeholder{
     .vieux{
         display: block;
         height: 175px;
-        width: 400px;
+        width: 360px;
     }
     .cartevieux{
+        margin-bottom: 10px;
         margin-left: -10px;
-        width: 400px;
+        width: 360px;
         height: 225px
         
     }
     .fort{
         display: block;
         height: 175px;
-        width: 400px;
+        width: 360px;
     }
     .cartefort{
         margin-left: -10px;
-        width: 400px;
+        width: 360px;
         height: 225px
     }
     .ilesf{
         display: block;
         height: 175px;
-        width: 400px;
+        width: 360px;
     }
 
     .carteilesf{
         margin-left: -10px;
-        width: 400px;
+        width: 360px;
         height: 225px
     }
     .parcca{
         
-        width: 400px;
+        width: 360px;
         height: 175px
     }
     .carteparcca{
+        margin-bottom: 40px;
         margin-left: -10px;
-        width: 400px;
+        width: 360px;
         height: 225px
     }
     .notred{
         
-        width: 400px;
+        width: 360px;
         height: 175px
     }
     .cartenotred{
         margin-left: -10px;
-        width: 400px;
+        width: 360px;
         height: 225px        
     }
     .parcl{
        
-        width: 400px;
+        width: 360px;
         height: 175px
     }
     .carteparcl{
+        
         margin-left: -10px;
-        width: 400px;
+        width: 360px;
         height: 225px
+        
     }
     .foot{
         display: block;
@@ -1583,6 +1709,7 @@ input::placeholder{
         position: relative;
         top: 40px;
         left: 5px;
+        width: 200px;
 
         margin-left: 50px;
     }
@@ -1590,12 +1717,13 @@ input::placeholder{
         display: block;
         position: relative;
         top: 70px;
-        left: 200px;
+        left: 0px;
+        width: 200px;
     }
     .assistance{
         display: block;
         position: relative;
-        left: 50px;
+        left: -350px;
         top: 100px;
 
     }
@@ -1605,56 +1733,54 @@ input::placeholder{
     }
    
 }
-@media screen and (max-width: 414px){
-   
-    header{
-        display: block;
-        width: 100%;
-        height: 150px;
-    }
-    a{
-        margin-right: 0;
-    }
+@media screen and (min-width: 360px) and (max-width: 413px){
     body{
         width: 100%;
         margin: 0;
         
     }
-    .sins{
-        position: absolute;
-       
+    .navigation1:hover{
+        border-top: white;
     }
-
-    .reservi{
-        position: relative;
-        top: 0px;
+    a{
+        margin-right: 0;
     }
-    h2{
-        margin-left: 10px;
-    }
-    .titrehp p{
-        margin-left: 10px;
-    }
-    .icon{
-        width: 50px;
-    }
-    .zone{
-        margin-left: 10px;
-    }
-    
-    .recherche{
-        width: 100px;
+    header{
+        display: block;
+        width: 100%;
     }
     .divfiltre{
-        margin-left: -90px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        width: 300px;
+        flex-wrap: wrap;
     }
-    .afficher{
-        position: relative;
-        left: -230px;
+    .filter{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 300px;
+        flex-wrap: wrap;
     }
-   
+    .herbermars h1{
+        width: 300px;
+    }
+    .fil{
+        margin-left: 10px;
+    }
+    .info{
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     .navigation{
         width: 100%;
+        margin-right: 0;
         font-size: 1.1em;
         color: #0065FC;
         border-bottom: 4px solid #F2F2F2;
@@ -1664,24 +1790,37 @@ input::placeholder{
     .navigation:hover{
         cursor: pointer;
         color: black;
-        border-bottom: 4px solid rgb(70, 72, 197);
+        border-bottom: 3px solid blue;
+    }
+    .columnactivité{
+        width: 300px;
+    }
+    .sins{
+        position: relative;
+        top: -100px;
+        left: 230px;
+        width: 50px;
+    }
+    .titrehp{
+        margin-left: 10px;
+    }
+    .zone{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .fil{
+        margin-left: 10px;
     }
     
-    .foot{
-        display: block;
-        width: 100%;
-        height: 550px;
-        margin-left: 0px;
+    .info{
+        margin-left: 10px;
     }
-    .apropos{
-        width: 400px;
+    .lespluspop{
+        width: 340px;
+        margin-left: 0;
     }
-    .noshebergements{
-        width: 400px;
-    }
-    .assistance{
-        width: 400px;
-    }
+   
+ 
     .seek{
         visibility: hidden;
     }
@@ -1695,522 +1834,196 @@ input::placeholder{
         height: 50px;
         width: 50px;
         border-radius: 15px 15px 15px 15px;
-    }
-    .fil{
-        margin-left: 10px;
-    }
-    .famicon{
-        position: relative;
-        left: 10px;
-    }
-   .titrehp{
-       margin-top: -30px;
-   }
-    .titrepop{
-        border-radius: 0px;
-        width: 414px;
-        
-    }
-
-    .lespluspop{
-        display: block;
-        width: 350px;
-    }
-    .lespluspop h2{ 
         margin-left: -20px;
-        
-        
-    }
-    .titrepop{
-        position: relative;
-        width: 414px;
-        left: -60px;
-    }
-    .charte{
-        display: block;
-        position: absolute;
-        top: -50px;
-        left: 320px;
-    }
-   .info{
-        margin-left: 10px;
-        margin-bottom: 30px;
-    }
-    .textinfo{
-        flex-wrap: wrap;
-        width: 300px;
-    }
-    .blocpop{
-        margin-top: 10px;
-        margin-left: 0;
-    }
-    .cartepop{
-        width: 374px;
-    }
-   
-    .titreheber{
-        border-radius: 0px;
-        width: 100%;
-        margin-left: 5px;
-        background-color: white;
-    }
-    .heber{
-        margin-left: -5px;
-    }
-    .imgheber{
-        width: 378px;
-    }
-    .carte{
-        width: 388px;
-    }
-    .herbermars h1{
-        margin-left: -20px;
-    }
-   
-    #activités h1{
-        margin-left: 70px;
-    }
-    .vieux{
-        width: 390px;
-    }
-    .cartevieux{
-        width: 390px;
-    }
-    .fort{
-        width: 390px;
-    }
-    .cartefort{
-        width: 390px;
-    }
-    .ilesf{
-        width: 390px;
-    }
-    .carteilesf{
-        width: 390px;
-    }
-    .parcca{
-        width: 390px;
-    }
-    .carteparcca{
-        width: 390px;
-    }
-    .notred{
-        width: 390px;
-    }
-    .cartenotred{
-        width: 390px;
-    }
-    .parcl{
-        width: 390px;
-    }
-    .carteparcl{
-        width: 390px;
-    }
-    .bloc1{
-        margin-left: 30px;
-    }
-    .bloc2{
-        margin-left: 30px;
-    }
-    .blocpop{
-        width: 400px;
-    }
-    .noshebergements{
-        width: 300px;
-    }
-    .apropos{
-        width: 300px;
-    }
-    .assistance{
-        width: 300px;
-    }
-    .columnactivité{
-        width: 350px;
-    }
-    
-    
-    
-}    
-@media screen and (max-width: 375px){
-    body{
-        width: 100%;
-    }
-    a{
-        margin-right: 0;
-    }
-    h2{
-        width: 85%;
-    }
-    .menu{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .navigation{
-        width: 100%;
-        margin-right: 0;
-        font-size: 1.1em;
-        color: #0065FC;
-        border-bottom: 4px solid #F2F2F2;
-        padding-bottom: 20px;
-        cursor: pointer;
-    }
-    .navigation:hover{
-        cursor: pointer;
-        color: black;
-        border-bottom: 3px solid blue;
-    }
-    .sins{
-        position: absolute;
-        left: 280px;
-    }
-    header{
-        display: block;
-        width: 100%;
-    }
-    .divfiltre{
-        height: 0;
-    }
-   
-    .icon{
-        width: 50px;
-    }
-    
-    .filter{
-        
-        margin-left: -20px;
-    }
-    .ecoicon{
-        position: relative;
-        left: 15px;
-    }
-    .famicon{
-        position: relative;
-        left: 10px;
-       
-    }
-    .romicon{
-        position: relative;
-        left: -362px;
-    }
-    .anicon{
-        position: relative;
-        left: -562px;
-    }
-    .info{
-        margin-left: 10px;
-    }
-    .textinfo{
-        flex-wrap: wrap;
-        width: 300px;
-    }
-    .fil{
-        position: relative;
-        top: -50px;
-        left: 30px;
-    }
-    .lespluspop h2{
-        margin-left: 25px;
-    }
-    .blocpop{
-        margin-left: 45px;
-        width: 374px;
-    }
-    .charte{
-        display: block;
-        position: absolute;
-        top: 30px;
-        left: 360px;
-       
-    }
-    .search{
-        width: 50px;
-        cursor: pointer;
     }
     .search:hover{
         cursor: pointer;
     }
-    .zone{
-        width: 90%;
-        margin-left: 10px;
-    }
     .recherche{
-        width: 80px;
+        width: 100px;
     }
-
-   
-    .titrehp {
-        width: 90%;
+    .icon{
+        width: 50px;
+    }
+    
+  
+    aside{
+        width: 50px;
     }
     .titrepop{
+        display: block;
+        width: 343px;
         position: relative;
-        top: -750px;
-        height: 660px;
-        width: 435px;
+        left: 0px;
+        top: -1600px;
         border-radius: 0px;
-        margin-left: 0px;
-        background-color: #F2F2F2;
     }
-    .cartepop{
-        margin-top: 40px;
-        margin-left: 20px;
-        width: 355px;
+    .charte{
+        position: relative;
+        left: 70px;
     }
-    .titreheber{
-        width: 100%;
-        margin-top: 70px;
-        margin-left: 0px;
-        border-radius: 0px;
-        background-color: white;
+    
+    .blocpop{
+        width: 300px;
+        margin-top: 0px;
+        margin-left: -30px;
+        
+        
     }
     .heber{
-        margin-left: -35px;
+        margin-left: -25px;
+        
     }
     .afficher{
         position: relative;
-        left: -160px;
-    }
-    .carte{
-        width: 365px;
-        margin-left: 45px;
-        margin-right: 10px;
-    }
-    .imgheber{
-        width: 355px;
-    }
-    .vieux{
-        display: block;
-        width: 350px;
-    }
-    .cartevieux{
-        width: 350px;
-        margin-left: -10px;
-    }
-    .fort{
-        display: block;
-        width: 350px;
-    }
-    .cartefort{
-        width: 350px;
-        margin-left: -10px;
-
-    }
-    .ilesf{
-        display: block;
-        width: 350px;
-    }
-    .carteilesf{
-        width: 350px;
-        margin-left: -10px;
-
-    }
-    .parcca{
-        display: block;
-        width: 350px;
-    }
-    .carteparcca{
-        width: 350px;
-        margin-left: -10px;
-
-    }
-    .notred{
-        display: block;
-        width: 350px;
-    }
-    .cartenotred{
-        width: 350px;
-        margin-left: -10px;
-    }
-    .parcl{
-        display: block;
-        width: 350px;
-    }
-    .carteparcl{
-        width: 350px;
-        margin-left: -10px;
-
-    }
-    .bloc1{
-        margin-left: 30px;
-        width: 374px;
-    }
-    .bloc2{
-        margin-left: 30px;
-        width: 374px;
-    }
-    #activités h1{
-        margin-left: 70px;
-    }
-    #activités{
-        margin-top: 1000px;
-    }
-    .foot{
-        width: 100%;
-        margin-right: 0;
-        margin-left: 0;
-    }
-    .noshebergements{
-        width: 250px;
-    }
-    .assistance{
-        width: 250px;
-    }
-    
-}
-@media screen and (max-width: 360px){
-    
-    a{
-        margin-right: 0;
-    }
-    
-    .sins{
-        position: absolute;
-        left: 260px;
-       
-    }
-    .menu{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .navigation{
-        width: 100%;
-        margin-right: 0;
-        font-size: 1.1em;
-        color: #0065FC;
-        border-bottom: 4px solid #F2F2F2;
-        padding-bottom: 20px;
-        cursor: pointer;
-    }
-    .navigation:hover{
-        cursor: pointer;
-        color: black;
-        border-bottom: 3px solid blue;
-    }
-    
-   
-    .zone{
-        margin-left: 20px;
-        width: 90%;
-    }
-    .filter{
-        margin-left: 10px;
-    }
-   
-    .info{
-        margin-top: 250px;
-        margin-left: 10px;
-    }
-    .charte{
-        position: absolute;
-        left: 320px;
-    }
-
-   
-    .ecoicon{
-        position: relative;
-        left: 20px;
-    }
-    .famicon{
-        position: relative;
-        top: 220px;
-        left: -195px;
-       
-    }
-    .romicon{
-        margin-left: 5px;
-    }
-    .anicon{
-        margin-left: 0px;
-        
-    }
-    #activités{
-        margin-top: 900px;
-    }
-    .vieux{
-        width: 335px;
-    }
-    .cartevieux{
-        width: 335px;
-        margin-top: 40px;
-        margin-bottom: 10px;
-    }
-    .fort{
-        width: 335px
-    }
-    .cartefort{
-        width: 335px
-    }
-    .ilesf{
-        width: 335px
-    }
-    .carteilesf{
-        width: 335px
-    }
-    .parcca{
-        width: 335px
-    }
-    .carteparcca{
-        width: 335px
-    }
-    .notred{
-        width: 335px
-    }
-    .cartenotred{
-        width: 335px
-    }
-    .parcl{
-        width: 335px
-    }
-    .carteparcl{
-        width: 335px
-    }
-    .titrepop{
-        width: 430px;
-        margin-left: 0px;
+        left: -290px;
     }
     .cartepop{
-        width: 340px;
+        width: 310px;
     }
     .titreheber{
-        width: 100%;
-        margin-left: 0;
+        display: block;   
+        width: 100%;    
+        height: 1600px;
         background-color: white;
     }
     .carte{
-        width: 345px;
+        width: 310px;
+        
     }
     .imgheber{
-        width: 335px;
-    }
-    .bloc1{
-        margin-left: 30px;
-    }
-    .bloc2{
-        margin-left: 30px;
-    }
-    #activités h1{
-        margin-left: 60px;
-    }
-    .foot{
-        width: 100%;
-        margin-left: 0;
-    }
-    .blocpop{
-        width: 350px;
-    }
-    .columnactivité{
+        display: block;
         width: 300px;
     }
-    .textfoot{
-        font-size: 15px;
+  
+    .bloc1{
+        display: block;
+        margin-left: 25px;
+        width: 300px;
+    }
+    .bloc2{
+        display: block;
+        margin-left: 25px;
+        width: 300px;
     }
     
+    #activités h1{
+        margin-left: 30px;
+    }
+    .vieux{
+        display: block;
+        height: 175px;
+        width: 310px;
+    }
+    .cartevieux{
+        margin-bottom: 10px;
+        margin-left: -10px;
+        width: 310px;
+        height: 225px
+        
+    }
+    .fort{
+        display: block;
+        height: 175px;
+        width: 310px;
+    }
+    .cartefort{
+        margin-left: -10px;
+        width: 310px;
+        height: 225px
+    }
+    .ilesf{
+        display: block;
+        height: 175px;
+        width: 310px;
+    }
+
+    .carteilesf{
+        margin-left: -10px;
+        width: 310px;
+        height: 225px
+    }
+    .parcca{
+        
+        width: 310px;
+        height: 175px
+    }
+    .carteparcca{
+        margin-bottom: 40px;
+        margin-left: -10px;
+        width: 310px;
+        height: 225px
+    }
+    .notred{
+        
+        width: 310px;
+        height: 175px
+    }
+    .cartenotred{
+        margin-left: -10px;
+        width: 310px;
+        height: 225px        
+    }
+    .parcl{
+       
+        width: 310px;
+        height: 175px
+    }
+    .carteparcl{
+        
+        margin-left: -10px;
+        width: 310px;
+        height: 225px
+        
+    }
+    .foot{
+        display: block;
+        font-size: 1.1rem;
+        height: 560px;
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    .textfoot{
+        font-size: 1rem;
+    }
+    .apropos{
+        display: block;
+        position: relative;
+        top: 40px;
+        left: 5px;
+        width: 200px;
+
+        margin-left: 50px;
+    }
+    .noshebergements{
+        display: block;
+        position: relative;
+        top: 70px;
+        left: 0px;
+        width: 200px;
+    }
+    .assistance{
+        display: block;
+        position: relative;
+        left: -350px;
+        top: 100px;
+
+    }
+    .afficher{
+        position: relative;
+        left: 10px;
+    }
+    .afficher h3{
+        width: 200px;
+    }
+
+
+    
+
 }
+
 @media screen and (min-width: 300px) and (max-width: 359px){
     header{
         width: 100%;
