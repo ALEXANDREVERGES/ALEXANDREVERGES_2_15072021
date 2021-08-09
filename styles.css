@@ -2211,7 +2211,7 @@ input::placeholder{
     }
     
 }
-@media screen and (min-width: 300px){
+@media screen and (min-width: 300px) and (max-width: 359px){
     header{
         width: 100%;
     }
