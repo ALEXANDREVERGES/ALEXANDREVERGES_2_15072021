@@ -2230,11 +2230,17 @@ input::placeholder{
 
         margin-left: -10px;
     }
+    .titrehp{
+        margin-left: 10px;
+    }
     .titrehp h2{
         display: flex;
         width: 90%;
         flex-wrap: wrap;
         font-size: 20px;
+    }
+    .filter{
+        margin-left: 10px;
     }
     .lespluspop{
         width: 280px;
@@ -2257,6 +2263,9 @@ input::placeholder{
     }
     .heber{
         margin-left: -40px;
+    }
+    .titreheber{
+        margin-left: 5px;
     }
     .imgheber{
         width: 280px;
@@ -2316,6 +2325,6 @@ input::placeholder{
     }
     .afficher{
         position: relative;
-        left: -120px;
+        left: -100px;
     }
 }
