@@ -1816,8 +1816,12 @@ input::placeholder{
         margin-left: 10px;
     }
     .lespluspop{
-        width: 340px;
+        width: 360px;
         margin-left: 0;
+        font-size: 15px;
+    }
+    .lespluspop h2{
+        margin-left: 10px;
     }
    
  
@@ -1852,7 +1856,7 @@ input::placeholder{
     }
     .titrepop{
         display: block;
-        width: 343px;
+        width: 360px;
         position: relative;
         left: 0px;
         top: -1600px;
@@ -1860,18 +1864,18 @@ input::placeholder{
     }
     .charte{
         position: relative;
-        left: 70px;
+        left: 80px;
     }
     
     .blocpop{
         width: 300px;
         margin-top: 0px;
-        margin-left: -30px;
+        margin-left: -20px;
         
         
     }
     .heber{
-        margin-left: -25px;
+        margin-left: -15px;
         
     }
     .afficher{
@@ -1898,12 +1902,12 @@ input::placeholder{
   
     .bloc1{
         display: block;
-        margin-left: 25px;
+        margin-left: 35px;
         width: 300px;
     }
     .bloc2{
         display: block;
-        margin-left: 25px;
+        margin-left: 35px;
         width: 300px;
     }
     
