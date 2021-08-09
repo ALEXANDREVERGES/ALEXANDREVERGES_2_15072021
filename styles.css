@@ -37,7 +37,7 @@ img{
 }
 .navigation1:hover{
     border-top: 4px solid #0065FC;
-    padding-top: 30px;
+    padding-top: 1.2rem;
 }
 a{
     font-size: 1.1em;
@@ -296,9 +296,9 @@ input::placeholder{
 }
 .carte:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color: rgb(70, 72, 197)
     
 }
@@ -370,9 +370,9 @@ input::placeholder{
  }
  .cartepop:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color: rgb(70, 72, 197);
  }
  /*section*/
@@ -426,9 +426,9 @@ input::placeholder{
 }
 .cartevieux:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color:rgb(70, 72, 197);
 }
 
@@ -443,9 +443,9 @@ input::placeholder{
 }
 .cartefort:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color:rgb(70, 72, 197);
 }
 
@@ -459,9 +459,9 @@ input::placeholder{
 }
 .carteilesf:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color:rgb(70, 72, 197);
 }
 .carteparcca{
@@ -476,9 +476,9 @@ input::placeholder{
 }
 .carteparcca:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color:rgb(70, 72, 197);
 }
 .cartenotred{
@@ -492,9 +492,9 @@ input::placeholder{
 }
 .cartenotred:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color:rgb(70, 72, 197);
 }
 .carteparcl{
@@ -507,9 +507,9 @@ input::placeholder{
 }
 .carteparcl:hover{
     cursor: pointer;
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2);
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
     color:rgb(70, 72, 197);
 }
 
@@ -1198,7 +1198,7 @@ input::placeholder{
     }
         
     .titrepop{
-        width: 590px;
+        width: 583px;
         display: block;
         border-radius: 0;
         position: relative;    
@@ -1332,6 +1332,9 @@ input::placeholder{
     }
     .textfoot{
         font-size: 1.1rem;
+    }
+    #activités{
+        width: 583px;
     }
     #activités h1{
         margin-left: 70px;
@@ -1485,9 +1488,14 @@ input::placeholder{
   
     .bloc1{
         margin-left: 35px;
+        width: 433px;
     }
     .bloc2{
         margin-left: 35px;
+        width: 433px;
+    }
+    #activités{
+        width: 100%;
     }
     #activités h1{
         margin-left: 70px;
@@ -1638,7 +1646,7 @@ input::placeholder{
     }
     .afficher{
         position: relative;
-        left: -270px;
+        left: -230px;
     }
    
     .navigation{
@@ -1739,16 +1747,17 @@ input::placeholder{
     .titreheber{
         border-radius: 0px;
         width: 100%;
+        margin-left: 5px;
         background-color: white;
     }
     .heber{
         margin-left: -5px;
     }
     .imgheber{
-        width: 390px;
+        width: 378px;
     }
     .carte{
-        width: 400px;
+        width: 388px;
     }
     .herbermars h1{
         margin-left: -20px;
@@ -1758,46 +1767,46 @@ input::placeholder{
         margin-left: 70px;
     }
     .vieux{
-        width: 400px;
+        width: 390px;
     }
     .cartevieux{
-        width: 400px;
+        width: 390px;
     }
     .fort{
-        width: 400px;
+        width: 390px;
     }
     .cartefort{
-        width: 400px;
+        width: 390px;
     }
     .ilesf{
-        width: 400px;
+        width: 390px;
     }
     .carteilesf{
-        width: 400px;
+        width: 390px;
     }
     .parcca{
-        width: 400px;
+        width: 390px;
     }
     .carteparcca{
-        width: 400px;
+        width: 390px;
     }
     .notred{
-        width: 400px;
+        width: 390px;
     }
     .cartenotred{
-        width: 400px;
+        width: 390px;
     }
     .parcl{
-        width: 400px;
+        width: 390px;
     }
     .carteparcl{
-        width: 400px;
+        width: 390px;
     }
     .bloc1{
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .bloc2{
-        margin-left: 25px;
+        margin-left: 30px;
     }
     .blocpop{
         width: 400px;
@@ -1903,6 +1912,7 @@ input::placeholder{
     }
     .blocpop{
         margin-left: 45px;
+        width: 374px;
     }
     .charte{
         display: block;
@@ -2020,9 +2030,11 @@ input::placeholder{
     }
     .bloc1{
         margin-left: 30px;
+        width: 374px;
     }
     .bloc2{
         margin-left: 30px;
+        width: 374px;
     }
     #activités h1{
         margin-left: 70px;
@@ -2201,6 +2213,7 @@ input::placeholder{
     body{
         width: 100%;
         margin-left: 0;
+        margin: 0 auto;
     }
     a{
         margin-right: 0px;
@@ -2253,9 +2266,11 @@ input::placeholder{
     }
     .bloc1{
         margin-left: 25px;
+        width: 300px;
     }
     .bloc2{
         margin-left: 25px;
+        width: 300px;
     }
     .vieux{
         width: 290px;
