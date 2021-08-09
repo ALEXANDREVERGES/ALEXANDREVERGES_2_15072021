@@ -2095,9 +2095,8 @@ input::placeholder{
         margin-left: 20px;
         width: 90%;
     }
-    .fil{
-        position: relative;
-        left: 30px;
+    .filter{
+        margin-left: 10px;
     }
    
     .info{
@@ -2124,7 +2123,7 @@ input::placeholder{
         margin-left: 5px;
     }
     .anicon{
-        margin-left: 5px;
+        margin-left: 0px;
         
     }
     #activités{
