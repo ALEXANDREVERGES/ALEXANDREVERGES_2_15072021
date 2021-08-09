@@ -1450,7 +1450,7 @@ input::placeholder{
 }
 @media screen and (min-width: 414px) and (max-width: 599px){
     body{
-        width: 90%;
+        width: 100%;
         margin: auto;
         
     }
@@ -1473,7 +1473,7 @@ input::placeholder{
     .filter{
         margin-top: 0;
         margin-bottom: 0;
-        width: 400px;
+        width: 300px;
         flex-wrap: wrap;
     }
     .herbermars h1{
@@ -1520,7 +1520,7 @@ input::placeholder{
         margin-left: 10px;
     }
     .zone{
-        width: 400px;
+        width: 300px;
         margin-left: 10px;
     }
     .fil{
@@ -1578,7 +1578,7 @@ input::placeholder{
     }
     
     .blocpop{
-        width: 430px;
+        width: 400px;
         margin-top: -10px;
         margin-left: -20px;
         
@@ -1798,7 +1798,7 @@ input::placeholder{
     .sins{
         position: relative;
         top: -100px;
-        left: 280px;
+        left: 250px;
         width: 50px;
     }
     .titrehp{
@@ -1816,9 +1816,9 @@ input::placeholder{
         margin-left: 10px;
     }
     .lespluspop{
-        width: 360px;
+        width: 340px;
         margin-left: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
     .lespluspop h2{
         margin-left: 20px;
@@ -1987,7 +1987,7 @@ input::placeholder{
         display: block;
         font-size: 1.1rem;
         height: 560px;
-        width: 360px;
+        width: 100%;
         flex-direction: column;
         margin-left: 0px;
         
