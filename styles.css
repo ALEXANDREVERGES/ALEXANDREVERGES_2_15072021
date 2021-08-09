@@ -2332,8 +2332,322 @@ input::placeholder{
     .afficher h3{
         width: 200px;
     }
-
-
-    
-
 }
+@media screen and (min-width: 250px) and (max-width: 299px){
+    body{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        
+        
+    }
+    .navigation1:hover{
+        border-top: white;
+    }
+    a{
+        margin-right: 0;
+    }
+    header{
+        display: block;
+        width: 100%;
+    }
+    input{
+        width: 9rem;
+        font-size: 14px;
+
+    }
+    
+    .divfiltre{
+        margin-left: 10px;
+        margin-bottom: 50px;
+        width: 200px;
+        flex-wrap: wrap;
+    }
+    .filter{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 200px;
+        flex-wrap: wrap;
+    }
+    .herbermars h1{
+        width: 230px;
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .fil{
+        margin-left: 10px;
+    }
+    .info{
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .navigation{
+        width: 100%;
+        margin-right: 0;
+        font-size: 1.1em;
+        color: #0065FC;
+        border-bottom: 4px solid #F2F2F2;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+    .navigation:hover{
+        cursor: pointer;
+        color: black;
+        border-bottom: 3px solid blue;
+    }
+    .columnactivité{
+        width: 300px;
+    }
+    .sins{
+        position: relative;
+        top: -100px;
+        left: 160px;
+        width: 50px;
+    }
+    .titrehp{
+        margin-left: 10px;
+    }
+    .zone{
+        width: 240px;
+        margin-left: 5px;
+    }
+    .fil{
+        margin-left: 10px;
+    }
+    
+    .info{
+        margin-left: 10px;
+    }
+    .lespluspop{
+        width: 240px;
+        margin-left: 0;
+        font-size: 13px;
+    }
+    .lespluspop h2{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .etoilespop{
+        margin-top: 10px;
+    }
+    .etoilespop2{
+        margin-top: 0px;
+    }
+   
+ 
+    .seek{
+        visibility: hidden;
+    }
+    .search{
+        visibility: visible;
+        background-color: #0065FC;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: -75px;
+    }
+    .anicon{
+        width: 200px;
+    }
+    .search:hover{
+        cursor: pointer;
+    }
+    .recherche{
+        width: 100px;
+    }
+    .icon{
+        width: 50px;
+    }
+    
+  
+    aside{
+        width: 50px;
+    }
+    .titrepop{
+        display: block;
+        width: 250px;
+        position: relative;
+        left: 0px;
+        top: -1600px;
+        border-radius: 0px;
+    }
+    .charte{
+        position: relative;
+        left: 50px;
+    }
+    
+    .blocpop{
+        width: 250px;
+        margin-top: 0px;
+        margin-left: -35px;
+        
+        
+    }
+    .heber{
+        margin-left: -35px;
+        
+    }
+    .herbermars h1{
+        font-size: 17px;
+    }
+    .afficher{
+        position: relative;
+        left: -290px;
+    }
+    .cartepop{
+        width: 230px;
+    }
+    
+    .titreheber{
+        display: block;   
+        width: 100%;    
+        height: 1600px;
+        background-color: white;
+    }
+    .carte{
+        width: 240px;
+        
+    }
+    .imgheber{
+        display: block;
+        width: 230px;
+    }
+  
+    .bloc1{
+        display: block;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .bloc2{
+        display: block;
+        margin-left: 20px;
+        width: 200px;
+    }
+    .columnactivité{
+        width: 200px;
+    }
+    
+    #activités h1{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .vieux{
+        display: block;
+        height: 175px;
+        width: 230px;
+    }
+    .cartevieux{
+        margin-bottom: 10px;
+        margin-left: -10px;
+        width: 230px;
+        height: 225px
+        
+    }
+    .fort{
+        display: block;
+        height: 175px;
+        width: 230px;
+    }
+    .cartefort{
+        margin-left: -10px;
+        width: 230px;
+        height: 225px
+    }
+    .ilesf{
+        display: block;
+        height: 175px;
+        width: 230px;
+    }
+
+    .carteilesf{
+        margin-left: -10px;
+        width: 230px;
+        height: 225px
+    }
+    .parcca{
+        
+        width: 230px;
+        height: 175px
+    }
+    .carteparcca{
+        margin-bottom: 40px;
+        margin-left: -10px;
+        width: 230px;
+        height: 225px
+    }
+    .notred{
+        
+        width: 230px;
+        height: 175px
+    }
+    .cartenotred{
+        margin-left: -10px;
+        width: 230px;
+        height: 225px        
+    }
+    .parcl{
+       
+        width: 230px;
+        height: 175px
+    }
+    .carteparcl{
+        
+        margin-left: -10px;
+        width: 230px;
+        height: 225px
+        
+    }
+    .foot{
+        display: block;
+        font-size: 1.1rem;
+        height: 560px;
+        width: 250px;
+        flex-direction: column;
+        margin-left: 0px;
+        
+    }
+    .textfoot{
+        font-size: 1rem;
+    }
+    .apropos{
+        display: block;
+        position: relative;
+        top: 40px;
+        left: 5px;
+        width: 190px;
+
+        margin-left: 50px;
+    }
+    .noshebergements{
+        display: block;
+        position: relative;
+        top: 70px;
+        left: 0px;
+        width: 200px;
+    }
+    .assistance{
+        display: block;
+        position: relative;
+        left: -350px;
+        top: 100px;
+
+    }
+    .afficher{
+        position: relative;
+        left: 10px;
+    }
+    .afficher h3{
+        width: 200px;
+    }
+}    
