@@ -1116,7 +1116,11 @@ input::placeholder{
         width: 80px;
     }
 }
-
+@media screen and (max-width: 640px){
+    body{
+        margin-left: 10px;
+    }
+}
 @media screen and (max-width: 600px){
     body{
         margin-left: 0;
@@ -1198,7 +1202,7 @@ input::placeholder{
     }
         
     .titrepop{
-        width: 583px;
+        width: 600px;
         display: block;
         border-radius: 0;
         position: relative;    
@@ -1444,7 +1448,7 @@ input::placeholder{
     }
     .titrepop{
         display: block;
-        width: 435px;
+        width: 450px;
         position: relative;
         left: -60px;
         border-radius: 0px;
@@ -2056,16 +2060,14 @@ input::placeholder{
     
 }
 @media screen and (max-width: 360px){
-    body{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+    
     a{
         margin-right: 0;
     }
     
     .sins{
         position: absolute;
+        left: 260px;
        
     }
     .menu{
@@ -2168,7 +2170,7 @@ input::placeholder{
         width: 335px
     }
     .titrepop{
-        width: 425px;
+        width: 430px;
         margin-left: 0px;
     }
     .cartepop{
@@ -2204,6 +2206,10 @@ input::placeholder{
     .columnactivité{
         width: 300px;
     }
+    .textfoot{
+        font-size: 15px;
+    }
+    
 }
 @media screen and (max-width: 300px){
     header{
@@ -2240,6 +2246,9 @@ input::placeholder{
     }
     .filter{
         margin-left: 10px;
+    }
+    .titrepop{
+        width: 360px;
     }
     .lespluspop{
         width: 280px;
