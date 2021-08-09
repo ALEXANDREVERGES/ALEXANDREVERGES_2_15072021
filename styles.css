@@ -1818,10 +1818,13 @@ input::placeholder{
     .lespluspop{
         width: 360px;
         margin-left: 0;
-        font-size: 15px;
+        font-size: 14px;
     }
     .lespluspop h2{
-        margin-left: 10px;
+        margin-left: 20px;
+    }
+    .etoilespop{
+        margin-top: 40px;
     }
    
  
