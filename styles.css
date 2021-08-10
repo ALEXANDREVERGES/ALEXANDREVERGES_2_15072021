@@ -2481,6 +2481,7 @@ input::placeholder{
         left: 0px;
         top: -1600px;
         border-radius: 0px;
+        background-color: white;
     }
     .charte{
         position: relative;
@@ -2615,6 +2616,7 @@ input::placeholder{
         width: 250px;
         flex-direction: column;
         margin-left: 0px;
+        background-color: white;
         
     }
     .textfoot{
