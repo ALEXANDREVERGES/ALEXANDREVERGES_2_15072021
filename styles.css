@@ -746,7 +746,10 @@ input::placeholder{
         margin-left: -10px;
     }
     .ani{
-        width: 50px;
+        width: 70px;
+    }
+    .anicon{
+        width: 200px;
     }
     .foot{
         width: 924px;
@@ -1015,7 +1018,7 @@ input::placeholder{
         width: 100px;
     }
     .ani{
-        width: 60px;
+        width: 50px;
     }
     
     .seek{
