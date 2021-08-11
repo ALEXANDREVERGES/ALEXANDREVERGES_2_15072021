@@ -1,0 +1,2515 @@
+body {
+  font-family: raleway, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+.navigation {
+  font-size: 1.1em;
+  color: #0065fc;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.navigation1:hover {
+  border-top: 4px solid #0065fc;
+  padding-top: 1.2rem;
+}
+a {
+  font-size: 1.1em;
+  color: #0065fc;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.sins {
+  top: -25px;
+  font-size: 1.2em;
+  color: #0065fc;
+}
+
+.zone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: large;
+  height: 50px;
+  width: 100%;
+}
+.reservi {
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid #e5e4e4;
+  font-size: large;
+  display: flex;
+  width: 14rem;
+
+  padding-left: 10px;
+}
+
+.recherche {
+  height: 50px;
+  width: 200px;
+  display: flex;
+}
+input::placeholder {
+  font-weight: bolder;
+  color: black;
+  opacity: 1;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e4e4;
+  border-radius: 25% 0% 0% 25%;
+}
+
+.seek {
+  background-color: #0065fc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 110px;
+  border-radius: 0px 15px 15px 0px;
+}
+.search {
+  visibility: hidden;
+}
+.seek:hover {
+  cursor: pointer;
+  color: #0065fc;
+  background-color: white;
+}
+/*info*/
+.i {
+  color: blue;
+  border: 1px solid rgb(207, 205, 205);
+  border-radius: 25px;
+  width: 26px;
+  height: 26px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  border-radius: 30px;
+  margin-right: 30px;
+  align-items: center;
+  display: flex;
+  width: auto;
+}
+.textinfo {
+  display: flex;
+  margin-left: 10px;
+}
+/*filtres*/
+.divfiltre {
+  display: flex;
+  align-items: center;
+}
+.filter {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.textfiltre {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+.filtreicon {
+  font-size: large;
+  border: 2px solid rgb(207, 205, 205);
+  height: 50px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  align-items: center;
+  display: flex;
+  width: auto;
+}
+
+.filtreicon:hover {
+  color: #0065fc;
+  background-color: rgb(214, 229, 255);
+  cursor: pointer;
+}
+
+.fil {
+  margin-right: 30px;
+}
+
+.eco {
+  color: #0065fc;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  background-color: rgb(214, 229, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.fami {
+  color: #0065fc;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  background-color: rgb(214, 229, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.rom {
+  color: #0065fc;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  background-color: rgb(214, 229, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ani {
+  color: #0065fc;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  background-color: rgb(214, 229, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+/*Hebergement*/
+.imgheber {
+  width: 250px;
+  height: 140px;
+  border-radius: 25px 25px 0px 0px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.imgobjectif {
+  object-fit: cover;
+}
+
+.textheber {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.infoheber {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.heber {
+  margin-top: 30px;
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.titreheber {
+  background-color: #f2f2f2;
+  margin-top: 10px;
+  width: 940px;
+  border-radius: 25px;
+  height: 650px;
+  justify-content: space-around;
+  margin-right: 60px;
+}
+.afficher {
+  margin-left: 40px;
+
+  padding-bottom: 30px;
+}
+.afficher:hover {
+  color: rgb(70, 72, 197);
+  cursor: pointer;
+}
+
+.herbermars {
+  margin-left: 40px;
+  padding-top: 10px;
+}
+.carte {
+  transition: transform 0.1s;
+  box-shadow: 5px 5px 4px rgb(202, 201, 201);
+  border-radius: 25px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 260px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carte:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+/*etoiles*/
+.etoiles {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.etoilespop {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.etoilespop2 {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 45px;
+}
+.colorb {
+  color: #0065fc;
+}
+.colorg {
+  color: #bebcbc;
+}
+/*les plus populaires*/
+.lespluspop {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.charte {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.titrepop {
+  background-color: #f2f2f2;
+  margin-top: 10px;
+  width: 500px;
+  border-radius: 25px;
+  height: 650px;
+  justify-content: space-around;
+}
+.imgpop {
+  width: 120px;
+  height: 140px;
+  border-radius: 25px 0px 0px 25px;
+}
+.cartepop {
+  transition: transform 0.1s;
+  box-shadow: 5px 5px 4px rgb(202, 201, 201);
+  border-radius: 25px;
+  padding: 3px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 400px;
+  height: 140px;
+  display: flex;
+}
+.cartepop:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+/*section*/
+.heberpop {
+  display: flex;
+  margin-right: 250px;
+}
+/*activité marseille*/
+.textactivités {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.activités {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+}
+
+.columnactivité {
+  flex-direction: column;
+}
+
+.bloc1 {
+  display: flex;
+}
+.fortiles {
+  display: flex;
+  flex-direction: column;
+}
+.bloc2 {
+  display: flex;
+}
+/*cartes*/
+.cartevieux {
+  box-shadow: 2px 5px 5px rgb(202, 201, 201);
+  width: 340px;
+  height: 510px;
+  border-radius: 25px;
+  margin-right: 45px;
+  margin-top: 30px;
+}
+.cartevieux:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+
+.cartefort {
+  box-shadow: 2px 5px 5px rgb(202, 201, 201);
+  width: 340px;
+  height: 260px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.cartefort:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+
+.carteilesf {
+  box-shadow: 2px 5px 5px rgb(202, 201, 201);
+  width: 340px;
+  height: 210px;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+.carteilesf:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+.carteparcca {
+  box-shadow: 2px 5px 5px rgb(202, 201, 201);
+  width: 340px;
+  height: 510px;
+  border-radius: 25px;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 5px;
+}
+.carteparcca:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+.cartenotred {
+  box-shadow: 2px 5px 5px rgb(202, 201, 201);
+  width: 340px;
+  height: 235px;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+.cartenotred:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+.carteparcl {
+  box-shadow: 2px 5px 5px rgb(202, 201, 201);
+  width: 340px;
+  height: 235px;
+  border-radius: 25px;
+  margin-top: 35px;
+}
+.carteparcl:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  color: rgb(70, 72, 197);
+}
+
+/*img activités*/
+
+.vieux {
+  height: 450px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+}
+.fort {
+  height: 200px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.ilesf {
+  height: 150px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.parcca {
+  height: 450px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.notred {
+  height: 175px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.parcl {
+  height: 175px;
+  width: 340px;
+  border-radius: 25px 25px 0px 0px;
+}
+/*footer*/
+.foot {
+  margin-top: 70px;
+  width: 100%;
+  height: 250px;
+  background-color: #f2f2f2;
+  display: flex;
+}
+.apropos {
+  margin-right: 350px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.noshebergements {
+  margin-right: 350px;
+  margin-top: 30px;
+}
+.assistance {
+  margin-top: 30px;
+}
+.textfoot {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.textfoot:hover {
+  cursor: pointer;
+  color: rgb(70, 72, 197);
+}
+
+@media screen and (max-width: 1760px) {
+  body {
+    width: 80%;
+  }
+  .foot {
+    width: 1500px;
+  }
+  header {
+    width: 90%;
+    display: flex;
+  }
+}
+@media screen and (max-width: 1660px) {
+  .imgheber{
+    object-fit: cover;
+  }
+  header {
+    width: 100%;
+  }
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .imgheber{
+    object-fit: cover;
+  }
+  header {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header {
+    width: 100%;
+  }
+
+  body {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .heberpop {
+    display: block;
+  }
+  .activités {
+    display: block;
+  }
+  .bloc1 {
+    margin-left: 50px;
+  }
+
+  .foot {
+    display: block;
+    width: 1100px;
+    height: 250px;
+    font-size: 15px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .apropos {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .noshebergements {
+    margin-left: 50px;
+  }
+  .assistance {
+    margin-left: 400px;
+    position: relative;
+    top: -280px;
+    width: 200px;
+  }
+  .textfoot {
+    font-size: 15px;
+  }
+  .titrepop {
+    display: block;
+    position: relative;
+    top: -700px;
+    width: 1200px;
+  }
+  .cartepop {
+    width: 1100px;
+  }
+  .titreheber {
+    display: block;
+    position: relative;
+    top: 650px;
+    width: 1200px;
+  }
+  .heber {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .carte {
+    display: block;
+    width: 350px;
+  }
+  .imgheber {
+    object-fit: cover;
+    width: 340px;
+  }
+  #activités h1 {
+    margin-left: 40px;
+  }
+
+  .apropos {
+    position: relative;
+    top: 50px;
+  }
+  .noshebergements {
+    position: relative;
+    top: -115px;
+    left: 400px;
+  }
+  .assistance {
+    position: relative;
+    top: -240px;
+    left: 450px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1399px) {
+  header {
+    width: 90%;
+  }
+  .filtreicon {
+    margin-right: 10px;
+  }
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .titreheber {
+    width: 924px;
+  }
+  .titrepop {
+    width: 924px;
+  }
+  .cartepop {
+    margin-left: 20px;
+    width: 870px;
+  }
+  .imgheber {
+    object-fit: cover;
+    width: 250px;
+  }
+  .carte {
+    width: 260px;
+  }
+  .heber {
+    width: 924px;
+    margin-left: -10px;
+  }
+  .ani {
+    width: 70px;
+  }
+  .anicon {
+    width: 200px;
+  }
+  .foot {
+    width: 924px;
+  }
+  .noshebergements {
+    margin-left: -20px;
+  }
+  .assistance {
+    margin-left: 250px;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1024px) {
+  body {
+    width: 80%;
+  }
+
+  .filter {
+    width: 850px;
+    height: 100px;
+  }
+  .filtreicon {
+    margin-right: 5px;
+  }
+  .fil {
+    position: relative;
+    top: -50px;
+  }
+  .divfiltre {
+    margin-left: -90px;
+  }
+  .titrepop {
+    width: 850px;
+    height: 600px;
+    margin-top: -900px;
+    margin-bottom: 100px;
+  }
+  .cartepop {
+    width: 800px;
+    margin-left: 20px;
+  }
+  .titreheber {
+    display: block;
+    width: 850px;
+    height: 1600px;
+  }
+  .heber {
+    width: 850px;
+    display: block;
+  }
+  .imgheber {
+    object-fit: cover;
+    width: 800px;
+  }
+  .carte {
+    width: 810px;
+    margin-left: 20px;
+  }
+  #activités {
+    margin-top: 1000px;
+  }
+  .assistance {
+    width: 150px;
+    margin-left: 180px;
+  }
+  .noshebergements {
+    width: 200px;
+    margin-left: -50px;
+  }
+
+  .foot {
+    width: 850px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 949px) {
+  body {
+    width: 90%;
+  }
+  #activités h1 {
+    margin-left: 90px;
+  }
+  .titrepop {
+    display: block;
+    position: relative;
+
+    width: 840px;
+    top: -1650px;
+    left: -10px;
+  }
+  .cartepop {
+    width: 790px;
+    margin-left: 20px;
+  }
+  .titreheber {
+    width: 840px;
+    height: 1600px;
+    position: relative;
+    top: 640px;
+    left: -10px;
+  }
+  .imgheber {
+    width: 790px;
+    padding-top: 5px;
+    object-fit: cover;
+  }
+  .carte {
+    width: 800px;
+    margin-left: 20px;
+  }
+  .heber {
+    height: 1600px;
+  }
+  #activités {
+    margin-top: 30px;
+  }
+  #activités h1 {
+    margin-left: 40px;
+  }
+
+  .divfiltre {
+    margin-bottom: 50px;
+    width: 500px;
+  }
+  .filter {
+    margin-top: 0;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+  .ani {
+    width: 60px;
+  }
+  .anicon {
+    position: relative;
+    top: 70px;
+    left: -570px;
+  }
+  .heber {
+    display: block;
+  }
+
+  .info {
+    margin-top: 60px;
+  }
+  aside {
+    width: 600px;
+  }
+
+  .afficher {
+    display: block;
+    margin-top: 30px;
+  }
+  .foot {
+    width: 820px;
+  }
+  .filtreicon {
+    margin-right: 0px;
+  }
+  .ani {
+    width: 60px;
+  }
+  .noshebergements {
+    margin-left: -60px;
+  }
+  .assistance {
+    margin-left: 150px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  body {
+    width: 90%;
+  }
+  a {
+    margin-left: 30px;
+  }
+  input {
+    margin-left: -10px;
+  }
+  .aside {
+    display: block;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+  .divfiltre {
+    margin-bottom: 50px;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+
+  aside {
+    width: 500px;
+  }
+
+  .titreheber {
+    background-color: white;
+    width: 100%;
+    height: 1600px;
+  }
+  .heberpop {
+    margin: 0;
+  }
+
+  .titrepop {
+    width: 691px;
+    position: relative;
+    top: -1630px;
+  }
+  .cartepop {
+    width: 95%;
+    margin-left: 10px;
+  }
+  .imgheber {
+    width: 648px;
+    padding-top: 5px;
+    object-fit: cover;
+  }
+  .carte {
+    width: 658px;
+  }
+  .heber {
+    display: block;
+    width: 700px;
+    margin-left: -30px;
+  }
+  .afficher {
+    margin-left: 60px;
+    margin-top: 50px;
+  }
+  .activités {
+    margin-left: -65px;
+  }
+  .foot {
+    width: 100%;
+  }
+  .noshebergements {
+    margin-left: -80px;
+    width: 150px;
+  }
+  .assistance {
+    margin-left: 80px;
+    width: 100px;
+  }
+  .ani {
+    width: 50px;
+  }
+
+  .seek {
+    cursor: pointer;
+  }
+  .recherche {
+    padding-left: 10px;
+  }
+  .bloc1 {
+    margin-left: 40px;
+  }
+  .bloc2 {
+    margin-left: -5px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 767px) {
+  body {
+    width: 90%;
+  }
+  a {
+    margin-left: 30px;
+  }
+
+  .divfiltre {
+    margin-bottom: 50px;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+
+  .heber {
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .bloc1 {
+    display: block;
+  }
+  .bloc2 {
+    display: block;
+  }
+  .cartenotred {
+    display: block;
+    margin-top: 40px;
+    margin-left: 45px;
+  }
+  .carteparcl {
+    display: block;
+    margin-top: 40px;
+    margin-left: 45px;
+  }
+  .afficher {
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 20px;
+  }
+  .titreheber {
+    width: 640px;
+    height: 1600px;
+  }
+  .titrepop {
+    position: relative;
+    top: -1650px;
+  }
+  .cartepop {
+    width: 610px;
+    margin-left: 10px;
+  }
+  .imgheber {
+    width: 600px;
+  }
+  .carte {
+    width: 610px;
+  }
+  .imgheber {
+    width: 600px;
+    object-fit: cover;
+  }
+
+  .vieux {
+    width: 610px;
+    height: 220px;
+  }
+
+  .cartevieux {
+    width: 610px;
+    height: 280px;
+    margin-bottom: 40px;
+  }
+  .fort {
+    width: 610px;
+    height: 220px;
+  }
+  .cartefort {
+    width: 610px;
+    height: 280px;
+  }
+  .ilesf {
+    width: 610px;
+    height: 220px;
+  }
+  .carteilesf {
+    width: 610px;
+    height: 280px;
+  }
+  .parcca {
+    width: 610px;
+    height: 220px;
+  }
+  .carteparcca {
+    width: 610px;
+    height: 280px;
+  }
+  .notred {
+    width: 610px;
+    height: 220px;
+  }
+  .cartenotred {
+    width: 610px;
+    height: 280px;
+    object-fit: cover;
+  }
+  .parcl {
+    width: 610px;
+    height: 220px;
+    object-fit: cover;
+  }
+  .carteparcl {
+    width: 610px;
+    height: 280px;
+  }
+  .titrepop {
+    width: 640px;
+    position: relative;
+    left: -60px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .columnactivité {
+    width: 600px;
+    margin-left: 70px;
+  }
+  #activités {
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+  #activités h1 {
+    margin-left: 90px;
+  }
+  .bloc1 {
+    margin-left: 0;
+  }
+  .bloc2 {
+    margin-left: -45px;
+  }
+  .foot {
+    width: 100%;
+  }
+  .apropos {
+    margin-left: 10px;
+  }
+  .noshebergements {
+    width: 150px;
+    margin-left: -150px;
+  }
+  .assistance {
+    margin-left: 0px;
+  }
+  .ani {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  body {
+    width: 90%;
+  }
+  header {
+    display: block;
+    width: 100%;
+  }
+  a {
+    margin-right: 0;
+  }
+  .sins {
+    position: absolute;
+    top: 30px;
+    left: 490px;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1em;
+    color: #0065fc;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .navigation:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid blue;
+  }
+  .navigation1:hover {
+    border-top: none;
+  }
+  .reser {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .titrehp {
+    margin-left: 10px;
+  }
+  .zone {
+    margin-left: 10px;
+  }
+  .divfiltre {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+  .info {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+
+  .titrepop {
+    width: 500px;
+    display: block;
+    border-radius: 0;
+    position: relative;
+    margin-left: 0px;
+    top: -1600px;
+  }
+  .blocpop {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .charte {
+    position: relative;
+    top: 0px;
+    left: 50px;
+  }
+  .cartepop {
+    width: 440px;
+    margin-left: 20px;
+  }
+  .herbermars h1 {
+    width: 300px;
+  }
+
+  h2 {
+    flex-wrap: wrap;
+
+    width: 80%;
+  }
+  .titreheber {
+    width: 100%;
+    height: 1600px;
+    background-color: white;
+  }
+
+  .heber {
+    column-count: 1;
+    width: 90%;
+    margin-left: -10px;
+  }
+  .carte {
+    display: block;
+    width: 440px;
+  }
+  .imgheber {
+    object-fit: cover;
+    display: block;
+    width: 430px;
+    height: 130px;
+  }
+  .bloc1 {
+    display: block;
+    margin-left: 30px;
+    width: 300px;
+  }
+  .vieux {
+    height: 200px;
+    width: 440px;
+  }
+  .cartevieux {
+    height: 250px;
+    width: 440px;
+  }
+  .fort {
+    height: 200px;
+    width: 440px;
+  }
+  .cartefort {
+    height: 250px;
+    width: 440px;
+  }
+  .ilesf {
+    height: 200px;
+    width: 440px;
+  }
+  .carteilesf {
+    height: 250px;
+    width: 440px;
+  }
+  .parcca {
+    height: 200px;
+    width: 440px;
+  }
+  .carteparcca {
+    margin-left: 0px;
+    height: 250px;
+    width: 440px;
+  }
+  .notred {
+    height: 200px;
+    width: 440px;
+  }
+  .cartenotred {
+    margin-top: 30px;
+    height: 250px;
+    width: 440px;
+  }
+  .parcl {
+    height: 200px;
+    width: 440px;
+  }
+  .carteparcl {
+    height: 250px;
+    width: 440px;
+  }
+  .bloc2 {
+    display: block;
+    width: 200px;
+    margin-left: 30px;
+  }
+  .afficher {
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+    left: -400px;
+    top: -10px;
+  }
+
+  .activités {
+    width: 300px;
+  }
+  .foot {
+    display: flex;
+    font-size: 1.2rem;
+    height: 720px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .apropos {
+    position: relative;
+    top: -50px;
+    left: 50px;
+    width: 300px;
+    font-size: 1.2rem;
+  }
+  .noshebergements {
+    position: relative;
+    top: -40px;
+    left: 50px;
+    width: 300px;
+  }
+  .assistance {
+    position: relative;
+    top: 0px;
+    left: -300px;
+    width: 300px;
+  }
+  .textfoot {
+    font-size: 1.1rem;
+  }
+  #activités {
+    width: 300px;
+  }
+  #activités h1 {
+    margin-left: 70px;
+  }
+  .columnactivité {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 599px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .navigation1:hover {
+    border-top: white;
+  }
+  a {
+    margin-right: 0;
+  }
+  header {
+    display: block;
+    width: 100%;
+  }
+  .divfiltre {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 500px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .herbermars h1 {
+    width: 300px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+  .info {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1em;
+    color: #0065fc;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .navigation:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid blue;
+  }
+  .columnactivité {
+    width: 300px;
+  }
+  .sins {
+    position: relative;
+    top: -100px;
+    left: 300px;
+    width: 50px;
+  }
+  .titrehp {
+    margin-left: 10px;
+  }
+  .zone {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+
+  .info {
+    margin-left: 10px;
+  }
+  .lespluspop {
+    width: 360px;
+  }
+
+  .seek {
+    visibility: hidden;
+  }
+  .search {
+    visibility: visible;
+    background-color: #0065fc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -20px;
+  }
+  .search:hover {
+    cursor: pointer;
+  }
+  .recherche {
+    width: 100px;
+  }
+  .icon {
+    width: 50px;
+  }
+
+  aside {
+    width: 50px;
+  }
+  .titrepop {
+    display: block;
+    width: 414px;
+    position: relative;
+    left: 0px;
+    top: -1600px;
+    border-radius: 0px;
+  }
+  .charte {
+    position: relative;
+    left: 70px;
+  }
+
+  .blocpop {
+    width: 400px;
+    margin-top: -10px;
+    margin-left: -20px;
+  }
+  .heber {
+    margin-left: -15px;
+  }
+  .afficher {
+    position: relative;
+    left: -290px;
+  }
+  .cartepop {
+    width: 360px;
+  }
+  .titreheber {
+    display: block;
+    width: 100%;
+    height: 1600px;
+    background-color: white;
+  }
+  .carte {
+    width: 360px;
+  }
+  .imgheber {
+    display: block;
+    object-fit: cover;
+    width: 350px;
+  }
+
+  .bloc1 {
+    display: block;
+    margin-left: 35px;
+    width: 300px;
+  }
+  .bloc2 {
+    display: block;
+    margin-left: 35px;
+    width: 300px;
+  }
+  #activités {
+    width: 100%;
+  }
+  #activités h1 {
+    margin-left: 70px;
+  }
+  .vieux {
+    display: block;
+    height: 175px;
+    width: 360px;
+  }
+  .cartevieux {
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 360px;
+    height: 225px;
+  }
+  .fort {
+    display: block;
+    height: 175px;
+    width: 360px;
+  }
+  .cartefort {
+    margin-left: -10px;
+    width: 360px;
+    height: 225px;
+  }
+  .ilesf {
+    display: block;
+    height: 175px;
+    width: 360px;
+  }
+
+  .carteilesf {
+    margin-left: -10px;
+    width: 360px;
+    height: 225px;
+  }
+  .parcca {
+    width: 360px;
+    height: 175px;
+  }
+  .carteparcca {
+    margin-bottom: 40px;
+    margin-left: -10px;
+    width: 360px;
+    height: 225px;
+  }
+  .notred {
+    width: 360px;
+    height: 175px;
+  }
+  .cartenotred {
+    margin-left: -10px;
+    width: 360px;
+    height: 225px;
+  }
+  .parcl {
+    width: 360px;
+    height: 175px;
+  }
+  .carteparcl {
+    margin-left: -10px;
+    width: 360px;
+    height: 225px;
+  }
+  .foot {
+    display: block;
+    font-size: 1.1rem;
+    height: 560px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .textfoot {
+    font-size: 1rem;
+  }
+  .apropos {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 200px;
+
+    margin-left: 50px;
+  }
+  .noshebergements {
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+  }
+  .assistance {
+    display: block;
+    position: relative;
+    left: -350px;
+    top: 100px;
+  }
+  .afficher {
+    position: relative;
+    left: -250px;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 413px) {
+  body {
+    width: 100%;
+  }
+  .navigation1:hover {
+    border-top: white;
+  }
+  a {
+    margin-right: 0;
+  }
+  header {
+    display: block;
+    width: 100%;
+  }
+  .divfiltre {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .herbermars h1 {
+    width: 300px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+  .info {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1em;
+    color: #0065fc;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .navigation:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid blue;
+  }
+  .columnactivité {
+    width: 300px;
+  }
+  .sins {
+    position: relative;
+    top: -100px;
+    left: 250px;
+    width: 50px;
+  }
+  .titrehp {
+    margin-left: 10px;
+  }
+  .zone {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+
+  .info {
+    margin-left: 10px;
+  }
+  .lespluspop {
+    width: 340px;
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .lespluspop h2 {
+    margin-left: 20px;
+  }
+  .etoilespop {
+    margin-top: 40px;
+  }
+
+  .seek {
+    visibility: hidden;
+  }
+  .search {
+    visibility: visible;
+    background-color: #0065fc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -20px;
+  }
+  .search:hover {
+    cursor: pointer;
+  }
+  .recherche {
+    width: 100px;
+  }
+  .icon {
+    width: 50px;
+  }
+
+  aside {
+    width: 50px;
+  }
+  .titrepop {
+    display: block;
+    width: 360px;
+    position: relative;
+    left: 0px;
+    top: -1600px;
+    border-radius: 0px;
+  }
+  .charte {
+    position: relative;
+    left: 80px;
+  }
+
+  .blocpop {
+    width: 300px;
+    margin-top: 0px;
+    margin-left: -20px;
+  }
+  .heber {
+    margin-left: -15px;
+  }
+  .afficher {
+    position: relative;
+    left: -290px;
+  }
+  .cartepop {
+    width: 310px;
+  }
+  .titreheber {
+    display: block;
+    width: 100%;
+    height: 1600px;
+    background-color: white;
+  }
+  .carte {
+    width: 310px;
+  }
+  .imgheber {
+    display: block;
+    width: 300px;
+  }
+
+  .bloc1 {
+    display: block;
+    margin-left: 35px;
+    width: 300px;
+  }
+  .bloc2 {
+    display: block;
+    margin-left: 35px;
+    width: 300px;
+  }
+
+  #activités h1 {
+    margin-left: 30px;
+  }
+  .vieux {
+    display: block;
+    height: 175px;
+    width: 310px;
+  }
+  .cartevieux {
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 310px;
+    height: 225px;
+  }
+  .fort {
+    display: block;
+    height: 175px;
+    width: 310px;
+  }
+  .cartefort {
+    margin-left: -10px;
+    width: 310px;
+    height: 225px;
+  }
+  .ilesf {
+    display: block;
+    height: 175px;
+    width: 310px;
+  }
+
+  .carteilesf {
+    margin-left: -10px;
+    width: 310px;
+    height: 225px;
+  }
+  .parcca {
+    width: 310px;
+    height: 175px;
+  }
+  .carteparcca {
+    margin-bottom: 40px;
+    margin-left: -10px;
+    width: 310px;
+    height: 225px;
+  }
+  .notred {
+    width: 310px;
+    height: 175px;
+  }
+  .cartenotred {
+    margin-left: -10px;
+    width: 310px;
+    height: 225px;
+  }
+  .parcl {
+    width: 310px;
+    height: 175px;
+  }
+  .carteparcl {
+    margin-left: -10px;
+    width: 310px;
+    height: 225px;
+  }
+  .foot {
+    display: block;
+    font-size: 1.1rem;
+    height: 560px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .textfoot {
+    font-size: 1rem;
+  }
+  .apropos {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 200px;
+
+    margin-left: 50px;
+  }
+  .noshebergements {
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+  }
+  .assistance {
+    display: block;
+    position: relative;
+    left: -350px;
+    top: 100px;
+  }
+  .afficher {
+    position: relative;
+    left: 10px;
+  }
+  .afficher h3 {
+    width: 200px;
+  }
+  .imgheber{
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 359px) {
+  body {
+    width: 100%;
+  }
+  .navigation1:hover {
+    border-top: white;
+  }
+  a {
+    margin-right: 0;
+  }
+  header {
+    display: block;
+    width: 100%;
+  }
+  .divfiltre {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+  .herbermars h1 {
+    width: 280px;
+    font-size: 20px;
+    margin-left: -20px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+  .info {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1em;
+    color: #0065fc;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .navigation:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid blue;
+  }
+  .columnactivité {
+    width: 300px;
+  }
+  .sins {
+    position: relative;
+    top: -100px;
+    left: 200px;
+    width: 50px;
+  }
+  .titrehp {
+    margin-left: 10px;
+  }
+  .zone {
+    width: 290px;
+    margin-left: 5px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+
+  .info {
+    margin-left: 10px;
+  }
+  .lespluspop {
+    width: 290px;
+    margin-left: 0;
+    font-size: 13px;
+  }
+  .lespluspop h2 {
+    margin-left: 20px;
+  }
+  .etoilespop {
+    margin-top: 10px;
+  }
+  .etoilespop2 {
+    margin-top: 0px;
+  }
+
+  .seek {
+    visibility: hidden;
+  }
+  .search {
+    visibility: visible;
+    background-color: #0065fc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -20px;
+  }
+  .search:hover {
+    cursor: pointer;
+  }
+  .recherche {
+    width: 100px;
+  }
+  .icon {
+    width: 50px;
+  }
+
+  aside {
+    width: 50px;
+  }
+  .titrepop {
+    display: block;
+    width: 300px;
+    position: relative;
+    left: 0px;
+    top: -1600px;
+    border-radius: 0px;
+  }
+  .charte {
+    position: relative;
+    left: 70px;
+  }
+
+  .blocpop {
+    width: 300px;
+    margin-top: 0px;
+    margin-left: -30px;
+  }
+  .heber {
+    margin-left: -25px;
+  }
+  .afficher {
+    position: relative;
+    left: -290px;
+  }
+  .cartepop {
+    width: 270px;
+  }
+
+  .titreheber {
+    display: block;
+    width: 100%;
+    height: 1600px;
+    background-color: white;
+  }
+  .carte {
+    width: 270px;
+  }
+  .imgheber {
+    display: block;
+    width: 260px;
+  }
+
+  .bloc1 {
+    display: block;
+    margin-left: 20px;
+    width: 250px;
+  }
+  .bloc2 {
+    display: block;
+    margin-left: 20px;
+    width: 250px;
+  }
+  .columnactivité {
+    width: 200px;
+  }
+
+  #activités h1 {
+    margin-left: 30px;
+  }
+  .vieux {
+    display: block;
+    height: 175px;
+    width: 280px;
+  }
+  .cartevieux {
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 280px;
+    height: 225px;
+  }
+  .fort {
+    display: block;
+    height: 175px;
+    width: 280px;
+  }
+  .cartefort {
+    margin-left: -10px;
+    width: 280px;
+    height: 225px;
+  }
+  .ilesf {
+    display: block;
+    height: 175px;
+    width: 280px;
+  }
+
+  .carteilesf {
+    margin-left: -10px;
+    width: 280px;
+    height: 225px;
+  }
+  .parcca {
+    width: 280px;
+    height: 175px;
+  }
+  .carteparcca {
+    margin-bottom: 40px;
+    margin-left: -10px;
+    width: 280px;
+    height: 225px;
+  }
+  .notred {
+    width: 280px;
+    height: 175px;
+  }
+  .cartenotred {
+    margin-left: -10px;
+    width: 280px;
+    height: 225px;
+  }
+  .parcl {
+    width: 280px;
+    height: 175px;
+  }
+  .carteparcl {
+    margin-left: -10px;
+    width: 280px;
+    height: 225px;
+  }
+  .foot {
+    display: block;
+    font-size: 1.1rem;
+    height: 560px;
+    width: 300px;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .textfoot {
+    font-size: 1rem;
+  }
+  .apropos {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 200px;
+
+    margin-left: 50px;
+  }
+  .noshebergements {
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+  }
+  .assistance {
+    display: block;
+    position: relative;
+    left: -350px;
+    top: 100px;
+  }
+  .afficher {
+    position: relative;
+    left: 10px;
+  }
+  .afficher h3 {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 299px) {
+  body {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navigation1:hover {
+    border-top: white;
+  }
+  a {
+    margin-right: 0;
+  }
+  header {
+    display: block;
+    width: 100%;
+  }
+  input {
+    width: 9rem;
+    font-size: 14px;
+  }
+
+  .divfiltre {
+    margin-left: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  .filter {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 200px;
+    flex-wrap: wrap;
+  }
+  .herbermars h1 {
+    width: 230px;
+    font-size: 20px;
+    margin-left: -20px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+  .info {
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1em;
+    color: #0065fc;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .navigation:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid blue;
+  }
+  .columnactivité {
+    width: 300px;
+  }
+  .sins {
+    position: relative;
+    top: -100px;
+    left: 160px;
+    width: 50px;
+  }
+  .titrehp {
+    margin-left: 10px;
+  }
+  .zone {
+    width: 240px;
+    margin-left: 5px;
+  }
+  .fil {
+    margin-left: 10px;
+  }
+
+  .info {
+    margin-left: 10px;
+  }
+  .lespluspop {
+    width: 240px;
+    margin-left: 0;
+    font-size: 13px;
+  }
+  .lespluspop h2 {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .etoilespop {
+    margin-top: 10px;
+  }
+  .etoilespop2 {
+    margin-top: 0px;
+  }
+
+  .seek {
+    visibility: hidden;
+  }
+  .search {
+    visibility: visible;
+    background-color: #0065fc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -75px;
+  }
+  .anicon {
+    width: 200px;
+  }
+  .search:hover {
+    cursor: pointer;
+  }
+  .recherche {
+    width: 100px;
+  }
+  .icon {
+    width: 50px;
+  }
+
+  aside {
+    width: 50px;
+  }
+  .titrepop {
+    display: block;
+    width: 250px;
+    position: relative;
+    left: 0px;
+    top: -1600px;
+    border-radius: 0px;
+    background-color: white;
+  }
+  .charte {
+    position: relative;
+    left: 50px;
+  }
+
+  .blocpop {
+    width: 250px;
+    margin-top: 0px;
+    margin-left: -35px;
+  }
+  .heber {
+    margin-left: -35px;
+  }
+  .herbermars h1 {
+    font-size: 17px;
+  }
+  .afficher {
+    position: relative;
+    left: -290px;
+  }
+  .cartepop {
+    width: 230px;
+  }
+
+  .titreheber {
+    display: block;
+    width: 100%;
+    height: 1600px;
+    background-color: white;
+  }
+  .carte {
+    width: 240px;
+  }
+  .imgheber {
+    display: block;
+    width: 230px;
+  }
+
+  .bloc1 {
+    display: block;
+    margin-left: 20px;
+    width: 200px;
+  }
+  .bloc2 {
+    display: block;
+    margin-left: 20px;
+    width: 200px;
+  }
+  .columnactivité {
+    width: 200px;
+  }
+
+  #activités h1 {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .vieux {
+    display: block;
+    height: 175px;
+    width: 230px;
+  }
+  .cartevieux {
+    margin-bottom: 10px;
+    margin-left: -10px;
+    width: 230px;
+    height: 225px;
+  }
+  .fort {
+    display: block;
+    height: 175px;
+    width: 230px;
+  }
+  .cartefort {
+    margin-left: -10px;
+    width: 230px;
+    height: 225px;
+  }
+  .ilesf {
+    display: block;
+    height: 175px;
+    width: 230px;
+  }
+
+  .carteilesf {
+    margin-left: -10px;
+    width: 230px;
+    height: 225px;
+  }
+  .parcca {
+    width: 230px;
+    height: 175px;
+  }
+  .carteparcca {
+    margin-bottom: 40px;
+    margin-left: -10px;
+    width: 230px;
+    height: 225px;
+  }
+  .notred {
+    width: 230px;
+    height: 175px;
+  }
+  .cartenotred {
+    margin-left: -10px;
+    width: 230px;
+    height: 225px;
+  }
+  .parcl {
+    width: 230px;
+    height: 175px;
+  }
+  .carteparcl {
+    margin-left: -10px;
+    width: 230px;
+    height: 225px;
+  }
+  .foot {
+    display: block;
+    font-size: 1.1rem;
+    height: 560px;
+    width: 250px;
+    flex-direction: column;
+    margin-left: 0px;
+    background-color: white;
+  }
+  .textfoot {
+    font-size: 1rem;
+  }
+  .apropos {
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 5px;
+    width: 190px;
+
+    margin-left: 50px;
+  }
+  .noshebergements {
+    display: block;
+    position: relative;
+    top: 70px;
+    left: 0px;
+    width: 200px;
+  }
+  .assistance {
+    display: block;
+    position: relative;
+    left: -350px;
+    top: 100px;
+  }
+  .afficher {
+    position: relative;
+    left: 10px;
+  }
+  .afficher h3 {
+    width: 200px;
+  }
+}
