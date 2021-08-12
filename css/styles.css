@@ -1961,7 +1961,7 @@ h1 {
 
 @media screen and (min-width: 314px) and (max-width: 359px) {
   body {
-    width: 100%;
+    width: 90%;
   }
   .navigation1:hover {
     border-top: white;
@@ -2105,7 +2105,7 @@ h1 {
   }
 
   .cartepop {
-    margin-left: 20px;
+    margin-left: 10px;
     width: 90%;
   }
 
