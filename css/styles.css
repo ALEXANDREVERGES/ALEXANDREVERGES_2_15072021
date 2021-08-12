@@ -1,7 +1,8 @@
 body {
   font-family: raleway, sans-serif;
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
+  
 }
 
 header {
@@ -587,7 +588,7 @@ h1 {
   }
   body {
     width: 90%;
-    margin: 0 auto;
+    
   }
 }
 @media screen and (min-width: 1400px) and (max-width: 1550px) {
@@ -595,10 +596,7 @@ h1 {
     width: 100%;
   }
 
-  body {
-    margin-right: auto;
-    margin-left: auto;
-  }
+
   .heberpop {
     flex-wrap: wrap-reverse;
     width: 100%;
@@ -669,8 +667,7 @@ h1 {
   .bloc1 {
     margin-bottom: 40px;
   }
-  .bloc2 {
-  }
+  
   .activités {
     margin-left: 20px;
   }
@@ -702,8 +699,8 @@ h1 {
     margin-right: 10px;
   }
   body {
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    
   }
   .heberpop {
     flex-wrap: wrap-reverse;
@@ -985,13 +982,13 @@ h1 {
   }
   .divfiltre {
     margin-bottom: 50px;
-    width: 500px;
+    width: 100%;
     flex-wrap: wrap;
   }
   .filter {
     margin-top: 0;
     margin-bottom: 0;
-    width: 500px;
+    width: 100%;
     flex-wrap: wrap;
   }
 
@@ -1575,7 +1572,7 @@ h1 {
   .activités {
     display: block;
   }
-  . #activités {
+  #activités {
     width: 100%;
   }
   #activités h1 {
@@ -1673,7 +1670,7 @@ h1 {
 @media screen and (min-width: 360px) and (max-width: 413px) {
   body {
     
-    width: 90%;
+    width: 100%;
     
   }
   .navigation1:hover {
@@ -1699,6 +1696,7 @@ h1 {
     flex-wrap: wrap;
   }
   .heberpop {
+    width: 100%;
     flex-wrap: wrap-reverse;
   }
   .herbermars h1 {
@@ -1796,9 +1794,11 @@ h1 {
   .icon {
     width: 50px;
   }
+  
 
   aside {
     width: 100%;
+    
   }
   .titrepop {
     margin-left: 0;
@@ -1813,8 +1813,7 @@ h1 {
 
   .blocpop {
     width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
+    
   }
   .afficher {
     margin-left: 20px;
@@ -1824,7 +1823,7 @@ h1 {
   .cartepop {
     width: 90%;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .titreheber {
     display: block;
@@ -1965,7 +1964,7 @@ h1 {
 
 @media screen and (min-width: 314px) and (max-width: 359px) {
   body {
-    width: 90%;
+    width: 100%;
   }
   .navigation1:hover {
     border-top: white;
@@ -2046,6 +2045,7 @@ h1 {
     margin-left: 10px;
   }
   .heberpop {
+    width: 100%;
     flex-wrap: wrap-reverse;
   }
   .lespluspop {
@@ -2259,7 +2259,7 @@ h1 {
 }
 @media screen and (min-width: 1px) and (max-width: 313px) {
   body {
-    width: 90%;
+    width: 100%;
     
   }
   .navigation1:hover {
@@ -2290,6 +2290,7 @@ h1 {
     flex-wrap: wrap;
   }
   .heberpop {
+    width: 100%;
     flex-wrap: wrap-reverse;
   }
   .herbermars h1 {
@@ -2408,7 +2409,7 @@ h1 {
   .blocpop {
     width: 100%;
     margin-top: 0px;
-    margin-left: -35px;
+    
   }
   .heber {
     margin-left: -10px;
@@ -2419,6 +2420,7 @@ h1 {
 
   .cartepop {
     width: 90%;
+    margin-left: 10px;
   }
 
   .titreheber {
