@@ -1376,7 +1376,7 @@ h1 {
 }
 @media screen and (min-width: 414px) and (max-width: 589px) {
   body {
-    width: 90%;
+    width: 100%;
     
   }
   .navigation1:hover {
@@ -1386,6 +1386,7 @@ h1 {
     margin-right: 0;
   }
   .heberpop {
+    width: 100%;
     flex-wrap: wrap-reverse;
   }
   header {
@@ -1498,6 +1499,7 @@ h1 {
   }
   .titrepop {
     width: 100%;
+    border-radius: 0px;
     margin-left: 0;
     height: 600px;
   }
