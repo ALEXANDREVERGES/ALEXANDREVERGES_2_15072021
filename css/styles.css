@@ -248,7 +248,6 @@ input::placeholder {
   border-radius: 25px;
   height: 650px;
   justify-content: space-around;
-  
 }
 .afficher {
   margin-left: 40px;
@@ -371,13 +370,12 @@ input::placeholder {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-#activités{
+#activités {
   display: flex;
   height: 700px;
   width: 100%;
-  
 }
-h1{
+h1 {
   margin-left: 50px;
   font-size: 1.5rem;
   width: 100%;
@@ -387,22 +385,18 @@ h1{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
 
   width: 100%;
 }
 
 .columnactivité {
   flex-direction: column;
-  
 }
 
 .bloc1 {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  
-  
 }
 .fortiles {
   display: flex;
@@ -410,16 +404,13 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
-.notreparc{
+.notreparc {
   display: flex;
   width: 60%;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  
-
 }
 .bloc2 {
   width: 100%;
@@ -432,8 +423,6 @@ h1{
   width: 45%;
   height: 510px;
   border-radius: 25px;
-  
-  
 }
 .cartevieux:hover {
   cursor: pointer;
@@ -449,8 +438,6 @@ h1{
   height: 260px;
   border-radius: 25px;
   margin-bottom: 30px;
-  
-  
 }
 .cartefort:hover {
   cursor: pointer;
@@ -465,7 +452,6 @@ h1{
   width: 85%;
   height: 220px;
   border-radius: 25px;
-  
 }
 .carteilesf:hover {
   cursor: pointer;
@@ -479,7 +465,6 @@ h1{
   width: 45%;
   height: 510px;
   border-radius: 25px;
-  
 }
 .carteparcca:hover {
   cursor: pointer;
@@ -494,7 +479,6 @@ h1{
   height: 235px;
   border-radius: 25px;
   margin-bottom: 30px;
-  
 }
 .cartenotred:hover {
   cursor: pointer;
@@ -508,7 +492,6 @@ h1{
   width: 85%;
   height: 235px;
   border-radius: 25px;
-  
 }
 .carteparcl:hover {
   cursor: pointer;
@@ -596,7 +579,7 @@ h1{
   }
 }
 @media screen and (max-width: 1660px) {
-  .imgheber{
+  .imgheber {
     object-fit: cover;
   }
   header {
@@ -606,10 +589,6 @@ h1{
     width: 90%;
     margin: 0 auto;
   }
-
-
-
-  
 }
 @media screen and (min-width: 1400px) and (max-width: 1550px) {
   header {
@@ -624,18 +603,17 @@ h1{
     flex-wrap: wrap-reverse;
     width: 100%;
   }
-  aside{
+  aside {
     width: 100%;
   }
   .activités {
     display: block;
   }
-  h1{
+  h1 {
     margin-top: 40px;
   }
   .bloc1 {
     margin-top: 30px;
-    
   }
 
   .foot {
@@ -666,7 +644,6 @@ h1{
     width: 100%;
     margin-bottom: 40px;
     margin-left: 0;
-    
   }
   .cartepop {
     width: 90%;
@@ -689,13 +666,12 @@ h1{
     object-fit: cover;
     width: 97%;
   }
-  .bloc1{
+  .bloc1 {
     margin-bottom: 40px;
   }
-  .bloc2{
-    
+  .bloc2 {
   }
-  .activités{
+  .activités {
     margin-left: 20px;
   }
 
@@ -713,7 +689,7 @@ h1{
     top: -240px;
     left: 450px;
   }
-  .foot{
+  .foot {
     margin-top: 500px;
   }
 }
@@ -729,7 +705,7 @@ h1{
     width: 80%;
     margin: 0 auto;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
     width: 100%;
   }
@@ -737,11 +713,11 @@ h1{
     width: 100%;
     height: 700px;
   }
-  aside{
+  aside {
     width: 100%;
   }
-  
-  h1{
+
+  h1 {
     margin-top: 40px;
   }
   .titrepop {
@@ -761,7 +737,7 @@ h1{
   .carte {
     width: 320px;
   }
-  .herbermars h1{
+  .herbermars h1 {
     margin-left: 0;
   }
   .heber {
@@ -769,7 +745,7 @@ h1{
     margin-left: 20px;
     height: 600px;
   }
-  .foot{
+  .foot {
     width: 100%;
   }
   .ani {
@@ -778,33 +754,31 @@ h1{
   .anicon {
     width: 200px;
   }
-  .textfoot{
+  .textfoot {
     font-size: 15px;
   }
-  .bloc1{
+  .bloc1 {
     margin-top: -30px;
   }
-  .noshebergements{
+  .noshebergements {
     margin-left: -140px;
   }
-  .assistance{
+  .assistance {
     margin-left: -140px;
   }
- 
-  
 }
 
 @media screen and (min-width: 950px) and (max-width: 1329px) {
   body {
     width: 80%;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
-  aside{
+  aside {
     width: 100%;
   }
-  .titrepop{
+  .titrepop {
     margin-left: 0;
     width: 100%;
     height: 600px;
@@ -822,22 +796,21 @@ h1{
     position: relative;
     top: -50px;
   }
-  .herbermars h1{
+  .herbermars h1 {
     margin-left: 0;
   }
   .divfiltre {
     margin-left: -90px;
   }
-  
+
   .cartepop {
     width: 90%;
     margin-left: 20px;
   }
-  .heberpop{
+  .heberpop {
     width: 100%;
   }
   .titreheber {
-    
     width: 100%;
     height: 1600px;
   }
@@ -853,7 +826,7 @@ h1{
     width: 90%;
     margin-left: 20px;
   }
-  
+
   .assistance {
     width: 150px;
     margin-left: -150px;
@@ -866,27 +839,24 @@ h1{
   .foot {
     width: 100%;
   }
-  .textfoot{
+  .textfoot {
     font-size: 15px;
   }
-
 }
 @media screen and (min-width: 900px) and (max-width: 949px) {
   body {
     width: 90%;
   }
-  
-  .heberpop{
+
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
-  aside{
+  aside {
     width: 100%;
   }
   .titrepop {
     margin-left: 0;
     margin-bottom: 30px;
-
-    
   }
   .cartepop {
     width: 90%;
@@ -896,20 +866,17 @@ h1{
     width: 100%;
     background-color: white;
     margin-bottom: 1000px;
-    
-    
   }
   .imgheber {
     width: 99%;
-    
+
     object-fit: cover;
   }
   .carte {
     width: 95%;
     margin-left: 20px;
   }
-  
- 
+
   h1 {
     margin-left: 10px;
   }
@@ -935,18 +902,18 @@ h1{
     top: 70px;
     left: -570px;
   }
-  
+
   .afficher {
     display: block;
     margin-top: 0px;
   }
-  .activités{
+  .activités {
     display: block;
   }
-  .bloc1{
+  .bloc1 {
     margin-bottom: 30px;
   }
-  
+
   .foot {
     margin-top: 400px;
     width: 100%;
@@ -957,7 +924,7 @@ h1{
   .ani {
     width: 60px;
   }
-  .textfoot{
+  .textfoot {
     font-size: 15px;
   }
   .noshebergements {
@@ -977,7 +944,7 @@ h1{
   input {
     margin-left: -10px;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
   aside {
@@ -986,10 +953,10 @@ h1{
   .info {
     margin-bottom: 0px;
   }
-  .herbermars h1{
+  .herbermars h1 {
     margin-left: 0;
   }
-  h1{
+  h1 {
     width: 90%;
   }
   .divfiltre {
@@ -1016,7 +983,6 @@ h1{
   .titrepop {
     width: 100%;
     margin-left: 0;
-    
   }
   .cartepop {
     width: 95%;
@@ -1024,7 +990,7 @@ h1{
   }
   .imgheber {
     width: 99%;
-    
+
     object-fit: cover;
   }
   .carte {
@@ -1042,7 +1008,6 @@ h1{
   .activités {
     display: block;
     margin-left: 0px;
-    
   }
   .foot {
     margin-top: 500px;
@@ -1056,7 +1021,7 @@ h1{
     margin-left: -280px;
     width: 100px;
   }
-  .textfoot{
+  .textfoot {
     font-size: 15px;
   }
   .ani {
@@ -1087,73 +1052,70 @@ h1{
     margin: 0 auto;
     margin-left: 0px;
   }
-  .cartevieux{
+  .cartevieux {
     width: 90%;
     height: 290px;
     margin-bottom: 30px;
   }
-  .vieux{
+  .vieux {
     height: 240px;
     width: 100%;
-
   }
-  .fortiles{
+  .fortiles {
     width: 100%;
     margin-bottom: 30px;
-    
   }
-  .cartefort{
+  .cartefort {
     width: 90%;
     height: 290px;
   }
-  .fort{
+  .fort {
     width: 100%;
     height: 240px;
   }
-  .carteilesf{
+  .carteilesf {
     width: 90%;
     height: 290px;
   }
-  .ilesf{
+  .ilesf {
     width: 100%;
     height: 240px;
   }
-  .carteparcca{
+  .carteparcca {
     width: 90%;
     height: 290px;
     margin-bottom: 30px;
   }
-  .parcca{
+  .parcca {
     width: 100%;
     height: 240px;
   }
-  .foot{
+  .foot {
     margin-top: 1250px;
   }
-  .notreparc{
+  .notreparc {
     width: 100%;
     margin-bottom: 30px;
   }
-  .cartenotred{
+  .cartenotred {
     width: 90%;
     height: 290px;
     margin-bottom: 30px;
   }
-  .notred{
+  .notred {
     width: 100%;
     height: 240px;
   }
-  .carteparcl{
+  .carteparcl {
     width: 90%;
     height: 290px;
     margin-bottom: 30px;
   }
-  .parcl{
+  .parcl {
     width: 100%;
     height: 240px;
   }
 }
-
 
 @media screen and (min-width: 590px) and (max-width: 699px) {
   body {
@@ -1166,7 +1128,7 @@ h1{
   a {
     margin-right: 0;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
   .sins {
@@ -1228,14 +1190,13 @@ h1{
     margin-top: -10px;
     margin-left: 10px;
   }
-  aside{
+  aside {
     width: 100%;
   }
 
   .titrepop {
     margin-left: 0;
     width: 100%;
-    
   }
   .blocpop {
     margin-top: 20px;
@@ -1268,12 +1229,10 @@ h1{
   }
 
   .heber {
-    
     width: 100%;
     margin-left: -0px;
   }
   .carte {
-    
     width: 90%;
   }
   .imgheber {
@@ -1282,7 +1241,7 @@ h1{
     width: 97%;
     height: 130px;
   }
-  .notreparc{
+  .notreparc {
     width: 100%;
   }
   .bloc1 {
@@ -1303,7 +1262,7 @@ h1{
     width: 90%;
     margin-bottom: 30px;
   }
-  .fortiles{
+  .fortiles {
     width: 100%;
     margin-left: 0;
   }
@@ -1359,12 +1318,10 @@ h1{
     margin: 0 auto;
     margin-left: 0px;
   }
- 
 
   .activités {
     display: block;
     width: 100%;
-
   }
   .foot {
     display: flex;
@@ -1381,24 +1338,20 @@ h1{
   .noshebergements {
     width: 70%;
     margin-left: 50px;
-  
   }
   .assistance {
     width: 70%;
     margin-left: 50px;
-   
   }
   .textfoot {
     font-size: 1.1rem;
   }
   #activités {
     width: 100%;
-    
   }
-  h1{
+  h1 {
     width: 80%;
   }
-
 }
 @media screen and (min-width: 414px) and (max-width: 589px) {
   body {
@@ -1411,7 +1364,7 @@ h1{
   a {
     margin-right: 0;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
   header {
@@ -1489,9 +1442,8 @@ h1{
     width: 100%;
     font-size: 13px;
     justify-content: space-between;
-    
   }
-  .lespluspop h2{
+  .lespluspop h2 {
     margin-left: 20px;
   }
 
@@ -1533,9 +1485,8 @@ h1{
 
   .blocpop {
     width: 100%;
-    
   }
-  
+
   .afficher {
     position: relative;
     left: -290px;
@@ -1558,11 +1509,11 @@ h1{
     object-fit: cover;
     width: 98%;
   }
-  .fortiles{
+  .fortiles {
     width: 100%;
     margin-left: 0;
   }
-  .notreparc{
+  .notreparc {
     width: 100%;
     margin-left: 0;
   }
@@ -1585,24 +1536,22 @@ h1{
     margin: 0 auto;
     margin-left: 0px;
   }
-  .columnactivité{
+  .columnactivité {
     width: 100%;
   }
-  .herbermars h1{
+  .herbermars h1 {
     margin-left: 0;
   }
-  h1{
+  h1 {
     margin-left: 40px;
     margin-bottom: 40px;
     width: 80%;
   }
-  .activités{
+  .activités {
     display: block;
   }
-  .
-  #activités {
+  . #activités {
     width: 100%;
-    
   }
   #activités h1 {
     margin-left: 70px;
@@ -1624,7 +1573,6 @@ h1{
     width: 100%;
   }
   .cartefort {
-    
     width: 90%;
     height: 225px;
   }
@@ -1688,14 +1636,12 @@ h1{
     width: 70%;
     margin-bottom: 50px;
     margin-left: 50px;
-   
   }
   .assistance {
     width: 70%;
     margin-left: 50px;
-   
   }
-  .foot{
+  .foot {
     margin-top: 850px;
   }
 }
@@ -1725,7 +1671,7 @@ h1{
     width: 100%;
     flex-wrap: wrap;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
   .herbermars h1 {
@@ -1836,18 +1782,19 @@ h1{
   }
 
   .blocpop {
-    width: 300px;
+    width: 100%;
     margin-top: 0px;
-    margin-left: -20px;
+    margin-left: 0px;
   }
-  .afficher{
+  .afficher {
     margin-left: 20px;
     font-size: 14px;
   }
-  
-  
+
   .cartepop {
-    width: 100%;
+    width: 90%;
+    margin-right: 0;
+    margin-left: 10px;
   }
   .titreheber {
     display: block;
@@ -1881,20 +1828,19 @@ h1{
     margin: 0 auto;
     margin-left: 0px;
   }
-  #activités{
+  #activités {
     display: block;
   }
-  .activités{
+  .activités {
     display: block;
   }
-  .notreparc{
+  .notreparc {
     width: 100%;
   }
-  .fortiles{
+  .fortiles {
     width: 100%;
   }
 
- 
   .vieux {
     display: block;
     height: 175px;
@@ -1902,10 +1848,9 @@ h1{
   }
   .cartevieux {
     margin-bottom: 30px;
-    
+
     width: 90%;
     height: 225px;
-
   }
   .fort {
     display: block;
@@ -1913,7 +1858,6 @@ h1{
     width: 100%;
   }
   .cartefort {
-    
     width: 90%;
     height: 225px;
   }
@@ -1921,7 +1865,6 @@ h1{
     display: block;
     height: 175px;
     width: 100%;
-    
   }
 
   .carteilesf {
@@ -1935,7 +1878,7 @@ h1{
   }
   .carteparcca {
     margin-bottom: 40px;
-    
+
     width: 90%;
     height: 225px;
   }
@@ -1944,7 +1887,6 @@ h1{
     height: 175px;
   }
   .cartenotred {
-    
     width: 90%;
     height: 225px;
   }
@@ -1953,7 +1895,6 @@ h1{
     height: 175px;
   }
   .carteparcl {
-    
     width: 90%;
     height: 225px;
   }
@@ -1969,29 +1910,25 @@ h1{
   .textfoot {
     font-size: 1rem;
   }
-  h1{
+  h1 {
     width: 80%;
   }
   .apropos {
     padding-top: 50px;
     width: 70%;
-  
   }
   .noshebergements {
     width: 70%;
     margin-left: 50px;
     margin-top: 50px;
-    
   }
   .assistance {
     width: 70%;
     margin-left: 50px;
     margin-top: 50px;
-    
   }
-  
- 
-  .imgheber{
+
+  .imgheber {
     object-fit: cover;
   }
 }
@@ -2078,7 +2015,7 @@ h1{
   .info {
     margin-left: 10px;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
   .lespluspop {
@@ -2092,7 +2029,6 @@ h1{
     font-size: 15px;
     width: 100%;
     margin-left: 20px;
-    
   }
   .etoilespop {
     margin-top: 10px;
@@ -2136,16 +2072,15 @@ h1{
     height: 600px;
   }
 
-
   .blocpop {
-    width: 300px;
+    width: 100%;
     margin-top: 0px;
-    margin-left: -30px;
+    margin-left: 0px;
   }
- 
+
   .cartepop {
-    margin-left: 40px;
-    width: 80%;
+    margin-left: 20px;
+    width: 90%;
   }
 
   .titreheber {
@@ -2180,25 +2115,25 @@ h1{
     margin: 0 auto;
     margin-left: 0px;
   }
-  #activités{
+  #activités {
     display: block;
   }
-  .activités{
+  .activités {
     display: block;
   }
   .columnactivité {
     width: 100%;
   }
 
-   h1 {
+  h1 {
     font-size: 20px;
     margin-left: 10px;
     width: 70%;
   }
-  .fortiles{
+  .fortiles {
     width: 100%;
   }
-  .notreparc{
+  .notreparc {
     width: 100%;
   }
   .vieux {
@@ -2211,7 +2146,6 @@ h1{
     margin-left: -10px;
     width: 90%;
     height: 225px;
-
   }
   .fort {
     display: block;
@@ -2283,7 +2217,6 @@ h1{
     width: 70%;
     margin-top: 50px;
     margin-left: 50px;
-    
   }
   .assistance {
     width: 70%;
@@ -2291,9 +2224,8 @@ h1{
     margin-left: 50px;
   }
   .afficher {
-   font-size: 15px;
+    font-size: 15px;
   }
-  
 }
 @media screen and (min-width: 1px) and (max-width: 313px) {
   body {
@@ -2328,7 +2260,7 @@ h1{
     width: 100%;
     flex-wrap: wrap;
   }
-  .heberpop{
+  .heberpop {
     flex-wrap: wrap-reverse;
   }
   .herbermars h1 {
@@ -2438,7 +2370,6 @@ h1{
     margin-left: 0;
     border-radius: 0px;
     height: 600px;
-  
   }
   .charte {
     position: relative;
@@ -2456,9 +2387,9 @@ h1{
   .herbermars h1 {
     font-size: 17px;
   }
-  
+
   .cartepop {
-    width: 85%;
+    width: 90%;
   }
 
   .titreheber {
@@ -2496,21 +2427,21 @@ h1{
   .columnactivité {
     width: 100%;
   }
-  h1{
+  h1 {
     width: 70%;
     font-size: 18px;
   }
 
-  #activités{
+  #activités {
     display: block;
   }
-  .activités{
+  .activités {
     display: block;
   }
-  .notreparc{
+  .notreparc {
     width: 100%;
   }
-  .fortiles{
+  .fortiles {
     width: 100%;
   }
   .vieux {
@@ -2520,19 +2451,15 @@ h1{
   }
   .cartevieux {
     margin-bottom: 30px;
-    
+
     width: 90%;
     height: 225px;
-
   }
   .fort {
-    
     height: 175px;
     width: 100%;
-    
   }
   .cartefort {
-    
     width: 90%;
     height: 225px;
   }
@@ -2543,7 +2470,6 @@ h1{
   }
 
   .carteilesf {
-    
     width: 90%;
     height: 225px;
     margin-bottom: 30px;
@@ -2562,7 +2488,6 @@ h1{
     height: 175px;
   }
   .cartenotred {
-   
     width: 90%;
     height: 225px;
   }
@@ -2571,7 +2496,6 @@ h1{
     height: 175px;
   }
   .carteparcl {
-    
     width: 90%;
     height: 225px;
   }
@@ -2582,7 +2506,7 @@ h1{
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    
+
     margin-top: 850px;
   }
   .textfoot {
@@ -2591,22 +2515,18 @@ h1{
   .apropos {
     width: 70%;
     padding-top: 30px;
-    
   }
   .noshebergements {
     width: 70%;
     margin-top: 50px;
     margin-left: 50px;
-    
   }
   .assistance {
     width: 70%;
     margin-top: 50px;
     margin-left: 50px;
-    
   }
   .afficher {
     font-size: 14px;
   }
- 
 }
