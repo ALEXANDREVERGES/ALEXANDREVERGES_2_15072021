@@ -381,7 +381,8 @@ input::placeholder {
   
 }
 h1 {
-  margin-left: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
   font-size: 1.5rem;
   width: 100%;
 }
