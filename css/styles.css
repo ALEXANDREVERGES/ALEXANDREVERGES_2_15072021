@@ -745,8 +745,19 @@ h1 {
     margin-left: 20px;
     height: 600px;
   }
+  #activités{
+    margin-top: 50px;
+  }
+  .activités {
+    display: block;
+  }
+  .bloc1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
   .foot {
     width: 100%;
+    margin-top: 400px;
   }
   .ani {
     width: 70px;
@@ -770,7 +781,7 @@ h1 {
 
 @media screen and (min-width: 950px) and (max-width: 1329px) {
   body {
-    width: 80%;
+    width: 90%;
   }
   .heberpop {
     flex-wrap: wrap-reverse;
@@ -826,6 +837,17 @@ h1 {
     width: 90%;
     margin-left: 20px;
   }
+  #activités{
+    display: block;
+  }
+  .activités {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .bloc1 {
+    margin-bottom: 30px;
+  }
 
   .assistance {
     width: 150px;
@@ -838,10 +860,12 @@ h1 {
 
   .foot {
     width: 100%;
+    margin-top: 400px;
   }
   .textfoot {
     font-size: 15px;
   }
+
 }
 @media screen and (min-width: 900px) and (max-width: 949px) {
   body {
@@ -1647,7 +1671,9 @@ h1 {
 }
 @media screen and (min-width: 360px) and (max-width: 413px) {
   body {
-    width: 100%;
+    
+    width: 90%;
+    
   }
   .navigation1:hover {
     border-top: white;
