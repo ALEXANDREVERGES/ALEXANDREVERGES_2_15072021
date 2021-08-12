@@ -264,6 +264,9 @@ input::placeholder {
   margin-left: 40px;
   padding-top: 10px;
 }
+.herbermars h1{
+  margin-left: 0;
+}
 .carte {
   transition: transform 0.1s;
   box-shadow: 5px 5px 4px rgb(202, 201, 201);
