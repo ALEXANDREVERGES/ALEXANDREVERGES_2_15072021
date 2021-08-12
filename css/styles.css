@@ -376,8 +376,9 @@ input::placeholder {
 }
 #activités {
   display: flex;
-  height: 700px;
+  height: 550px;
   width: 100%;
+  
 }
 h1 {
   margin-left: 50px;
