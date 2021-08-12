@@ -594,108 +594,11 @@ h1 {
     width: 90%;
     
   }
-}
-@media screen and (min-width: 1400px) and (max-width: 1550px) {
-  header {
-    width: 100%;
-  }
-
-
-  .heberpop {
-    flex-wrap: wrap-reverse;
-    width: 100%;
-  }
-  aside {
-    width: 100%;
-  }
-  .activités {
-    display: block;
-  }
-  h1 {
-    margin-top: 40px;
-  }
-  .bloc1 {
-    margin-top: 30px;
-  }
-
-  .foot {
-    display: block;
-    width: 100%;
-    height: 250px;
-    font-size: 15px;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .apropos {
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .noshebergements {
-    margin-left: 50px;
-  }
-  .assistance {
-    margin-left: 400px;
-    position: relative;
-    top: -280px;
-    width: 200px;
-  }
-  .textfoot {
-    font-size: 15px;
-  }
-  .titrepop {
-    width: 100%;
-    margin-bottom: 40px;
-    margin-left: 0;
-  }
-  .cartepop {
-    width: 90%;
-  }
-  .titreheber {
-    width: 100%;
-    height: 650px;
-  }
-  .heber {
-    width: 100%;
-    flex-wrap: wrap;
-    margin-left: -10px;
-  }
-  .carte {
-    display: block;
-    width: 30%;
-    padding-top: 5px;
-  }
-  .imgheber {
-    object-fit: cover;
-    width: 97%;
-  }
-  .bloc1 {
-    margin-bottom: 40px;
-  }
-  
-  .activités {
-    margin-left: 20px;
-  }
-
-  .apropos {
-    position: relative;
-    top: 50px;
-  }
-  .noshebergements {
-    position: relative;
-    top: -115px;
-    left: 400px;
-  }
-  .assistance {
-    position: relative;
-    top: -240px;
-    left: 450px;
-  }
-  .foot {
-    margin-top: 500px;
-  }
+ 
 }
 
-@media screen and (min-width: 1330px) and (max-width: 1399px) {
+
+@media screen and (min-width: 1280px)  {
   header {
     width: 90%;
   }
@@ -707,12 +610,12 @@ h1 {
     
   }
   .heberpop {
-    flex-wrap: wrap-reverse;
+    
     width: 100%;
   }
   .titreheber {
-    width: 100%;
-    height: 700px;
+    width: 150%;
+    height: 650px;
   }
   aside {
     width: 100%;
@@ -723,9 +626,7 @@ h1 {
   }
   .titrepop {
     width: 100%;
-    margin-left: 0;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    
   }
   .cartepop {
     margin-left: 20px;
@@ -733,18 +634,18 @@ h1 {
   }
   .imgheber {
     object-fit: cover;
-    width: 310px;
+    width: 96%;
   }
   .carte {
-    width: 320px;
+    width: 30%;
   }
   .herbermars h1 {
     margin-left: 0;
   }
   .heber {
     width: 100%;
-    margin-left: 20px;
-    height: 600px;
+    margin-left: -10px;
+    
   }
   #activités{
     margin-top: 50px;
@@ -758,7 +659,7 @@ h1 {
   }
   .foot {
     width: 100%;
-    margin-top: 400px;
+    margin-top: 550px;
   }
   .ani {
     width: 70px;
@@ -780,7 +681,7 @@ h1 {
   }
 }
 
-@media screen and (min-width: 950px) and (max-width: 1329px) {
+@media screen and (min-width: 950px) and (max-width: 1279px) {
   body {
     width: 90%;
   }
@@ -810,6 +711,9 @@ h1 {
   }
   .herbermars h1 {
     margin-left: 0;
+  }
+  h1{
+    width: 70%;
   }
   .divfiltre {
     margin-left: -90px;
@@ -849,19 +753,22 @@ h1 {
   .bloc1 {
     margin-bottom: 30px;
   }
+  .apropos{
+    width: 50%;
+  }
 
   .assistance {
-    width: 150px;
-    margin-left: -150px;
+    width: 50%;
+    margin-left: -250px;
   }
   .noshebergements {
-    width: 200px;
-    margin-left: -150px;
+    width: 50%;
+    margin-left: -250px;
   }
 
   .foot {
     width: 100%;
-    margin-top: 400px;
+    margin-top: 550px;
   }
   .textfoot {
     font-size: 15px;
@@ -940,7 +847,7 @@ h1 {
   }
 
   .foot {
-    margin-top: 400px;
+    margin-top: 600px;
     width: 100%;
   }
   .filtreicon {
@@ -953,7 +860,7 @@ h1 {
     font-size: 15px;
   }
   .noshebergements {
-    margin-left: -200px;
+    margin-left: -250px;
   }
   .assistance {
     margin-left: -250px;
@@ -961,7 +868,7 @@ h1 {
 }
 @media screen and (min-width: 700px) and (max-width: 899px) {
   body {
-    width: 90%;
+    width: 100%;
   }
   a {
     margin-left: 30px;
@@ -977,6 +884,7 @@ h1 {
   }
   .info {
     margin-bottom: 0px;
+    margin-left: 20px;
   }
   .herbermars h1 {
     margin-left: 0;
@@ -984,16 +892,53 @@ h1 {
   h1 {
     width: 90%;
   }
+  header{
+    display: block;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navigation {
+    width: 100%;
+    margin-right: 0;
+    font-size: 1.1em;
+    color: #0065fc;
+    border-bottom: 4px solid #f2f2f2;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+  .navigation:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 3px solid blue;
+  }
+  .navigation1:hover {
+    border-top: none;
+  }
   .divfiltre {
     margin-bottom: 50px;
     width: 100%;
     flex-wrap: wrap;
+    margin-left: 20px;
   }
   .filter {
     margin-top: 0;
     margin-bottom: 0;
     width: 100%;
     flex-wrap: wrap;
+  }
+  .fil{
+    margin-left: 20px;
+  }
+  .zone{
+    margin-left: 20px;
+  }
+  .titrehp{
+    margin-left: 20px;
   }
 
   .titreheber {
@@ -1003,11 +948,13 @@ h1 {
   }
   .heberpop {
     margin: 0;
+    width: 100%;
   }
 
   .titrepop {
     width: 100%;
     margin-left: 0;
+    border-radius: 0;
   }
   .cartepop {
     width: 95%;
@@ -1116,7 +1063,7 @@ h1 {
     height: 240px;
   }
   .foot {
-    margin-top: 1250px;
+    margin-top: 1400px;
   }
   .notreparc {
     width: 100%;
@@ -1140,11 +1087,17 @@ h1 {
     width: 100%;
     height: 240px;
   }
+  .sins{
+    position: relative;
+    top: -100px;
+    left: 550px;
+    width: 70px;
+  }
 }
 
 @media screen and (min-width: 590px) and (max-width: 699px) {
   body {
-    width: 90%;
+    width: 100%;
   }
   header {
     display: block;
@@ -1222,6 +1175,7 @@ h1 {
   .titrepop {
     margin-left: 0;
     width: 100%;
+    border-radius: 0;
   }
   .blocpop {
     margin-top: 20px;
@@ -1251,6 +1205,9 @@ h1 {
     width: 100%;
     height: 1600px;
     background-color: white;
+  }
+  .heberpop{
+    width: 100%;
   }
 
   .heber {
@@ -1355,7 +1312,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 1000px;
+    margin-top: 1150px;
   }
   .apropos {
     width: 70%;
@@ -1651,6 +1608,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
+    margin-top: 1000px;
   }
   .textfoot {
     font-size: 1rem;
@@ -1669,9 +1627,7 @@ h1 {
     width: 70%;
     margin-left: 50px;
   }
-  .foot {
-    margin-top: 850px;
-  }
+  
 }
 @media screen and (min-width: 360px) and (max-width: 413px) {
   body {
@@ -1940,7 +1896,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 850px;
+    margin-top: 1050px;
   }
   .textfoot {
     font-size: 1rem;
@@ -2240,7 +2196,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 850px;
+    margin-top: 1050px;
   }
   .textfoot {
     font-size: 1rem;
@@ -2544,7 +2500,7 @@ h1 {
     flex-direction: column;
     margin-left: 0px;
 
-    margin-top: 850px;
+    margin-top: 1050px;
   }
   .textfoot {
     font-size: 1rem;
