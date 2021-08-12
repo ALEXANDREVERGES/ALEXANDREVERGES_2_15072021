@@ -1380,7 +1380,7 @@ h1 {
 @media screen and (min-width: 414px) and (max-width: 589px) {
   body {
     width: 90%;
-    margin: auto;
+    
   }
   .navigation1:hover {
     border-top: white;
@@ -1502,6 +1502,7 @@ h1 {
   .titrepop {
     width: 100%;
     margin-left: 0;
+    height: 600px;
   }
   .charte {
     justify-content: space-between;
@@ -1765,7 +1766,10 @@ h1 {
     margin-left: 20px;
   }
   .etoilespop {
-    margin-top: 40px;
+    margin-top: 30px;
+  }
+  .etoilespop2{
+    margin-top: 20px;
   }
 
   .seek {
