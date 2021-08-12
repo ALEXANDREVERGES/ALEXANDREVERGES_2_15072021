@@ -571,34 +571,10 @@ h1 {
   color: rgb(70, 72, 197);
 }
 
-@media screen and (max-width: 1760px) {
-  body {
-    width: 90%;
-  }
-  .foot {
-    width: 100%;
-  }
-  header {
-    width: 90%;
-    display: flex;
-  }
-}
-@media screen and (max-width: 1660px) {
-  .imgheber {
-    object-fit: cover;
-  }
-  header {
-    width: 100%;
-  }
-  body {
-    width: 90%;
-    
-  }
- 
-}
 
 
-@media screen and (min-width: 1280px)  {
+
+@media screen and (min-width: 1280px) and (max-width: 1800px) {
   header {
     width: 90%;
   }
@@ -648,18 +624,19 @@ h1 {
     
   }
   #activités{
-    margin-top: 50px;
+    margin-top: 0px;
   }
-  .activités {
-    display: block;
-  }
+  
   .bloc1 {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    
+   
+  }
+  .bloc2{
+    margin: 0;
   }
   .foot {
     width: 100%;
-    margin-top: 550px;
+    margin-top: 50px;
   }
   .ani {
     width: 70px;
@@ -670,9 +647,7 @@ h1 {
   .textfoot {
     font-size: 15px;
   }
-  .bloc1 {
-    margin-top: -30px;
-  }
+ 
   .noshebergements {
     margin-left: -140px;
   }
@@ -749,6 +724,7 @@ h1 {
     display: block;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
   }
   .bloc1 {
     margin-bottom: 30px;
@@ -870,9 +846,7 @@ h1 {
   body {
     width: 100%;
   }
-  a {
-    margin-left: 30px;
-  }
+  
   input {
     margin-left: -10px;
   }
@@ -894,6 +868,7 @@ h1 {
   }
   header{
     display: block;
+    width: 100%;
   }
   .menu {
     display: flex;
@@ -935,6 +910,7 @@ h1 {
     margin-left: 20px;
   }
   .zone{
+    width: 70%;
     margin-left: 20px;
   }
   .titrehp{
@@ -945,6 +921,9 @@ h1 {
     background-color: white;
     width: 100%;
     height: 1600px;
+  }
+  .blocpop{
+    margin-left: 0px;
   }
   .heberpop {
     margin: 0;
@@ -957,8 +936,8 @@ h1 {
     border-radius: 0;
   }
   .cartepop {
-    width: 95%;
-    margin-left: 10px;
+    width: 90%;
+    margin-left: 30px;
   }
   .imgheber {
     width: 99%;
@@ -966,14 +945,17 @@ h1 {
     object-fit: cover;
   }
   .carte {
-    width: 95%;
+    width: 90%;
+    margin-left: 30px;
+    
   }
   .heber {
     display: block;
     width: 100%;
-    margin-left: 0px;
+    
   }
   .afficher {
+    width: 50%;
     margin-left: 60px;
     margin-top: 50px;
   }
@@ -982,15 +964,15 @@ h1 {
     margin-left: 0px;
   }
   .foot {
-    margin-top: 500px;
+    margin-top: 1400px;
     width: 100%;
   }
   .noshebergements {
-    margin-left: -280px;
-    width: 150px;
+    margin-left: -260px;
+    width: 200px;
   }
   .assistance {
-    margin-left: -280px;
+    margin-left: -250px;
     width: 100px;
   }
   .textfoot {
@@ -1062,9 +1044,8 @@ h1 {
     width: 100%;
     height: 240px;
   }
-  .foot {
-    margin-top: 1400px;
-  }
+ 
+ 
   .notreparc {
     width: 100%;
     margin-bottom: 30px;
@@ -1147,6 +1128,7 @@ h1 {
     margin-left: 10px;
   }
   .zone {
+    width: 70%;
     margin-left: 10px;
   }
   .divfiltre {
@@ -1190,6 +1172,7 @@ h1 {
   .cartepop {
     width: 90%;
     margin-left: 20px;
+    margin-right: 0;
     margin-bottom: 40px;
   }
   .herbermars h1 {
@@ -1216,6 +1199,7 @@ h1 {
   }
   .carte {
     width: 90%;
+    margin-left: 25px;
   }
   .imgheber {
     object-fit: cover;
@@ -1510,7 +1494,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .bloc2 {
     display: flex;
@@ -1519,7 +1503,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .columnactivité {
     width: 100%;
@@ -1730,6 +1714,9 @@ h1 {
   }
   .etoilespop2{
     margin-top: 20px;
+  }
+  .heber{
+    margin-left: -5px;
   }
 
   .seek {
@@ -2096,7 +2083,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .bloc2 {
     display: flex;
@@ -2105,7 +2092,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   #activités {
     display: block;
@@ -2217,6 +2204,9 @@ h1 {
   }
   .afficher {
     font-size: 15px;
+  }
+  .heber{
+    margin-left: -5px;
   }
 }
 @media screen and (min-width: 1px) and (max-width: 313px) {
