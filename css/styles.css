@@ -1383,7 +1383,7 @@ h1 {
     border-bottom: 3px solid blue;
   }
   .columnactivité {
-    width: 300px;
+    width: 100%;
   }
   .sins {
     position: relative;
@@ -1458,8 +1458,7 @@ h1 {
   }
 
   .afficher {
-    position: relative;
-    left: -290px;
+    font-size: 15px;
   }
   .cartepop {
     width: 90%;
@@ -1495,7 +1494,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 5px;
+    
   }
   .bloc2 {
     display: flex;
@@ -1504,7 +1503,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 5px;
+    
   }
   .columnactivité {
     width: 100%;
@@ -1533,7 +1532,7 @@ h1 {
   }
   .cartevieux {
     margin-bottom: 30px;
-    margin-left: -10px;
+    margin-left: 5px;
     width: 90%;
     height: 225px;
   }
@@ -1548,12 +1547,13 @@ h1 {
   }
   .ilesf {
     display: block;
+    
     height: 175px;
     width: 100%;
   }
 
   .carteilesf {
-    margin-left: -10px;
+    margin-left: 5px;
     width: 90%;
     height: 225px;
     margin-bottom: 30px;
@@ -1564,7 +1564,7 @@ h1 {
   }
   .carteparcca {
     margin-bottom: 40px;
-    margin-left: -10px;
+    margin-left: 5px;
     width: 90%;
     height: 225px;
   }
@@ -1573,7 +1573,7 @@ h1 {
     height: 175px;
   }
   .cartenotred {
-    margin-left: -10px;
+    margin-left: 5px;
     width: 90%;
     height: 225px;
   }
@@ -1582,7 +1582,7 @@ h1 {
     height: 175px;
   }
   .carteparcl {
-    margin-left: -10px;
+    margin-left: 5px;
     width: 90%;
     height: 225px;
   }
