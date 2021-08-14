@@ -312,6 +312,9 @@ input::placeholder {
   color: #bebcbc;
 }
 /*les plus populaires*/
+aside{
+  width: 60%;
+}
 .lespluspop {
   display: flex;
   align-items: center;
@@ -350,7 +353,7 @@ input::placeholder {
   margin-right: 40px;
   margin-bottom: 20px;
   background-color: white;
-  width: 400px;
+  width: 80%;
   height: 140px;
   display: flex;
 }
@@ -607,7 +610,7 @@ h1 {
   }
   .cartepop {
     margin-left: 20px;
-    width: 90%;
+    width: 80%;
   }
   .imgheber {
     object-fit: cover;
