@@ -1347,11 +1347,12 @@ h1 {
     margin-bottom: 50px;
     width: 100%;
     flex-wrap: wrap;
+    
   }
   .filter {
     margin-top: 0;
     margin-bottom: 0;
-    width: 100%;
+    width: 80%;
     flex-wrap: wrap;
   }
   .herbermars h1 {
