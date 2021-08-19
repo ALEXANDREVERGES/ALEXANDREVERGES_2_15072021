@@ -1,7 +1,8 @@
 body {
   font-family: raleway, sans-serif;
-  width: 90%;
-  margin: auto;
+  margin: 0;
+  width: 100%;
+  
   
 }
 
@@ -9,7 +10,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  max-width: 1450px;
+  margin: auto;
+}
+.titrehp{
+  max-width: 1450px;
+  margin: auto;
 }
 
 .menu {
@@ -53,7 +59,9 @@ a {
   justify-content: flex-start;
   font-size: large;
   height: 50px;
-  width: 100%;
+  margin-bottom: 30px;
+  max-width: 1450px;
+  margin: auto;
 }
 .reservi {
   cursor: pointer;
@@ -122,7 +130,8 @@ input::placeholder {
   margin-right: 30px;
   align-items: center;
   display: flex;
-  width: auto;
+  max-width: 1450px;
+  margin: auto;
 }
 .textinfo {
   display: flex;
@@ -138,6 +147,8 @@ input::placeholder {
   margin-bottom: 30px;
   display: flex;
   align-items: center;
+  max-width: 1450px;
+  margin: auto;
 }
 
 .textfiltre {
@@ -245,6 +256,7 @@ input::placeholder {
 .titreheber {
   background-color: #f2f2f2;
   margin-top: 10px;
+  margin-bottom: 30px;
   width: 90%;
   border-radius: 25px;
   height: 650px;
@@ -348,9 +360,9 @@ aside{
   box-shadow: 5px 5px 4px rgb(202, 201, 201);
   border-radius: 25px;
   padding: 3px;
-  margin-left: 40px;
+  margin: auto;
   margin-top: 20px;
-  margin-right: 40px;
+  
   margin-bottom: 20px;
   background-color: white;
   width: 80%;
@@ -368,7 +380,9 @@ aside{
 .heberpop {
   display: flex;
   margin-right: 250px;
-  width: 95%;
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
 }
 /*activité marseille*/
 .textactivités {
@@ -378,22 +392,28 @@ aside{
   margin-bottom: 15px;
 }
 #activités {
-  display: flex;
+  
   height: 550px;
   width: 100%;
+  max-width: 1450px;
+  margin: auto;
+  
   
 }
-h1 {
-  margin-top: 40px;
-  margin-left: 40px;
+.titre_activités {
+
   font-size: 1.5rem;
-  width: 100%;
+  font-weight: bold;
+  max-width: 1450px;
+  margin: auto;
 }
 
 .activités {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 40px;
+  
 
   width: 100%;
 }
@@ -548,7 +568,6 @@ h1 {
 }
 /*footer*/
 .foot {
-  margin-top: 70px;
   width: 100%;
   height: 250px;
   background-color: #f2f2f2;
@@ -578,16 +597,23 @@ h1 {
 
 
 
-@media screen and (min-width: 1280px) and (max-width: 1800px) {
+@media screen and (min-width: 1526px) and (max-width: 2000px) {
   header {
-    width: 90%;
+    width: 100%;
   }
   .filtreicon {
     margin-right: 10px;
   }
   body {
-    width: 90%;
+    width: 100%;
     
+  }
+  .zone{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .filter{
+    margin-bottom: 30px;
   }
   .heberpop {
     
@@ -601,16 +627,18 @@ h1 {
     width: 100%;
   }
 
-  h1 {
-    margin-top: 40px;
+  .titre_activités{
+    font-weight: bold;
   }
   .titrepop {
-    width: 100%;
+    width: 90%;
     
   }
   .cartepop {
-    margin-left: 20px;
-    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 90%;
   }
   .imgheber {
     object-fit: cover;
@@ -640,7 +668,8 @@ h1 {
   }
   .foot {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 120px;
+    font-size: 20px;
   }
   .ani {
     width: 70px;
@@ -649,7 +678,10 @@ h1 {
     width: 200px;
   }
   .textfoot {
-    font-size: 15px;
+    font-size: 20px;
+  }
+  .apropos{
+    margin-left: 20%;
   }
  
   .noshebergements {
@@ -659,13 +691,86 @@ h1 {
     margin-left: -140px;
   }
 }
-
-@media screen and (min-width: 950px) and (max-width: 1279px) {
-  body {
+@media screen and (min-width:1270px) and (max-width: 1525px){
+  .zone{
+    margin-bottom: 30px;
+    max-width: 1200px;
+    
+  }
+  .filter{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    max-width: 1200px;
+    
+  }
+  .info{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .titrepop{
     width: 90%;
   }
+  .heberpop{
+    max-width: 1200px;
+    margin: auto;
+  }
+  #activités{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  header{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .titrehp{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .titre_activités{
+    margin-left: 0%;
+  }
+  .apropos{
+    margin-left: 10%;
+  }
+  .noshebergements{
+    margin-left: -10%;
+  }
+  .assistance{
+    margin-left: -10%;
+  }
+
+
+}
+  
+
+
+@media screen and (min-width: 950px) and (max-width: 1269px) {
+ 
+  body {
+    width: 100%;
+  }
+  header{
+    max-width: 900px;
+    margin: auto;
+  }
+  .titrehp{
+    max-width: 900px;
+    margin: auto;
+  }
+  .zone{
+    max-width: 900px;
+    margin-bottom: 30px;
+  }
+  .info{
+    max-width: 900px;
+    margin: auto;
+  }
+
   .heberpop {
     flex-wrap: wrap-reverse;
+    max-width: 900px;
+    margin: auto;
   }
   aside {
     width: 100%;
@@ -676,42 +781,44 @@ h1 {
     height: 600px;
     margin-bottom: 40px;
   }
-
+  
   .filter {
-    width: 850px;
-    height: 100px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    
   }
   .filtreicon {
     margin-right: 5px;
   }
-  .fil {
-    position: relative;
-    top: -50px;
-  }
+  
   .herbermars h1 {
     margin-left: 0;
   }
-  h1{
+  span{
     width: 70%;
   }
   .divfiltre {
-    margin-left: -90px;
+    
+    width: 80%;
+    flex-wrap: wrap;
   }
 
   .cartepop {
     width: 90%;
-    margin-left: 20px;
+    margin: auto;
+    margin-bottom: 20px;
   }
-  .heberpop {
-    width: 100%;
-  }
+  
   .titreheber {
     width: 100%;
     height: 1600px;
   }
   .heber {
     width: 100%;
-    margin-left: 20px;
+    
   }
   .imgheber {
     object-fit: cover;
@@ -719,20 +826,10 @@ h1 {
   }
   .carte {
     width: 90%;
-    margin-left: 20px;
+    margin: auto;
+    margin-bottom: 20px;
   }
-  #activités{
-    display: block;
-  }
-  .activités {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-  }
-  .bloc1 {
-    margin-bottom: 30px;
-  }
+ 
   .apropos{
     width: 50%;
   }
@@ -748,105 +845,107 @@ h1 {
 
   .foot {
     width: 100%;
-    margin-top: 550px;
+    margin-top: 1500px;
   }
   .textfoot {
     font-size: 15px;
   }
+  .titre_activités{
+    margin: auto;
+    max-width: 700px;
+    
+  }
+.activités{
+  display: block;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 30px;
+}
+.bloc1 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+.bloc2 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+.cartevieux {
+  width: 90%;
+  height: 290px;
+  margin-bottom: 30px;
+}
+.vieux {
+  height: 240px;
+  width: 100%;
+}
+.fortiles {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.cartefort {
+  width: 90%;
+  height: 290px;
+}
+.fort {
+  width: 100%;
+  height: 240px;
+}
+.carteilesf {
+  width: 90%;
+  height: 290px;
+}
+.ilesf {
+  width: 100%;
+  height: 240px;
+}
+.carteparcca {
+  width: 90%;
+  height: 290px;
+  margin-bottom: 30px;
+}
+.parcca {
+  width: 100%;
+  height: 240px;
+}
+
+
+.notreparc {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.cartenotred {
+  width: 90%;
+  height: 290px;
+  margin-bottom: 30px;
+}
+.notred {
+  width: 100%;
+  height: 240px;
+}
+.carteparcl {
+  width: 90%;
+  height: 290px;
+  margin-bottom: 30px;
+}
+.parcl {
+  width: 100%;
+  height: 240px;
+}
+
 
 }
-@media screen and (min-width: 900px) and (max-width: 949px) {
-  body {
-    width: 90%;
-  }
 
-  .heberpop {
-    flex-wrap: wrap-reverse;
-  }
-  aside {
-    width: 100%;
-  }
-  .titrepop {
-    margin-left: 0;
-    margin-bottom: 30px;
-  }
-  .cartepop {
-    width: 90%;
-    margin-left: 20px;
-  }
-  .titreheber {
-    width: 100%;
-    background-color: white;
-    margin-bottom: 1000px;
-  }
-  .imgheber {
-    width: 99%;
-
-    object-fit: cover;
-  }
-  .carte {
-    width: 95%;
-    margin-left: 20px;
-  }
-
-  h1 {
-    margin-left: 10px;
-  }
-
-  .divfiltre {
-    margin-bottom: 50px;
-    width: 100%;
-  }
-  .filter {
-    margin-top: 0;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .info {
-    margin-top: 0;
-    margin-bottom: 30px;
-  }
-  .ani {
-    width: 60px;
-  }
-  .anicon {
-    position: relative;
-    top: 70px;
-    left: -570px;
-  }
-
-  .afficher {
-    display: block;
-    margin-top: 0px;
-  }
-  .activités {
-    display: block;
-  }
-  .bloc1 {
-    margin-bottom: 30px;
-  }
-
-  .foot {
-    margin-top: 600px;
-    width: 100%;
-  }
-  .filtreicon {
-    margin-right: 0px;
-  }
-  .ani {
-    width: 60px;
-  }
-  .textfoot {
-    font-size: 15px;
-  }
-  .noshebergements {
-    margin-left: -250px;
-  }
-  .assistance {
-    margin-left: -250px;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 899px) {
+@media screen and (min-width: 700px) and (max-width: 949px) {
   body {
     width: 100%;
   }
@@ -867,12 +966,15 @@ h1 {
   .herbermars h1 {
     margin-left: 0;
   }
-  h1 {
+  span {
     width: 90%;
   }
   header{
     display: block;
     width: 100%;
+  }
+  .reservi{
+    margin-left: 20px;
   }
   .menu {
     display: flex;
@@ -958,6 +1060,9 @@ h1 {
     width: 100%;
     
   }
+  .titre_activités{
+    margin-left: 50px;
+  }
   .afficher {
     width: 50%;
     margin-left: 60px;
@@ -968,17 +1073,10 @@ h1 {
     margin-left: 0px;
   }
   .foot {
-    margin-top: 1400px;
+    margin-top: 1450px;
     width: 100%;
   }
-  .noshebergements {
-    margin-left: -260px;
-    width: 200px;
-  }
-  .assistance {
-    margin-left: -250px;
-    width: 100px;
-  }
+  
   .textfoot {
     font-size: 15px;
   }
@@ -1075,8 +1173,32 @@ h1 {
   .sins{
     position: relative;
     top: -100px;
-    left: 550px;
-    width: 70px;
+    right: -80%;
+    width: 50px;
+  }
+  .foot {
+    display: flex;
+    font-size: 1.2rem;
+    height: 620px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 1480px;
+  }
+  .textfoot{
+    font-size: 1.1rem;
+  }
+  
+  .apropos {
+    width: 70%;
+  }
+  .noshebergements {
+    width: 70%;
+    margin-left: 50px;
+  }
+  .assistance {
+    width: 70%;
+    margin-left: 50px;
   }
 }
 
@@ -1097,7 +1219,7 @@ h1 {
   .sins {
     position: absolute;
     top: 30px;
-    left: 490px;
+    left: 80%;
   }
   .menu {
     display: flex;
@@ -1144,7 +1266,6 @@ h1 {
   .filter {
     margin-top: 0;
     margin-bottom: 0;
-    width: 80%;
     flex-wrap: wrap;
   }
   .fil {
@@ -1300,7 +1421,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 1150px;
+    margin-top: 1250px;
   }
   .apropos {
     width: 70%;
@@ -1319,14 +1440,18 @@ h1 {
   #activités {
     width: 100%;
   }
-  h1 {
-    width: 80%;
+  .titre_activités{
+    margin-left: 50px;
   }
+  
 }
 @media screen and (min-width: 414px) and (max-width: 589px) {
   body {
     width: 100%;
     
+  }
+  .reservi{
+    margin-left: 20px;
   }
   .navigation1:hover {
     border-top: white;
@@ -1352,7 +1477,6 @@ h1 {
   .filter {
     margin-top: 0;
     margin-bottom: 0;
-    width: 80%;
     flex-wrap: wrap;
   }
   .herbermars h1 {
@@ -1414,6 +1538,7 @@ h1 {
     width: 100%;
     font-size: 13px;
     justify-content: space-between;
+    margin-bottom: 20px;
   }
   .lespluspop h2 {
     margin-left: 20px;
@@ -1466,7 +1591,8 @@ h1 {
   }
   .cartepop {
     width: 90%;
-    margin-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .titreheber {
     display: block;
@@ -1476,6 +1602,8 @@ h1 {
   }
   .carte {
     width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .imgheber {
     display: block;
@@ -1515,10 +1643,8 @@ h1 {
   .herbermars h1 {
     margin-left: 0;
   }
-  h1 {
-    margin-left: 40px;
-    margin-bottom: 40px;
-    width: 80%;
+  .titre_activités {
+    margin-left: 50px;
   }
   .activités {
     display: block;
@@ -1526,9 +1652,7 @@ h1 {
   #activités {
     width: 100%;
   }
-  #activités h1 {
-    margin-left: 70px;
-  }
+ 
   .vieux {
     display: block;
     height: 175px;
@@ -1597,7 +1721,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 1000px;
+    margin-top: 1100px;
   }
   .textfoot {
     font-size: 1rem;
@@ -1617,6 +1741,7 @@ h1 {
     margin-left: 50px;
   }
   
+  
 }
 @media screen and (min-width: 360px) and (max-width: 413px) {
   body {
@@ -1629,6 +1754,9 @@ h1 {
   }
   a {
     margin-right: 0;
+  }
+  .reservi{
+    margin-left: 20px;
   }
   header {
     display: block;
@@ -1689,7 +1817,7 @@ h1 {
   .sins {
     position: relative;
     top: -100px;
-    left: 250px;
+    left: 75%;
     width: 50px;
   }
   .titrehp {
@@ -1888,13 +2016,13 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 1050px;
+    margin-top: 1100px;
   }
   .textfoot {
     font-size: 1rem;
   }
-  h1 {
-    width: 80%;
+  .titre_activités {
+    margin-left: 40px;
   }
   .apropos {
     padding-top: 50px;
@@ -1922,6 +2050,9 @@ h1 {
   }
   .navigation1:hover {
     border-top: white;
+  }
+  .reservi{
+    margin-left: 20px;
   }
   a {
     margin-right: 0;
@@ -1981,7 +2112,7 @@ h1 {
   .sins {
     position: relative;
     top: -100px;
-    left: 200px;
+    left: 70%;
     width: 50px;
   }
   .titrehp {
@@ -2088,7 +2219,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 5px;
+    
   }
   .bloc2 {
     display: flex;
@@ -2097,7 +2228,7 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 5px;
+    
   }
   #activités {
     display: block;
@@ -2109,10 +2240,10 @@ h1 {
     width: 100%;
   }
 
-  h1 {
-    font-size: 20px;
-    margin-left: 10px;
-    width: 70%;
+  .titre_activités {
+    font-size: 18px;
+    margin-left: 30px;
+    
   }
   .fortiles {
     width: 100%;
@@ -2127,7 +2258,7 @@ h1 {
   }
   .cartevieux {
     margin-bottom: 30px;
-    margin-left: -10px;
+    
     width: 90%;
     height: 225px;
   }
@@ -2137,7 +2268,7 @@ h1 {
     width: 100%;
   }
   .cartefort {
-    margin-left: -10px;
+    
     width: 90%;
     height: 225px;
   }
@@ -2148,7 +2279,7 @@ h1 {
   }
 
   .carteilesf {
-    margin-left: -10px;
+   
     width: 90%;
     height: 225px;
     margin-bottom: 30px;
@@ -2159,7 +2290,7 @@ h1 {
   }
   .carteparcca {
     margin-bottom: 40px;
-    margin-left: -10px;
+    
     width: 90%;
     height: 225px;
   }
@@ -2168,7 +2299,7 @@ h1 {
     height: 175px;
   }
   .cartenotred {
-    margin-left: -10px;
+    
     width: 90%;
     height: 225px;
   }
@@ -2177,7 +2308,7 @@ h1 {
     height: 175px;
   }
   .carteparcl {
-    margin-left: -10px;
+    
     width: 90%;
     height: 225px;
   }
@@ -2188,7 +2319,7 @@ h1 {
     width: 100%;
     flex-direction: column;
     margin-left: 0px;
-    margin-top: 1050px;
+    margin-top: 1100px;
   }
   .textfoot {
     font-size: 1rem;
@@ -2232,6 +2363,9 @@ h1 {
   input {
     width: 9rem;
     font-size: 14px;
+  }
+  .reservi{
+    margin-left: 20px;
   }
 
   .divfiltre {
@@ -2289,7 +2423,7 @@ h1 {
   .sins {
     position: relative;
     top: -100px;
-    left: 160px;
+    left: 70%;
     width: 50px;
   }
   .titrehp {
@@ -2415,8 +2549,8 @@ h1 {
   .columnactivité {
     width: 100%;
   }
-  h1 {
-    width: 70%;
+  .titre_activités{
+    margin-left: 20px;
     font-size: 18px;
   }
 
@@ -2495,7 +2629,7 @@ h1 {
     flex-direction: column;
     margin-left: 0px;
 
-    margin-top: 1050px;
+    margin-top: 1100px;
   }
   .textfoot {
     font-size: 1rem;
