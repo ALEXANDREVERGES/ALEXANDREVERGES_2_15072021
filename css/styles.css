@@ -141,6 +141,7 @@ input::placeholder {
 .divfiltre {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 .filter {
   margin-top: 30px;
@@ -675,10 +676,10 @@ aside{
     font-size: 20px;
   }
   .ani {
-    width: 70px;
+    width: 52px;
   }
   .anicon {
-    width: 200px;
+    
   }
   .textfoot {
     font-size: 20px;
