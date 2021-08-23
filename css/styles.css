@@ -428,6 +428,12 @@ aside{
   
   
 }
+.carte_navigation2{
+  color: black;
+}
+.carte_navigation2:hover{
+  color: rgb(70, 72, 197);;
+}
 .titre_activités {
 
   font-size: 1.5rem;
