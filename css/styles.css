@@ -231,7 +231,7 @@ input::placeholder {
   justify-content: center;
   display: flex;
   align-items: center;
-  margin-left: 5px;
+  margin:0 auto;
 }
 .imgobjectif {
   object-fit: cover;
@@ -375,7 +375,7 @@ aside{
   transition: transform 0.1s;
   box-shadow: 5px 5px 4px rgb(202, 201, 201);
   border-radius: 25px;
-  padding: 3px;
+  padding-top: 3px;
   margin: auto;
   margin-top: 20px;
   align-items: center;
@@ -787,6 +787,9 @@ aside{
   .etoilespop{
     margin-top: 20px;
   }
+  .etoilespop2{
+    margin-top: 40px;
+  }
   .etoilespop3{
     display: flex;
     margin-left: 20px;
@@ -986,6 +989,21 @@ aside{
 .parcl {
   width: 100%;
   height: 240px;
+}
+.apropos{
+  height: 196px;
+  margin: 0 auto;
+}
+.noshebergements{
+  height: 196px;
+  margin: 0 auto;
+}
+.assistance{
+  height: 196px;
+  margin: 0 auto;
+}
+.etoilespop{
+  margin-top: 50px;
 }
 
 
@@ -1250,6 +1268,12 @@ aside{
   .textfoot{
     font-size: 1.1rem;
   }
+  .etoilespop{
+    margin-top: 50px;
+  }
+  .etoilespop3{
+    margin-top: 50px;
+  }
   
   
 }
@@ -1502,7 +1526,9 @@ aside{
   .titre_activités{
     margin-left: 50px;
   }
-  
+  .etoilespop{
+    margin-top: 40px;
+  }
 }
 @media screen and (min-width: 414px) and (max-width: 589px) {
   body {
@@ -2118,6 +2144,9 @@ aside{
   .imgheber {
     object-fit: cover;
   }
+  .etoilespop2{
+    margin-top: 35px;
+  }
 }
 
 @media screen and (min-width: 314px) and (max-width: 359px) {
@@ -2422,6 +2451,12 @@ aside{
   }
   .heber{
     margin-left: -5px;
+  }
+  .etoilespop{
+    margin-top: 10px;
+  }
+  .etoilespop3{
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 1px) and (max-width: 313px) {
