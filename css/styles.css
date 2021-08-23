@@ -262,6 +262,7 @@ input::placeholder {
   border-radius: 25px;
   height: 650px;
   justify-content: space-around;
+  
 }
 .afficher {
   margin-left: 40px;
@@ -292,6 +293,15 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.carte_navigation{
+  text-decoration: none;
+  width: 100%;
+  color: black;
+  font-size: 15px;
+}
+.carte_navigation:hover{
+  color: rgb(70, 72, 197);
 }
 .carte:hover {
   cursor: pointer;
@@ -745,8 +755,6 @@ aside{
 
 
 }
-  
-
 
 @media screen and (min-width: 950px) and (max-width: 1269px) {
  
@@ -991,7 +999,7 @@ aside{
   }
   .navigation:hover {
     cursor: pointer;
-    color: black;
+    
     border-bottom: 3px solid blue;
   }
   .navigation1:hover {
