@@ -1946,9 +1946,9 @@ aside{
     width: 100%;
     flex-wrap: wrap-reverse;
   }
-  .herbermars h1 {
+  .herbermars h2 {
     width: 80%;
-    margin-left: 0;
+    margin-left: -10px;
     font-size: 20px;
   }
   .fil {
