@@ -274,6 +274,7 @@ input::placeholder {
 
 .heber {
   margin-top: 30px;
+  margin: 0 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -750,7 +751,7 @@ aside{
   }
   .heber {
     width: 100%;
-    margin-left: -10px;
+   
     
   }
   #activités{
@@ -1608,6 +1609,9 @@ aside{
     width: 100%;
     
   }
+  .titrehp h1{
+    font-size: 25px;
+  }
   .reservi{
     margin-left: 20px;
   }
@@ -1916,6 +1920,9 @@ aside{
     
     width: 100%;
     
+  }
+  .titrehp h1{
+    font-size: 25px;
   }
   .navigation1:hover {
     border-top: white;
@@ -2226,6 +2233,9 @@ aside{
   body {
     width: 100%;
   }
+  .titrehp h1{
+    font-size: 20px;
+  }
   .navigation1:hover {
     border-top: white;
   }
@@ -2251,10 +2261,10 @@ aside{
     width: 100%;
     flex-wrap: wrap;
   }
-  .herbermars h1 {
+  .herbermars h2 {
     width: 100%;
     font-size: 18px;
-    margin-left: -20px;
+    margin-left: -10px;
   }
   .fil {
     margin-left: 10px;
@@ -2526,10 +2536,10 @@ aside{
     margin-left: -5px;
   }
   .etoilespop{
-    margin-top: 10px;
+    margin-top: 30px;
   }
-  .etoilespop3{
-    margin-top: 20px;
+  .etoilespop2{
+    margin-top: 30px;
   }
 }
 @media screen and (min-width: 1px) and (max-width: 313px) {
@@ -2543,6 +2553,9 @@ aside{
   a {
     margin-right: 0;
   }
+  .titrehp h1{
+    font-size: 20px;
+  }
   header {
     display: block;
     width: 100%;
@@ -2550,6 +2563,9 @@ aside{
   input {
     width: 9rem;
     font-size: 14px;
+  }
+  .herbermars h2{
+    font-size: 20px;
   }
   .reservi{
     margin-left: 20px;
@@ -2637,11 +2653,15 @@ aside{
     font-size: 16px;
   }
   .etoilespop {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .etoilespop2 {
-    margin-top: 0px;
+    margin-top: 20px;
   }
+  .etoilespop3 {
+    margin-top: 20px;
+  }
+
 
   .seek {
     visibility: hidden;
