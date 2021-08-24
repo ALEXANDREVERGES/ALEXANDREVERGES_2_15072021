@@ -267,6 +267,7 @@ input::placeholder {
   margin-bottom: 5px;
 }
 .infoheber {
+  font-size: 15px;
   margin-left: 20px;
   margin-bottom: 5px;
 }
@@ -688,7 +689,7 @@ aside{
 
 
 
-@media screen and (min-width: 1526px) and (max-width: 2500px) {
+@media screen and (min-width: 1526px) and (max-width: 4000px) {
   header {
     width: 100%;
   }
@@ -840,7 +841,7 @@ aside{
     width: 80%;
   }
   .etoilespop{
-    margin-top: 20px;
+    margin-top: 40px;
   }
   .etoilespop2{
     margin-top: 40px;
@@ -1064,6 +1065,12 @@ aside{
   margin: 0 auto;
 }
 .etoilespop{
+  margin-top: 50px;
+}
+.etoilespop2{
+  margin-top: 50px;
+}
+.etoilespop3{
   margin-top: 50px;
 }
 
@@ -1332,6 +1339,9 @@ aside{
     font-size: 1.1rem;
   }
   .etoilespop{
+    margin-top: 50px;
+  }
+  .etoilespop2{
     margin-top: 50px;
   }
   .etoilespop3{
