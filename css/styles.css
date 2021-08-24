@@ -1,5 +1,5 @@
 body {
-  font-family: raleway, sans-serif;
+  font-family: 'raleway', sans-serif;
   margin: 0;
   width: 100%;
   
@@ -16,6 +16,10 @@ header {
 .titrehp{
   max-width: 1450px;
   margin: auto;
+}
+.titrehp h2{
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .menu {
@@ -752,10 +756,6 @@ aside{
     margin-top: 0px;
   }
   
-  .bloc1 {
-    
-   
-  }
   .bloc2{
     margin: 0;
   }
@@ -773,9 +773,7 @@ aside{
   .ani {
     width: 52px;
   }
-  .anicon {
-    
-  }
+ 
   .textfoot {
     font-size: 20px;
   }
@@ -851,6 +849,12 @@ aside{
     display: flex;
     margin-left: 20px;
     margin-top: 40px;
+  }
+  .foot{
+    font-size: 20px;
+  }
+  .textfoot{
+    font-size: 18px;
   }
   
 
