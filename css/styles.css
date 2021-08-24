@@ -32,12 +32,16 @@ img {
 
 .navigation {
   font-size: 1.1em;
-  color: #0065fc;
+  color: black;
   margin-right: 50px;
   text-decoration: none;
 }
+.navigation1{
+  color: black;
+}
 .navigation1:hover {
   border-top: 4px solid #0065fc;
+  color: #0065fc;
   padding-top: 1.2rem;
 }
 a {
@@ -114,6 +118,11 @@ input::placeholder {
   color: #0065fc;
   background-color: white;
 }
+
+
+
+
+
 /*info*/
 .i {
   color: blue;
@@ -137,6 +146,11 @@ input::placeholder {
   display: flex;
   margin-left: 10px;
 }
+
+
+
+
+
 /*filtres*/
 .divfiltre {
   display: flex;
@@ -222,6 +236,11 @@ input::placeholder {
   display: flex;
   justify-content: center;
 }
+
+
+
+
+
 /*Hebergement*/
 .imgheber {
   object-fit: cover;
@@ -310,6 +329,12 @@ input::placeholder {
   transform: scale(1.1);
   color: rgb(70, 72, 197);
 }
+
+
+
+
+
+
 /*etoiles*/
 .etoiles {
   display: flex;
@@ -339,6 +364,12 @@ input::placeholder {
 .colorg {
   color: #bebcbc;
 }
+
+
+
+
+
+
 /*les plus populaires*/
 aside{
   width: 60%;
@@ -412,6 +443,12 @@ aside{
   max-width: 1450px;
   margin: auto;
 }
+
+
+
+
+
+
 /*activité marseille*/
 .textactivités {
   font-weight: bold;
@@ -480,6 +517,12 @@ aside{
   justify-content: space-around;
   display: flex;
 }
+
+
+
+
+
+
 /*cartes*/
 .cartevieux {
   box-shadow: 2px 5px 5px rgb(202, 201, 201);
@@ -564,6 +607,11 @@ aside{
   color: rgb(70, 72, 197);
 }
 
+
+
+
+
+
 /*img activités*/
 
 .vieux {
@@ -600,6 +648,12 @@ aside{
   width: 100%;
   border-radius: 25px 25px 0px 0px;
 }
+
+
+
+
+
+
 /*footer*/
 .foot {
   width: 100%;
@@ -622,6 +676,9 @@ aside{
 .textfoot:hover {
   cursor: pointer;
   color: rgb(70, 72, 197);
+}
+.grey{
+  color: grey;
 }
 
 
@@ -1058,10 +1115,12 @@ aside{
   }
   .navigation:hover {
     cursor: pointer;
+    color: #0065fc;
     
     border-bottom: 3px solid blue;
   }
   .navigation1:hover {
+    color: #0065fc;
     border-top: none;
   }
   .divfiltre {
