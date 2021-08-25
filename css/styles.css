@@ -670,9 +670,10 @@ aside{
 }
 .foot_container{
   display: flex;
-  width: 100%;
+  width: 70%;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
+  margin-left: 100px;
 }
 
 .textfoot {
