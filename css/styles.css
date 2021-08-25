@@ -672,7 +672,7 @@ aside{
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .textfoot {
@@ -768,9 +768,10 @@ aside{
   }
   .foot_container{
     display: flex;
-    width: 100%;
+    width: 70%;
     align-items: center;
     justify-content: space-around;
+    margin-left: 100px;
   }
   .ani {
     width: 52px;
